@@ -7,11 +7,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kkysen/kkysen.github.io.git"
+    "url": "git+https://github.com/kkysen/me.git"
   },
-  "homepage": "https://kkysen.github.io",
+  "homepage": "https://kkysen.github.io/me",
   "bugs": {
-    "url": "https://github.com/kkysen/kkysen.github.io/issues"
+    "url": "https://github.com/kkysen/me/issues"
   },
   "devDependencies": {
     "typescript": "3.5.2",
@@ -32,7 +32,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
