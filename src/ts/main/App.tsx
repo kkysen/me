@@ -1,6 +1,6 @@
 import React, {FC} from "react";
-import "./App.css";
-import logo from "./logo.svg";
+import "../../css/App.css";
+import logo from "../../resources/logo.svg";
 
 export const App: FC = () => {
     return (

@@ -32,6 +32,9 @@
     "allowUnusedLabels": false,
     "incremental": true
   },
+  "types": [
+    "jest"
+  ],
   "include": [
     "src"
   ]
