@@ -79,9 +79,10 @@ async function registerValidSW(swUrl: string, config?: Config) {
                         // At this point, the updated precached content has been fetched,
                         // but the previous service worker will still serve the older
                         // content until all client tabs are closed.
-                        console.log("New content is available and will be used when all tabs for this page are closed. " +
+                        console.log(
+                            "New content is available and will be used when all tabs for this page are closed. " +
                             "See https://bit.ly/CRA-PWA.");
-                    
+                        
                         // Execute callback
                         if (config && config.onUpdate) {
                             config.onUpdate(registration);
@@ -91,7 +92,7 @@ async function registerValidSW(swUrl: string, config?: Config) {
                         // It's the perfect time to display a
                         // "Content is cached for offline use." message.
                         console.log("Content is cached for offline use.");
-                    
+                        
                         // Execute callback
                         if (config && config.onSuccess) {
                             config.onSuccess(registration);
