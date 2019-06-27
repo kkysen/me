@@ -14,10 +14,12 @@ class WritingImpl implements Writing {
     }
     
     get url() {
-        return getWritingPaths(this.docId).html;
+        return getWritingPaths(this.docId).dist.html;
     }
     
 }
 
 export const writings: readonly Writing[] = writingsMetadata
     .map(({docId, title, date}) => new WritingImpl({docId, title, date: new Date(date)}));
+
+console.log(writings);

@@ -24,7 +24,8 @@
     "react-scripts": "3.0.1",
     "typescript": "3.5.2",
     "axios": "^0.19.0",
-    "fs-extra": "^8.0.1"
+    "fs-extra": "^8.0.1",
+    "ts-node": "^8.3.0"
   },
   "dependencies": {
     "react": "^16.8.6",
@@ -34,7 +35,7 @@
   "scripts": {
     "download": "ts-node ./src/ts/main/build.ts",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "npm run download && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

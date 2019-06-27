@@ -14,21 +14,40 @@ export interface Writing extends WritingMetadata {
     
 }
 
-interface Paths {
-    readonly root: string;
+interface WritingPaths {
+    readonly parentDir: string;
     readonly dir: string;
     readonly metadata: string;
     readonly html: string;
 }
 
-export function getWritingPaths(docId: string): Paths {
-    const root = `src/data/writings`;
-    const dir = `${root}/${docId}`;
+interface AllWritingPaths {
+    readonly src: WritingPaths;
+    readonly public: WritingPaths;
+    readonly dist: WritingPaths;
+}
+
+export function getWritingPaths(docId: string): AllWritingPaths {
+    const make = (root: string): WritingPaths => {
+        const parentDir = `${root}/data/writings`;
+        const dir = `${parentDir}/${docId}`;
+        return {
+            parentDir,
+            dir,
+            metadata: `${dir}/metadata.json`,
+            html: `${dir}/index.html`,
+        };
+    };
     return {
-        root,
-        dir,
-        metadata: `${dir}/metadata.json`,
-        html: `${dir}/index.html`,
+        get src() {
+            return make("src");
+        },
+        get public() {
+            return make("public");
+        },
+        get dist() {
+            return make("/me");
+        },
     };
 }
 
@@ -83,14 +102,15 @@ class WritingHtml {
     
     get html(): string {
         const html = this.rawHtml;
-        const headEndTagStart = html.indexOf("</head>");
-        if (headEndTagStart === -1) {
-            throw new Error("no head");
+        const tag = "</body>";
+        const i = html.lastIndexOf(tag);
+        if (i === -1) {
+            throw new Error(`no ${tag}`);
         }
         return [
-            html.slice(0, headEndTagStart),
+            html.slice(0, i),
             WritingHtml.endOfHead(),
-            html.slice(headEndTagStart),
+            html.slice(i),
         ].join("");
     }
     
@@ -102,16 +122,19 @@ async function downloadWriting(docId: string): Promise<WritingMetadata> {
     const {title, date, html} = new WritingHtml(response.data);
     type Metadata = WritingMetadata & {overrideData?: Date};
     const metadata: Metadata = {docId, title, date};
-    const paths = getWritingPaths(docId);
+    const {src: paths, public: publicPaths} = getWritingPaths(docId);
     if (await fse.pathExists(paths.dir)) {
         const oldMetadata: Metadata = await fse.readJson(paths.metadata);
         metadata.overrideData = oldMetadata.overrideData;
-    } else {
-        await fse.mkdir(paths.dir);
     }
+    await Promise.all([
+        fse.ensureDir(paths.dir),
+        fse.ensureDir(publicPaths.dir),
+    ]);
     await Promise.all([
         fse.writeJson(paths.metadata, metadata),
         fse.writeFile(paths.html, html),
+        fse.writeFile(publicPaths.html, html),
     ]);
     return metadata;
 }
@@ -119,6 +142,8 @@ async function downloadWriting(docId: string): Promise<WritingMetadata> {
 export async function downloadWritings(): Promise<void> {
     const writings = await Promise.all(docIDs.map(downloadWriting));
     writings.sort((a, b) => a.date.getTime() - b.date.getTime());
-    const dir = getWritingPaths("").root;
-    await fse.writeJson(`${dir}/metadata.json`, writings);
+    const {src, public: _public} = getWritingPaths("");
+    await Promise.all([src, _public].map(async paths => {
+        await fse.writeJson(`${paths.parentDir}/metadata.json`, writings);
+    }));
 }
