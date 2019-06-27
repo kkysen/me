@@ -33,13 +33,14 @@
     "react-router-dom": "^5.0.1"
   },
   "scripts": {
-    "download": "ts-node ./src/ts/main/build.ts",
+    "download": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node ./src/ts/main/build.ts",
     "start": "react-scripts start",
     "build": "npm run download && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "misc": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node ./src/ts/main/writing/writings.ts"
   },
   "eslintConfig": {
     "extends": "react-app"

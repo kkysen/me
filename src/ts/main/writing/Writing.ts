@@ -76,7 +76,7 @@ class WritingHtml {
     get date(): Date {
         const body = this.getElement("body");
         for (const pattern of [
-            /(\d{2}\/\d{2}\/\d{4})/,
+            /(\d{1,2}\/\d{1,2}\/\d{4})/,
             /Works Cited.*Web. (\d{2} [A-Z][a-z]+\.? \d{4})./,
         ]) {
             const match = pattern.exec(body);
@@ -90,7 +90,8 @@ class WritingHtml {
             }
             return date;
         }
-        throw new Error(`can't find date for "${this.title}"`);
+        console.warn(`can't find date for "${this.title}"`);
+        return new Date(); // invalid date
     }
     
     private static endOfHead(): string {
@@ -120,12 +121,12 @@ async function downloadWriting(docId: string): Promise<WritingMetadata> {
     const url = `https://docs.google.com/document/d/e/2PACX-${docId}/pub`;
     const response = await axios.get<string>(url);
     const {title, date, html} = new WritingHtml(response.data);
-    type Metadata = WritingMetadata & {overrideData?: Date};
+    type Metadata = WritingMetadata & {override?: JsonWritingMetadataOverride};
     const metadata: Metadata = {docId, title, date};
     const {src: paths, public: publicPaths} = getWritingPaths(docId);
     if (await fse.pathExists(paths.dir)) {
         const oldMetadata: Metadata = await fse.readJson(paths.metadata);
-        metadata.overrideData = oldMetadata.overrideData;
+        metadata.override = oldMetadata.override;
     }
     await Promise.all([
         fse.ensureDir(paths.dir),
@@ -146,4 +147,45 @@ export async function downloadWritings(): Promise<void> {
     await Promise.all([src, _public].map(async paths => {
         await fse.writeJson(`${paths.parentDir}/metadata.json`, writings);
     }));
+}
+
+class WritingImpl implements Writing {
+    
+    readonly docId: string;
+    readonly title: string;
+    readonly date: Date;
+    
+    constructor({docId, title, date}: WritingMetadata) {
+        this.docId = docId;
+        this.title = title;
+        this.date = date;
+    }
+    
+    get url() {
+        return getWritingPaths(this.docId).dist.html;
+    }
+    
+}
+
+interface JsonWritingMetadata {
+    docId: string;
+    title: string;
+    date: string;
+}
+
+interface JsonWritingMetadataOverride {
+    title?: string;
+    date?: string;
+}
+
+interface OverrideableJsonWritingMetadata extends JsonWritingMetadata {
+    override?: JsonWritingMetadataOverride;
+}
+
+export function writingFromJson({docId, title, date, override = {}}: OverrideableJsonWritingMetadata): Writing {
+    return new WritingImpl({
+        docId,
+        title: override.title || title,
+        date: new Date(override.date || date),
+    });
 }
