@@ -1,16 +1,18 @@
 {
   "files": {
     "main.css": "/me/static/css/main.19393e92.chunk.css",
-    "main.js": "/me/static/js/main.dd560742.chunk.js",
-    "main.js.map": "/me/static/js/main.dd560742.chunk.js.map",
+    "main.js": "/me/static/js/main.e9827176.chunk.js",
+    "main.js.map": "/me/static/js/main.e9827176.chunk.js.map",
     "runtime~main.js": "/me/static/js/runtime~main.7f73a39c.js",
     "runtime~main.js.map": "/me/static/js/runtime~main.7f73a39c.js.map",
-    "static/js/2.e5166bde.chunk.js": "/me/static/js/2.e5166bde.chunk.js",
-    "static/js/2.e5166bde.chunk.js.map": "/me/static/js/2.e5166bde.chunk.js.map",
+    "static/js/2.b344f31a.chunk.js": "/me/static/js/2.b344f31a.chunk.js",
+    "static/js/2.b344f31a.chunk.js.map": "/me/static/js/2.b344f31a.chunk.js.map",
     "index.html": "/me/index.html",
-    "precache-manifest.1150e799cf0cb1f258d835336ab53027.js": "/me/precache-manifest.1150e799cf0cb1f258d835336ab53027.js",
+    "precache-manifest.696743f994da67ce8dbb1a5d6e5e9253.js": "/me/precache-manifest.696743f994da67ce8dbb1a5d6e5e9253.js",
     "service-worker.js": "/me/service-worker.js",
     "static/css/main.19393e92.chunk.css.map": "/me/static/css/main.19393e92.chunk.css.map",
+    "static/media/N Queens Animation.gif": "/me/static/media/N Queens Animation.f968b40c.gif",
+    "static/media/N Queens Solved.png": "/me/static/media/N Queens Solved.17e9dd48.png",
     "static/media/logo.svg": "/me/static/media/logo.5d5d9eef.svg"
   }
 }
