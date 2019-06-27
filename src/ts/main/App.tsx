@@ -1,9 +1,10 @@
 import React, {FC} from "react";
 import "../../css/App.css";
 import logo from "../../media/logo.svg";
+import {NQueens} from "./project/NQueens";
 
 export const App: FC = () => {
-    return (
+    return <div>
         <div className="App">
             <header className="App-header">
                 <img src={logo} className="App-logo" alt="logo"/>
@@ -20,5 +21,8 @@ export const App: FC = () => {
                 </a>
             </header>
         </div>
-    );
+        
+        <NQueens/>
+        
+    </div>;
 };
