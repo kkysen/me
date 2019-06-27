@@ -77,7 +77,7 @@ class WritingHtml {
         const body = this.getElement("body");
         for (const pattern of [
             /(\d{1,2}\/\d{1,2}\/\d{4})/,
-            /Works Cited.*Web. (\d{2} [A-Z][a-z]+\.? \d{4})./,
+            /Works Cited.*Web\. (\d{1,2} [A-Z][a-z]+\.? \d{4})\./,
         ]) {
             const match = pattern.exec(body);
             if (!match) {

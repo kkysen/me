@@ -1,0 +1,62 @@
+{
+  "kkysen": {
+    "CAstroParty": {
+      "brief": "TODO",
+      "description": "TODO"
+    },
+    "MegaMashBros": {
+      "brief": "A play on the classic game.",
+      "description": "Mega Mash Bros is a clone of Super Smash Bros, developed using libGDX and Java 8 by Stanley Lin and I for our AP Computer Science Spring Final Project in Spring, 2017."
+    },
+    "MKS22X": {
+      "name": "N Queens",
+      "file": "/blob/master/02NQueens/NQueens.java",
+      "brief": "A novel solution to a classic computer science problem.",
+      "description": "Another one of my passions is re-examining the simple, classic problems of computer science to find new, novel solutions, which can often teach us valuable lessons and techniques that can potentially be applied elsewhere to outstanding effect.  This was the case for my innovative solution to the N Queens problem, which is to count the number of N by N chess boards on which N queens can be placed such that no two queens are threatening each other.  The straightforward way we learned to solve this in school was to create a 2D array as the board and recurse through the rows, placing a queen in the next open spot, and then filling in all the spots threatened by the new queen.  Since the number of solutions grows exponentially, solving the N Queens problem for much higher N is currently impossible, but nevertheless, the simple way we solved it was extremely inefficient, slow, and memory-intensive.  So I set about trying to find a more efficient way to approach the problem.\n\nThe near-optimal solution I developed approached this problem in a fundamentally different way.  Instead of representing the board as a 2D array, I represented the entire board and all the current threats in only three integers.  I used the individual bits of the integers to represent the vertical, left diagonal, and right diagonal threats, allowing me to flip a bit to place a new queen and then bitshift the diagonals to create the next row.  By taking advantage of extremely fast bit operations instead of slower loops, and by confining the memory to only three integers, I was able to run the program entirely on the tiny memory of the CPU instead of accessing comparatively slow RAM.  The result was that my program was thousands of times faster and used dramatically less memory.  Even when I searched online to see if there was a better solution, my program was 20% faster than Jeff Somers’, which purports to be the world’s fastest.  I am currently contacting CS professors to study the ramifications of this work and hopefully apply it to other topics."
+    },
+    "ProjectScheduleViewer": {
+      "brief": "TODO",
+      "description": "TODO"
+    },
+    "QuickTrip": {
+      "brief": "How to get there fast or cheap.",
+      "description": "QuickTrip is the ultimate travel planner.  All you have to do is give it a list of destinations you want to visit and how long and it will plan your entire trip for you.  It will decide the best order of destinations to go to, as well as find the cheapest, highest-rated flights and hotels for you to stay in, and even driving directions between everything.\n\n \n\nQuickTrip was developed by Stanley Lin and I for our AP Computer Science Fall Final Project in Fall, 2016.\n\n \n\nQuickTrip is written in Java 8 using JavaFX and uses many APIs to fetch flight, hotel, and geocoding data, including Google Maps API, Google Maps Directions API, Google Geocoding API, Google QPX Express API, and hotels.com.  It utilizes a caching mechanism for all API requests to avoid going over API rate limits for duplicated requests, the DBSCAN clustering algorithm to find the optimal, clustered destination order, and simulated annealing to find the highest-rated but still cheapest hotels and flights."
+    },
+    "r3d3": {
+      "brief": "TODO",
+      "description": "TODO"
+    },
+    "Scramble": {
+      "brief": "A challenging word game for your spare time.",
+      "description": "My dad has always loved word puzzles, so I created one for him for his birthday: Scramble.  In Scramble, there is a pyramid of letters shown, and the goal is to rearrange all the letters (by clicking on two) such that each row of the pyramid makes its own word.  You can play from size 1 to 20, because at 20 there are very few 20-letter words left.  \n\n \n\nScramble is written using libGDX in Java 8, and although it is only currently setup to run on Java SE, it can be recompiled for deployment on the web, Android, and iOS.\n\n \n\nTo play, click here and download Scramble.jar to your local drive.  Once done, double-click to play."
+    },
+    "ScratchWasmRenderer": {
+      "brief": "TODO",
+      "description": "TODO"
+    },
+    "SmartNeuralFuzzer": {
+      "brief": "TODO",
+      "description": "TODO"
+    }
+  },
+  "luojeff": {
+    "aliens-revised": {
+      "name": "UFO Tracker",
+      "brief": "Let's look for a UFO together.",
+      "description": "UFO Tracker is a data analysis project that analyzes UFO reports collected over the past since WWII.  My team, Jeffrey Luo, Max Zlotskiy, Jason Kao, and I, tested if the number of UFO sightings was correlated with the number of nearby flights and even the number of flights flying directly overhead within a few miles of the sighting at the same time.  Surprisingly, we found no correlation between UFO sightings and air traffic.\n\n \n\nUFO Tracker was the winner of the final project competition in Two Sigma's Data Science Workshop in Fall, 2017.  Using Python in a Jupyter Notebook and making heavy use of pandas, we used the UFO reports compiled by the National UFO Reporting Center and available on Kaggle, in addition to flight data, including US aircraft carrier flights, from the Bureau of Transportation Statistics geocoded using the Google Geocoding API."
+    }
+  },
+  "tmoi29": {
+    "tenaciousTurtles": {
+      "name": "Welp",
+      "brief": "TODO",
+      "description": "TODO"
+    }
+  },
+  "wertylop5": {
+    "WeatherOrNot": {
+      "brief": "Traffic and weather - to plan your trip better.",
+      "description": "Have you ever been looking for driving directions on Google Maps but then realized you didn't want to drive through the pouring rain?  If you have, then Weather Or Not is perfect for you.  It overlays real-time weather maps (and other types of maps) onto a traffic map so that you can have the best of both worlds.  And it even supports adding comments on current conditions to improve the weather and traffic conditions just like Waze.\n\n \n\nWeather Or Not was created during the StuyHacks hackathon in May, 2017 over the course of 24 hours, developed by me, Stanley Lin, Brian Yang, and Aaron Gee.\n\n \n\nWeather Or Not is a pure web app, using HTML, CSS, and plain JS along with APIs like OpenWeatherMap and Firebase for a serverless database.  Currently, it only runs on localhost, but since it's serverless, it can easily be deployed on any domain."
+    }
+  }
+}
