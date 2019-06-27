@@ -19,9 +19,12 @@
     "@types/react": "16.8.22",
     "@types/react-dom": "16.8.4",
     "@types/react-router-dom": "^4.3.4",
+    "@types/fs-extra": "^8.0.0",
     "gh-pages": "^2.0.1",
     "react-scripts": "3.0.1",
-    "typescript": "3.5.2"
+    "typescript": "3.5.2",
+    "axios": "^0.19.0",
+    "fs-extra": "^8.0.1"
   },
   "dependencies": {
     "react": "^16.8.6",
@@ -29,6 +32,7 @@
     "react-router-dom": "^5.0.1"
   },
   "scripts": {
+    "download": "ts-node ./src/ts/main/build.ts",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
