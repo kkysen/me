@@ -1,5 +1,6 @@
 import axios from "axios";
-import * as fse from "fs-extra";
+import fse from "fs-extra";
+import he from "he";
 import docIDs from "../../../data/writings/docIDs.json";
 import {getWritingPaths} from "./WritingPaths";
 
@@ -34,7 +35,8 @@ class WritingHtml {
     }
     
     get title(): string {
-        return this.getElement("title");
+        const rawTitle = this.getElement("title");
+        return he.decode(rawTitle, {strict: true});
     }
     
     get date(): Date {
