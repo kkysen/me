@@ -1,4 +1,4 @@
-import {downloadWritings} from "./writing/Writing";
+import {downloadWritings} from "./writing/WritingData";
 
 async function asyncMain(): Promise<void> {
     await downloadWritings();

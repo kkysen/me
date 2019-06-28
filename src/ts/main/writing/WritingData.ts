@@ -1,6 +1,7 @@
 import axios from "axios";
 import * as fse from "fs-extra";
 import docIDs from "../../../data/writings/docIDs.json";
+import {getWritingPaths} from "./WritingPaths";
 
 export interface WritingMetadata {
     readonly docId: string;
@@ -8,47 +9,10 @@ export interface WritingMetadata {
     readonly date: Date;
 }
 
-export interface Writing extends WritingMetadata {
+export interface WritingData extends WritingMetadata {
     
     readonly url: string;
     
-}
-
-interface WritingPaths {
-    readonly parentDir: string;
-    readonly dir: string;
-    readonly metadata: string;
-    readonly html: string;
-}
-
-interface AllWritingPaths {
-    readonly src: WritingPaths;
-    readonly public: WritingPaths;
-    readonly dist: WritingPaths;
-}
-
-export function getWritingPaths(docId: string): AllWritingPaths {
-    const make = (root: string): WritingPaths => {
-        const parentDir = `${root}/data/writings`;
-        const dir = `${parentDir}/${docId}`;
-        return {
-            parentDir,
-            dir,
-            metadata: `${dir}/metadata.json`,
-            html: `${dir}/index.html`,
-        };
-    };
-    return {
-        get src() {
-            return make("src");
-        },
-        get public() {
-            return make("public");
-        },
-        get dist() {
-            return make("/me");
-        },
-    };
 }
 
 class WritingHtml {
@@ -117,6 +81,17 @@ class WritingHtml {
     
 }
 
+export interface JsonWritingMetadata {
+    docId: string;
+    title: string;
+    date: string;
+}
+
+export interface JsonWritingMetadataOverride {
+    title?: string;
+    date?: string;
+}
+
 async function downloadWriting(docId: string): Promise<WritingMetadata> {
     const url = `https://docs.google.com/document/d/e/2PACX-${docId}/pub`;
     const response = await axios.get<string>(url);
@@ -147,45 +122,4 @@ export async function downloadWritings(): Promise<void> {
     await Promise.all([src, _public].map(async paths => {
         await fse.writeJson(`${paths.parentDir}/metadata.json`, writings);
     }));
-}
-
-class WritingImpl implements Writing {
-    
-    readonly docId: string;
-    readonly title: string;
-    readonly date: Date;
-    
-    constructor({docId, title, date}: WritingMetadata) {
-        this.docId = docId;
-        this.title = title;
-        this.date = date;
-    }
-    
-    get url() {
-        return getWritingPaths(this.docId).dist.html;
-    }
-    
-}
-
-interface JsonWritingMetadata {
-    docId: string;
-    title: string;
-    date: string;
-}
-
-interface JsonWritingMetadataOverride {
-    title?: string;
-    date?: string;
-}
-
-interface OverrideableJsonWritingMetadata extends JsonWritingMetadata {
-    override?: JsonWritingMetadataOverride;
-}
-
-export function writingFromJson({docId, title, date, override = {}}: OverrideableJsonWritingMetadata): Writing {
-    return new WritingImpl({
-        docId,
-        title: override.title || title,
-        date: new Date(override.date || date),
-    });
 }
