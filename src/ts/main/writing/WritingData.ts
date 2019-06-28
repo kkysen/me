@@ -62,6 +62,7 @@ class WritingHtml {
         return `
 <script>
     document.body.style.margin = "10%";
+    document.querySelector("#footer").remove();
 </script>`;
     }
     

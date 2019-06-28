@@ -8,7 +8,6 @@ import {Internships} from "./page/Internships";
 import {Projects} from "./page/Projects";
 import {Resume} from "./page/Resume";
 import {Writings} from "./page/Writings";
-import {NQueens} from "./project/NQueens";
 
 export const OldApp: FC = () => {
     return <div>
@@ -28,9 +27,6 @@ export const OldApp: FC = () => {
                 </a>
             </header>
         </div>
-        
-        <NQueens/>
-    
     </div>;
 };
 
