@@ -35,7 +35,7 @@
   "scripts": {
     "download": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node ./src/ts/main/build.ts",
     "start": "react-scripts start",
-    "build": "npm run download && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
