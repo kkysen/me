@@ -10,8 +10,8 @@ export const Internships: FC = () => {
         <br/>
         <SmartNeuralFuzzer/>
         <br/>
-        <FruitFlyBrainObservatory/>
+        <FruitFlyBrainObservatory.Preview/>
         <br/>
-        <DietrichLab/>
+        <DietrichLab.Preview/>
     </>;
 };

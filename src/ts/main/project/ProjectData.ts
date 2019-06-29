@@ -1,3 +1,5 @@
+import {separateCamelCase} from "../../util/variableNames";
+
 interface ProjectJson {
     readonly brief: string;
     readonly name?: string;
@@ -17,10 +19,6 @@ export interface ProjectData {
     readonly repoName: string;
     readonly url: string;
     readonly brief: string;
-}
-
-function separateCamelCase(className: string): string {
-    return className.replace(/([A-Z])/g, " $1").trim();
 }
 
 function parseProject(gitHubUser: string, repoName: string, json: ProjectJson): ProjectData {

@@ -1,12 +1,13 @@
 import React, {FC} from "react";
 import {Link} from "react-router-dom";
-import {pages, Pages} from "../page/pages";
+import {Pages} from "../page/pages";
 
-export const NavBar: FC<{pages: Pages}> = () => {
+export const NavBar: FC<{pages: Pages}> = ({pages}) => {
     return <>
         {Object.keys(pages)
-            .map(name => <Link to={`/${name}`} key={name}>
-                <button>{name}</button>
-            </Link>)}
+            .map(name =>
+                <Link to={`/${name}`} key={name}>
+                    <button>{name}</button>
+                </Link>)}
     </>;
 };

@@ -34,7 +34,7 @@ export const App: FC = () => {
         <HashRouter>
             <Header/>
             <Route exact path="/" component={() => <Redirect to="/Home"/>}/>
-            <Routes pages={pages}/>
+            <Routes pages={pages.all}/>
             <Footer/>
         </HashRouter>
     </Title>;
