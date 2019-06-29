@@ -27,12 +27,16 @@
     "fs-extra": "^8.0.1",
     "ts-node": "^8.3.0",
     "he": "^1.2.0",
-    "@types/he": "^1.1.0"
+    "@types/he": "^1.1.0",
+    "@types/react-document-title": "^2.0.3"
   },
   "dependencies": {
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-document-title": "^2.0.3",
+    "react-app-polyfill": "^1.0.1",
+    "core-js": "^3.1.4"
   },
   "scripts": {
     "download": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node ./src/ts/main/build.ts",
@@ -41,8 +45,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "misc": "TS_NODE_COMPILER_OPTIONS='{\"module\":\"commonjs\"}' ts-node ./src/ts/main/writing/writings.ts"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

@@ -29,7 +29,8 @@
     "strictBindCallApply": true,
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
-    "incremental": true
+    "incremental": true,
+    "downlevelIteration": true
   },
   "types": [
     "jest"

@@ -33,7 +33,3 @@ export function writingFromJson({docId, title, date, override = {}}: Overrideabl
 }
 
 export const writings: readonly WritingData[] = writingsMetadata.map(writingFromJson);
-
-writings.forEach(writing => {
-    console.log(`${writing.title}: ${writing.url}`);
-});
