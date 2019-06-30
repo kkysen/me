@@ -5,14 +5,21 @@ import solved from "../../../media/N Queens Solved.png";
 import {ProjectHeader} from "./ProjectHeader";
 import {projectsData} from "./projectsData";
 
+const NQueensImage: FC<{description: string, src: string}> = ({description, src}) => {
+    const fullDescription = `N Queens ${description}`;
+    return <>
+        {fullDescription}: <img src={src} alt={fullDescription}/>
+    </>;
+};
+
 export const NQueens: FC = () => {
     const data = projectsData["MKS22X"];
     return <div style={{margin: "10%"}}>
         <ProjectHeader data={data}/>
         <br/>
-        N Queens solved for N = 8: <img src={solved}/>
+        <NQueensImage description="solved for N = 8" src={solved}/>
         <br/>
-        N Queens animation for N = 8: <img src={animation}/>
+        <NQueensImage description="animation for N = 8" src={animation}/>
         <br/>
         A bitwise solution to the N Queens problem written in Java.
         Source code at {data.url}.
