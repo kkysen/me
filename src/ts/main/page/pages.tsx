@@ -1,6 +1,7 @@
 import {FC} from "react";
 import {DietrichLab} from "../internship/DietrichLab";
 import {FruitFlyBrainObservatory} from "../internship/FruitFlyBrainObservatory";
+import {NQueens} from "../project/NQueens";
 import {Baseball} from "./Baseball";
 import {Home} from "./Home";
 import {Internships} from "./Internships";
@@ -20,6 +21,7 @@ const mainPages = {
 const subPages = {
     ...FruitFlyBrainObservatory.pages,
     ...DietrichLab.pages,
+    ...NQueens.pages,
 } as const;
 
 export const pages = {

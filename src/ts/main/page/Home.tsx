@@ -7,6 +7,6 @@ export const Home: FC = () => {
     return <>
         Home
         <br/>
-        <img src={seniorPortrait} alt={`Picture of ${me.name}`} width="25%" height="25%"/>
+        <img src={seniorPortrait} alt={`${me.name}`} width="25%" height="25%"/>
     </>;
 };

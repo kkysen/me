@@ -25,7 +25,7 @@ interface Props {
     AbstractAndRole: FC;
 }
 
-export function simpleInternship(props: Props): SimpleInternship {
+export function makeSimpleInternship(props: Props): SimpleInternship {
     const {
         name,
         prettyName = separateCamelCase(name),
@@ -37,10 +37,12 @@ export function simpleInternship(props: Props): SimpleInternship {
     
     const path = `Internships/${name}`;
     
+    const imgAlt = `My ${prettyName} internship during ${time}`;
+    
     const preview: FC = () => {
         return <>
             {prettyName} - {time}
-            <img src={img.thumb}/>
+            <img src={img.thumb} alt={imgAlt}/>
             <br/>
             <Link to={`/${path}`}>Click here for my abstract and role on the project.</Link>
             <br/>
@@ -52,7 +54,7 @@ export function simpleInternship(props: Props): SimpleInternship {
     
     const main: FC = () => {
         return <Title title={prettyName}>
-            <img src={img.main}/>
+            <img src={img.main} alt={imgAlt}/>
             Abstract and Role
             <br/>
             <p>

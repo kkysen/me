@@ -1,7 +1,7 @@
 import * as React from "react";
-import {simpleInternship} from "./SimpleInternship";
+import {makeSimpleInternship} from "./SimpleInternship";
 
-export const DietrichLab = simpleInternship({
+export const DietrichLab = makeSimpleInternship({
     name: "DietrichLab",
     time: "Summer 2015",
     url: {

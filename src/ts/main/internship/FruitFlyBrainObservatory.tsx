@@ -1,7 +1,7 @@
 import * as React from "react";
-import {simpleInternship} from "./SimpleInternship";
+import {makeSimpleInternship} from "./SimpleInternship";
 
-export const FruitFlyBrainObservatory = simpleInternship({
+export const FruitFlyBrainObservatory = makeSimpleInternship({
     name: "FruitFlyBrainObservatory",
     prettyName: "FFBO - Fruit Fly Brain Observatory",
     time: "Summer 2017",
