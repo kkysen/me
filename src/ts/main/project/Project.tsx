@@ -51,14 +51,15 @@ export function makeProject(props: Props): Project {
     const uuid = `${data.gitHubUser}/${data.repoName}`;
     const link = `Project/${uuid}`;
     
-    const Preview: FC<{link: boolean}> = ({link}) => {
+    const Preview: FC<{isPreview: boolean}> = ({isPreview}) => {
+        const shouldLink = isPreview;
         const {name, brief, url} = data;
         return <div>
             Name: {name}
             <br/>
             {brief}
             <br/>
-            {link && <Link to={`/${link}`}>Read more</Link>}
+            {isPreview && <Link to={`/${link}`}>Read more</Link>}
             <br/>
             See source code: <a href={url}>{url}</a>
             <br/>
@@ -67,13 +68,13 @@ export function makeProject(props: Props): Project {
     
     const Main: FC = () => {
         return <Title title={data.name}>
-            <MainPage data={data} Header={() => <Preview link={false}/>}/>
+            <MainPage data={data} Header={() => <Preview isPreview={false}/>}/>
         </Title>;
     };
     
     return {
         uuid,
-        Preview: () => <Preview link={true}/>,
+        Preview: () => <Preview isPreview={true}/>,
         Main,
         pages: {
             [link]: Main,
