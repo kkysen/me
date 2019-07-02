@@ -24,3 +24,9 @@ yarn-error.log*
 
 .idea/
 *.old
+
+# downloaded
+src/data/writings/*
+public/data/writings/*
+!src/data/writings/docIDs.json
+!src/data/writings/metadata.json
