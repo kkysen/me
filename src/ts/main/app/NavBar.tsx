@@ -9,7 +9,7 @@ import NavDropdown from "react-bootstrap/es/NavDropdown";
 import NavItem from "react-bootstrap/es/NavItem";
 import NavLink from "react-bootstrap/es/NavLink";
 import LinkContainer from "react-router-bootstrap/lib/LinkContainer";
-import {forEachPage, PageTree} from "../page/pages";
+import {getPages, PageTree} from "../page/pages";
 
 const MainLink: FC<{path: string}> = ({path}) => {
     return <>
@@ -62,10 +62,7 @@ function makeNavBarTree(pages: PageTree, TopLevel: FC<{Items: FC, OwnLink: FC}>,
 
 export const NavBarTree: FC<{pages: PageTree}> = ({pages}) => {
     
-    const searchMap = new Map<string, string>();
-    forEachPage(pages, ({path, title}) => {
-        searchMap.set(title, path);
-    });
+    const searchMap = new Map([...getPages(pages)].map(({path, title}) => [title, path]));
     
     // TODO add search bar to TopLevel using searchMap
     

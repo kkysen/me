@@ -21,38 +21,38 @@ export interface PageTree {
     readonly children?: PageTreeChildren;
 }
 
-interface ForEachPageArgs {
+export interface Page {
     Page: FC,
     path: string;
     names: readonly string[];
     title: string;
 }
 
-type ForEachPage = (args: ForEachPageArgs) => void;
-
-function forEachPageRecursive(pages: PageTree, f: ForEachPage, path: string = "", names: string[] = []) {
+function* pageIterator(pages: PageTree, path: string = "", names: string[] = []): Iterable<Page> {
     const {title, Page, children} = pages;
     if (Page) {
-        f({
+        yield {
             Page: () => {
                 return <Title title={title}><Page path={path}/></Title>;
             },
             path: path || "/",
             names,
             title,
-        });
+        };
     }
     if (children) {
-        Object.entries(children).forEach(([name, pages]) => {
+        for (const [name, pages] of Object.entries(children)) {
             names.push(name);
-            forEachPageRecursive(pages, f, `${path}/${name}`, names);
+            for (const it of pageIterator(pages, `${path}/${name}`, names)) {
+                yield it;
+            }
             names.pop();
-        });
+        }
     }
 }
 
-export function forEachPage(pages: PageTree, f: ForEachPage) {
-    forEachPageRecursive(pages, f);
+export function getPages(pages: PageTree): Iterable<Page> {
+    return pageIterator(pages);
 }
 
 const testPageTreeChildren: PageTreeChildren = {
