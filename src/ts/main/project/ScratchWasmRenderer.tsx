@@ -7,7 +7,7 @@ export const ScratchWasmRenderer = makeProject({
         repo: "ScratchWasmRenderer",
         brief: "TODO",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             TODO

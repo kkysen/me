@@ -7,7 +7,7 @@ export const QuickTrip = makeProject({
         repo: "QuickTrip",
         brief: "How to get there fast and cheap.",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             <br/>

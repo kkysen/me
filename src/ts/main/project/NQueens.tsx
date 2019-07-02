@@ -19,7 +19,7 @@ export const NQueens = makeProject({
         file: "/blob/master/02NQueens/NQueens.java",
         brief: "A novel solution to a classic computer science problem.",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         const videoTitle = "A bitwise solution to the N Queens problem written in Java.";
         return <div style={{margin: "10%"}}>
             <Header/>

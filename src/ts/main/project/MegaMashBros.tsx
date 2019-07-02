@@ -7,7 +7,7 @@ export const MegaMashBros = makeProject({
         repo: "MegaMashBros",
         brief: "A play on the classic game.",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             <br/>

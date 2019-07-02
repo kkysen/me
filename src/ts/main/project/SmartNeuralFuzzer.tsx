@@ -7,7 +7,7 @@ export const SmartNeuralFuzzer = makeProject({
         repo: "SmartNeuralFuzzer",
         brief: "TODO",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             TODO

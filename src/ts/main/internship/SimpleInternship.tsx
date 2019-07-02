@@ -1,14 +1,12 @@
 import {default as React, FC} from "react";
 import {Link} from "react-router-dom";
 import {separateCamelCase} from "../../util/variableNames";
-import {Title} from "../app/Title";
-import {Pages, PageTreeChildren} from "../page/pages";
+import {PageTreeChildren} from "../page/pages";
 
 interface SimpleInternship {
-    readonly Preview: FC;
+    readonly Preview: FC<{path: string}>;
     readonly Main: FC;
-    readonly pages: Pages;
-    readonly pageTreeChildren: PageTreeChildren;
+    readonly pages: PageTreeChildren;
 }
 
 interface Props {
@@ -36,16 +34,14 @@ export function makeSimpleInternship(props: Props): SimpleInternship {
         AbstractAndRole,
     } = props;
     
-    const path = `Internships/${name}`;
-    
     const imgAlt = `My ${prettyName} internship during ${time}`;
     
-    const Preview: FC = () => {
+    const Preview: FC<{path: string}> = ({path}) => {
         return <>
             {prettyName} - {time}
             <img src={img.thumb} alt={imgAlt}/>
             <br/>
-            <Link to={`/${path}`}>Click here for my abstract and role on the project.</Link>
+            <Link to={`${path}/${name}`}>Click here for my abstract and role on the project.</Link>
             <br/>
             <a href={url.abstract}>Click here for project abstract.</a>
             <br/>
@@ -54,23 +50,20 @@ export function makeSimpleInternship(props: Props): SimpleInternship {
     };
     
     const Main: FC = () => {
-        return <Title title={prettyName}>
+        return <>
             <img src={img.main} alt={imgAlt}/>
             Abstract and Role
             <br/>
             <p>
                 <AbstractAndRole/>
             </p>
-        </Title>;
+        </>;
     };
     
     return {
         Preview,
         Main,
         pages: {
-            [path]: Main,
-        },
-        pageTreeChildren: {
             [name]: {
                 title: prettyName,
                 Page: Main,

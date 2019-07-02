@@ -33,8 +33,6 @@ export const App: FC = () => {
     return <Title>
         <HashRouter>
             <Header/>
-            {/*<Route exact path="/" component={() => <Redirect to="/Home"/>}/>*/}
-            {/*<Routes pages={pages.all}/>*/}
             <RouteTree pages={pageTree}/>
             <Footer/>
         </HashRouter>

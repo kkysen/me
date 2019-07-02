@@ -8,7 +8,7 @@ export const ThisWebsite = makeProject({
         name: "This Website",
         brief: "This website.",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             TODO

@@ -4,14 +4,14 @@ import {DietrichLab} from "../internship/DietrichLab";
 import {FruitFlyBrainObservatory} from "../internship/FruitFlyBrainObservatory";
 import {SmartNeuralFuzzer} from "../internship/SmartNeuralFuzzer";
 
-export const Internships: FC = () => {
+export const Internships: FC<{path: string}> = ({path}) => {
     return <>
         Internships
         <br/>
         <SmartNeuralFuzzer/>
         <br/>
-        <FruitFlyBrainObservatory.Preview/>
+        <FruitFlyBrainObservatory.Preview path={path}/>
         <br/>
-        <DietrichLab.Preview/>
+        <DietrichLab.Preview path={path}/>
     </>;
 };

@@ -7,7 +7,7 @@ export const Polybius = makeProject({
         repo: "Polybius",
         brief: "TODO",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             TODO

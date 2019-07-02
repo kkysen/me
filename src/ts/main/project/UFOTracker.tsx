@@ -8,7 +8,7 @@ export const UFOTracker = makeProject({
         name: "UFO Tracker",
         brief: "Let's look for a UFO together.",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             <br/>

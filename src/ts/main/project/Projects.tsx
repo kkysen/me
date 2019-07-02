@@ -1,6 +1,6 @@
 import * as React from "react";
 import {FC} from "react";
-import {Pages, PageTree} from "../page/pages";
+import {PageTree} from "../page/pages";
 import {CAstroParty} from "./CAstroParty";
 import {MegaMashBros} from "./MegaMashBros";
 import {NQueens} from "./NQueens";
@@ -18,8 +18,6 @@ import {WeatherOrNot} from "./WeatherOrNot";
 import {Welp} from "./Welp";
 
 interface Projects {
-    readonly Previews: FC;
-    readonly pages: Pages;
     readonly pageTree: PageTree;
 }
 
@@ -41,19 +39,13 @@ const projects: readonly Project[] = [
 ];
 
 export const Projects: Projects = {
-    Previews: () => {
-        return <div>
-            {projects.map(e => <e.Preview key={e.uuid}/>)}
-        </div>;
-    },
-    pages: Object.assign({}, ...projects.map(e => e.pages)),
     pageTree: {
         title: "Projects",
-        Page: () => {
+        Page: ({path}) => {
             return <div>
-                {projects.map(e => <e.Preview key={e.uuid}/>)}
+                {projects.map(e => <e.Preview path={path} key={e.uuid}/>)}
             </div>;
         },
-        children: Object.assign({}, ...projects.map(e => e.pageTreeChildren)),
+        children: Object.assign({}, ...projects.map(e => e.pages)),
     },
 };

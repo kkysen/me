@@ -9,18 +9,7 @@ import NavDropdown from "react-bootstrap/es/NavDropdown";
 import NavItem from "react-bootstrap/es/NavItem";
 import NavLink from "react-bootstrap/es/NavLink";
 import LinkContainer from "react-router-bootstrap/lib/LinkContainer";
-import {Link} from "react-router-dom";
-import {Pages, PageTree} from "../page/pages";
-
-export const NavBar: FC<{pages: Pages}> = ({pages}) => {
-    return <>
-        {Object.keys(pages)
-            .map(name =>
-                <Link to={`/${name}`} key={name}>
-                    <button>{name}</button>
-                </Link>)}
-    </>;
-};
+import {PageTree} from "../page/pages";
 
 const NavBarTopLevel: FC<{Items: FC, OwnLink: FC}> = ({Items, OwnLink}) => {
     return <Navbar bg="light" expand="lg">
@@ -59,10 +48,10 @@ const NavBarDropDown: FC<{Items: FC, mainLink: boolean, title: string, path: str
     </NavDropdown>;
 };
 
-function makeNavBarTree(pages: PageTree, path = "/"): ReactElement {
+function makeNavBarTree(pages: PageTree, path = ""): ReactElement {
     const {title, Page, children} = pages;
     
-    const OwnLink: FC = () => <LinkContainer to={path}>
+    const OwnLink: FC = () => <LinkContainer to={path || "/"}>
         <NavItem>
             <Button>
                 {title}
@@ -77,7 +66,7 @@ function makeNavBarTree(pages: PageTree, path = "/"): ReactElement {
             {Object.entries(children)
                 .map(([name, pages]) => makeNavBarTree(pages, `${path}/${name}`))}
         </>;
-        if (path !== "/") {
+        if (path) {
             return <NavBarDropDown Items={Items} mainLink={!!Page} title={title} path={path} key={path}/>;
         } else {
             return <NavBarTopLevel Items={Items} OwnLink={OwnLink} key={path}/>;

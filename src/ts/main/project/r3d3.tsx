@@ -7,7 +7,7 @@ export const r3d3 = makeProject({
         repo: "r3d3",
         brief: "TODO",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             TODO

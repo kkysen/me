@@ -2,15 +2,13 @@ import * as React from "react";
 import {FC} from "react";
 import {Link} from "react-router-dom";
 import {separateCamelCase} from "../../util/variableNames";
-import {Title} from "../app/Title";
-import {Pages, PageTreeChildren} from "../page/pages";
+import {PageTreeChildren} from "../page/pages";
 
 export interface Project {
     readonly uuid: string;
-    readonly Preview: FC;
+    readonly Preview: FC<{path: string}>;
     readonly Main: FC;
-    readonly pages: Pages;
-    readonly pageTreeChildren: PageTreeChildren;
+    readonly pages: PageTreeChildren;
 }
 
 interface DataArgs {
@@ -23,6 +21,7 @@ interface DataArgs {
 }
 
 interface Data {
+    readonly uuid: string;
     readonly name: string;
     readonly gitHubUser: string;
     readonly repoName: string;
@@ -32,11 +31,13 @@ interface Data {
 
 function convertData(args: DataArgs): Data {
     const {user: gitHubUser, repo: repoName, brief, name, camelCase = true, file} = args;
+    const uuid = `${gitHubUser}/${repoName}${file || ""}`;
     return {
+        uuid,
         name: name || (camelCase ? separateCamelCase : (s: string) => s)(repoName),
         gitHubUser,
         repoName,
-        url: `https://github.com/${gitHubUser}/${repoName}${file || ""}`,
+        url: `https://github.com/${uuid}`,
         brief,
     };
 }
@@ -49,18 +50,16 @@ interface Props {
 export function makeProject(props: Props): Project {
     const {data: dataArgs, MainPage} = props;
     const data = convertData(dataArgs);
-    const uuid = `${data.gitHubUser}/${data.repoName}`;
-    const link = `Project/${uuid}`;
+    const {uuid} = data;
     
-    const Preview: FC<{isPreview: boolean}> = ({isPreview}) => {
-        const shouldLink = isPreview;
+    const Preview: FC<{path?: string}> = ({path}) => {
         const {name, brief, url} = data;
         return <div>
             Name: {name}
             <br/>
             {brief}
             <br/>
-            {shouldLink && <Link to={`/${link}`}>Read more</Link>}
+            {path && <Link to={`${path}/${uuid}`}>Read more</Link>}
             <br/>
             See source code: <a href={url}>{url}</a>
             <br/>
@@ -68,19 +67,14 @@ export function makeProject(props: Props): Project {
     };
     
     const Main: FC = () => {
-        return <Title title={data.name}>
-            <MainPage data={data} Header={() => <Preview isPreview={false}/>}/>
-        </Title>;
+        return <MainPage data={data} Header={() => <Preview/>}/>;
     };
     
     return {
         uuid,
-        Preview: () => <Preview isPreview={true}/>,
+        Preview: ({path}) => <Preview path={path}/>,
         Main,
         pages: {
-            [link]: Main,
-        },
-        pageTreeChildren: {
             [uuid]: {
                 title: data.name,
                 Page: Main,

@@ -7,7 +7,7 @@ export const Scramble = makeProject({
         repo: "Scramble",
         brief: "A challenging word game for your spare time.",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             <br/>

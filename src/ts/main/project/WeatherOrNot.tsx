@@ -8,7 +8,7 @@ export const WeatherOrNot = makeProject({
         name: "Weather or Not",
         brief: "Traffic and weather - to plan your trip better.",
     },
-    MainPage: ({data, Header}) => {
+    MainPage: ({Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             <br/>

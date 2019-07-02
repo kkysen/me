@@ -1,6 +1,5 @@
 import * as React from "react";
 import {FC} from "react";
-import {Redirect} from "react-router";
 import {me} from "../app/me";
 import {Title} from "../app/Title";
 import {DietrichLab} from "../internship/DietrichLab";
@@ -9,7 +8,6 @@ import {Projects} from "../project/Projects";
 import {Baseball} from "./Baseball";
 import {Home} from "./Home";
 import {Internships} from "./Internships";
-import {ProjectsPage} from "./ProjectsPage";
 import {Resume} from "./Resume";
 import {Writings} from "./Writings";
 
@@ -19,29 +17,31 @@ export interface PageTreeChildren {
 
 export interface PageTree {
     readonly title: string;
-    readonly Page?: FC;
+    readonly Page?: FC<{path: string}>;
     readonly children?: PageTreeChildren;
 }
 
 type ForEachPage = (Page: FC, path: string, names: readonly string[], title: string) => void;
 
-function forEachPageRecursive(pages: PageTree, path: string, names: string[], f: ForEachPage) {
+function forEachPageRecursive(pages: PageTree, f: ForEachPage, path: string = "", names: string[] = []) {
     const {title, Page, children} = pages;
     if (Page) {
-        const WrappedPage: FC = () => <Title title={title}><Page/></Title>;
-        f(WrappedPage, path, names, title);
+        const WrappedPage: FC = () => {
+            return <Title title={title}><Page path={path}/></Title>;
+        };
+        f(WrappedPage, path || "/", names, title);
     }
     if (children) {
         Object.entries(children).forEach(([name, pages]) => {
             names.push(name);
-            forEachPageRecursive(pages, `${path}/${name}`, names, f);
+            forEachPageRecursive(pages, f, `${path}/${name}`, names);
             names.pop();
         });
     }
 }
 
 export function forEachPage(pages: PageTree, f: ForEachPage) {
-    forEachPageRecursive(pages, "/", [], f);
+    forEachPageRecursive(pages, f);
 }
 
 const testPageTreeChildren: PageTreeChildren = {
@@ -79,8 +79,8 @@ export const pageTree: PageTree = {
             title: "Internships",
             Page: Internships,
             children: {
-                ...FruitFlyBrainObservatory.pageTreeChildren,
-                ...DietrichLab.pageTreeChildren,
+                ...FruitFlyBrainObservatory.pages,
+                ...DietrichLab.pages,
                 ...testPageTreeChildren,
             },
         },
@@ -102,29 +102,3 @@ export const pageTree: PageTree = {
         },
     },
 };
-
-export type Pages = {readonly [name: string]: FC};
-
-const mainPages: Pages = {
-    Home,
-    Internships,
-    Projects: ProjectsPage,
-    Writing: Writings,
-    Baseball,
-    Resume,
-} as const;
-
-const subPages: Pages = {
-    ...FruitFlyBrainObservatory.pages,
-    ...DietrichLab.pages,
-    ...Projects.pages,
-} as const;
-
-export const pages = {
-    main: mainPages,
-    sub: subPages,
-    all: {
-        ...mainPages,
-        ...subPages,
-    },
-} as const;
