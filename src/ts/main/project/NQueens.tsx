@@ -31,8 +31,11 @@ export const NQueens = makeProject({
             <br/>
             <br/>
             A bitwise solution to the N Queens problem written in Java.
-            Source code at {data.url}.
-            <video src="https://www.youtube.com/watch?v=b2ejXXoIQqI"/>
+            <iframe src="https://www.youtube.com/embed/b2ejXXoIQqI"
+                    width="656" height="362"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+            />
             <br/>
             <br/>
             Description
