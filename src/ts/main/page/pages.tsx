@@ -1,18 +1,18 @@
 import {FC} from "react";
 import {DietrichLab} from "../internship/DietrichLab";
 import {FruitFlyBrainObservatory} from "../internship/FruitFlyBrainObservatory";
-import {NQueens} from "../project/NQueens";
+import {Projects} from "../project/Projects";
 import {Baseball} from "./Baseball";
 import {Home} from "./Home";
 import {Internships} from "./Internships";
-import {Projects} from "./Projects";
+import {ProjectsPage} from "./ProjectsPage";
 import {Resume} from "./Resume";
 import {Writings} from "./Writings";
 
 const mainPages = {
     Home,
     Internships,
-    Projects,
+    Projects: ProjectsPage,
     Writing: Writings,
     Baseball,
     Resume,
@@ -21,7 +21,7 @@ const mainPages = {
 const subPages = {
     ...FruitFlyBrainObservatory.pages,
     ...DietrichLab.pages,
-    ...NQueens.pages,
+    ...Projects.pages,
 } as const;
 
 export const pages = {

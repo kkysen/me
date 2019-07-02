@@ -1,33 +1,64 @@
 import * as React from "react";
 import {FC} from "react";
 import {Link} from "react-router-dom";
+import {separateCamelCase} from "../../util/variableNames";
 import {Title} from "../app/Title";
 import {Pages} from "../page/pages";
-import {ProjectData} from "./ProjectData";
 
-interface Project {
+export interface Project {
+    readonly uuid: string;
     readonly Preview: FC;
     readonly Main: FC;
     readonly pages: Pages;
 }
 
+interface DataArgs {
+    readonly user: string; // GitHub username
+    readonly repo: string;
+    readonly brief: string;
+    readonly name?: string; // defaults to repo
+    readonly camelCase?: boolean; // split up camel case repo name
+    readonly file?: string;
+}
+
+interface Data {
+    readonly name: string;
+    readonly gitHubUser: string;
+    readonly repoName: string;
+    readonly url: string;
+    readonly brief: string;
+}
+
+function convertData(args: DataArgs): Data {
+    const {user: gitHubUser, repo: repoName, brief, name, camelCase = true, file} = args;
+    return {
+        name: name || (camelCase ? separateCamelCase : (s: string) => s)(repoName),
+        gitHubUser,
+        repoName,
+        url: `https://github.com/${gitHubUser}/${repoName}${file || ""}`,
+        brief,
+    };
+}
+
 interface Props {
-    data: ProjectData;
-    MainPage: FC<{data: ProjectData, Header: FC}>;
+    data: DataArgs;
+    MainPage: FC<{data: Data, Header: FC}>;
 }
 
 export function makeProject(props: Props): Project {
-    const {data, MainPage} = props;
-    const link = `Project/${data.repoName}}`;
+    const {data: dataArgs, MainPage} = props;
+    const data = convertData(dataArgs);
+    const uuid = `${data.gitHubUser}/${data.repoName}`;
+    const link = `Project/${uuid}`;
     
-    const Preview: FC = () => {
+    const Preview: FC<{link: boolean}> = ({link}) => {
         const {name, brief, url} = data;
         return <div>
             Name: {name}
             <br/>
             {brief}
             <br/>
-            <Link to={`/${link}`}>Read more</Link>
+            {link && <Link to={`/${link}`}>Read more</Link>}
             <br/>
             See source code: <a href={url}>{url}</a>
             <br/>
@@ -36,12 +67,13 @@ export function makeProject(props: Props): Project {
     
     const Main: FC = () => {
         return <Title title={data.name}>
-            <MainPage data={data} Header={Preview}/>
+            <MainPage data={data} Header={() => <Preview link={false}/>}/>
         </Title>;
     };
     
     return {
-        Preview,
+        uuid,
+        Preview: () => <Preview link={true}/>,
         Main,
         pages: {
             [link]: Main,

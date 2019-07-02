@@ -3,7 +3,6 @@ import {FC} from "react";
 import animation from "../../../media/N Queens Animation.gif";
 import solved from "../../../media/N Queens Solved.png";
 import {makeProject} from "./Project";
-import {projectsData} from "./projectsData";
 
 const NQueensImage: FC<{description: string, src: string}> = ({description, src}) => {
     const fullDescription = `N Queens ${description}`;
@@ -13,20 +12,31 @@ const NQueensImage: FC<{description: string, src: string}> = ({description, src}
 };
 
 export const NQueens = makeProject({
-    data: projectsData["MKS22X"],
+    data: {
+        user: "kkysen",
+        repo: "MKS22X",
+        name: "N Queens",
+        file: "/blob/master/02NQueens/NQueens.java",
+        brief: "A novel solution to a classic computer science problem.",
+    },
     MainPage: ({data, Header}) => {
         return <div style={{margin: "10%"}}>
             <Header/>
             <br/>
+            <br/>
             <NQueensImage description="solved for N = 8" src={solved}/>
             <br/>
+            <br/>
             <NQueensImage description="animation for N = 8" src={animation}/>
+            <br/>
             <br/>
             A bitwise solution to the N Queens problem written in Java.
             Source code at {data.url}.
             <video src="https://www.youtube.com/watch?v=b2ejXXoIQqI"/>
             <br/>
+            <br/>
             Description
+            <br/>
             <br/>
             Another one of my passions is re-examining the simple, classic problems of computer science to find
             new, novel solutions, which can often teach us valuable lessons and techniques
@@ -56,6 +66,7 @@ export const NQueens = makeProject({
             The result was that my program was thousands of times faster and used dramatically less memory.
             Even when I searched online to see if there was a better solution,
             my program was 20% faster than Jeff Somers’, which purports to be the world’s fastest.
+            <br/>
             <br/>
         </div>;
     },

@@ -1,5 +1,6 @@
 import * as React from "react";
 import {makeSimpleInternship} from "./SimpleInternship";
+import bacillusSubtilis from "../../../media/Bacillus subtilis.jpg"
 
 export const DietrichLab = makeSimpleInternship({
     name: "DietrichLab",
@@ -9,8 +10,8 @@ export const DietrichLab = makeSimpleInternship({
         website: "http://www.dietrichlab.com",
     },
     img: {
-        thumb: "", // TODO
-        main: "", // TODO
+        thumb: bacillusSubtilis,
+        main: bacillusSubtilis,
     },
     AbstractAndRole: () => <>
         As an intern at Professor Dietrich’s Columbia lab in 2015, I studied the response of biofilms,
