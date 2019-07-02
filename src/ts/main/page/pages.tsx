@@ -21,15 +21,26 @@ export interface PageTree {
     readonly children?: PageTreeChildren;
 }
 
-type ForEachPage = (Page: FC, path: string, names: readonly string[], title: string) => void;
+interface ForEachPageArgs {
+    Page: FC,
+    path: string;
+    names: readonly string[];
+    title: string;
+}
+
+type ForEachPage = (args: ForEachPageArgs) => void;
 
 function forEachPageRecursive(pages: PageTree, f: ForEachPage, path: string = "", names: string[] = []) {
     const {title, Page, children} = pages;
     if (Page) {
-        const WrappedPage: FC = () => {
-            return <Title title={title}><Page path={path}/></Title>;
-        };
-        f(WrappedPage, path || "/", names, title);
+        f({
+            Page: () => {
+                return <Title title={title}><Page path={path}/></Title>;
+            },
+            path: path || "/",
+            names,
+            title,
+        });
     }
     if (children) {
         Object.entries(children).forEach(([name, pages]) => {

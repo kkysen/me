@@ -1,5 +1,4 @@
 import * as React from "react";
-import {FC} from "react";
 import {PageTree} from "../page/pages";
 import {CAstroParty} from "./CAstroParty";
 import {MegaMashBros} from "./MegaMashBros";
