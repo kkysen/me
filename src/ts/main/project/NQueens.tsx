@@ -20,6 +20,7 @@ export const NQueens = makeProject({
         brief: "A novel solution to a classic computer science problem.",
     },
     MainPage: ({data, Header}) => {
+        const videoTitle = "A bitwise solution to the N Queens problem written in Java.";
         return <div style={{margin: "10%"}}>
             <Header/>
             <br/>
@@ -30,8 +31,9 @@ export const NQueens = makeProject({
             <NQueensImage description="animation for N = 8" src={animation}/>
             <br/>
             <br/>
-            A bitwise solution to the N Queens problem written in Java.
+            {videoTitle}
             <iframe src="https://www.youtube.com/embed/b2ejXXoIQqI"
+                    title={videoTitle}
                     width="656" height="362"
                     allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                     allowFullScreen

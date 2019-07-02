@@ -3,13 +3,14 @@ import {FC} from "react";
 import {Link} from "react-router-dom";
 import {separateCamelCase} from "../../util/variableNames";
 import {Title} from "../app/Title";
-import {Pages} from "../page/pages";
+import {Pages, PageTreeChildren} from "../page/pages";
 
 export interface Project {
     readonly uuid: string;
     readonly Preview: FC;
     readonly Main: FC;
     readonly pages: Pages;
+    readonly pageTreeChildren: PageTreeChildren;
 }
 
 interface DataArgs {
@@ -59,7 +60,7 @@ export function makeProject(props: Props): Project {
             <br/>
             {brief}
             <br/>
-            {isPreview && <Link to={`/${link}`}>Read more</Link>}
+            {shouldLink && <Link to={`/${link}`}>Read more</Link>}
             <br/>
             See source code: <a href={url}>{url}</a>
             <br/>
@@ -78,6 +79,12 @@ export function makeProject(props: Props): Project {
         Main,
         pages: {
             [link]: Main,
+        },
+        pageTreeChildren: {
+            [uuid]: {
+                title: data.name,
+                Page: Main,
+            }
         },
     };
 }

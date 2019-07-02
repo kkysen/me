@@ -2,12 +2,13 @@ import {default as React, FC} from "react";
 import {Link} from "react-router-dom";
 import {separateCamelCase} from "../../util/variableNames";
 import {Title} from "../app/Title";
-import {Pages} from "../page/pages";
+import {Pages, PageTreeChildren} from "../page/pages";
 
 interface SimpleInternship {
     readonly Preview: FC;
     readonly Main: FC;
     readonly pages: Pages;
+    readonly pageTreeChildren: PageTreeChildren;
 }
 
 interface Props {
@@ -39,7 +40,7 @@ export function makeSimpleInternship(props: Props): SimpleInternship {
     
     const imgAlt = `My ${prettyName} internship during ${time}`;
     
-    const preview: FC = () => {
+    const Preview: FC = () => {
         return <>
             {prettyName} - {time}
             <img src={img.thumb} alt={imgAlt}/>
@@ -52,7 +53,7 @@ export function makeSimpleInternship(props: Props): SimpleInternship {
         </>;
     };
     
-    const main: FC = () => {
+    const Main: FC = () => {
         return <Title title={prettyName}>
             <img src={img.main} alt={imgAlt}/>
             Abstract and Role
@@ -64,10 +65,16 @@ export function makeSimpleInternship(props: Props): SimpleInternship {
     };
     
     return {
-        Preview: preview,
-        Main: main,
+        Preview,
+        Main,
         pages: {
-            [path]: main,
+            [path]: Main,
+        },
+        pageTreeChildren: {
+            [name]: {
+                title: prettyName,
+                Page: Main,
+            },
         },
     };
 }

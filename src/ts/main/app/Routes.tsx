@@ -1,6 +1,6 @@
-import React, {FC} from "react";
+import React, {FC, ReactNode} from "react";
 import {Route} from "react-router";
-import {Pages} from "../page/pages";
+import {forEachPage, Pages, PageTree} from "../page/pages";
 import {Title} from "./Title";
 
 export const Routes: FC<{pages: Pages}> = ({pages}) => {
@@ -12,4 +12,12 @@ export const Routes: FC<{pages: Pages}> = ({pages}) => {
                 </Title>} key={name}/>
             )}
     </>;
+};
+
+export const RouteTree: FC<{pages: PageTree}> = ({pages}) => {
+    const routes: ReactNode[] = [];
+    forEachPage(pages, (Page, path) => {
+        routes.push(<Route key={path} exact path={path} component={Page}/>);
+    });
+    return <>{routes}</>;
 };

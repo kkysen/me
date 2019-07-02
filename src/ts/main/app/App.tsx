@@ -1,11 +1,11 @@
 import React, {FC} from "react";
-import {HashRouter, Redirect, Route} from "react-router-dom";
+import {HashRouter} from "react-router-dom";
 import "../../../css/App.css";
 import logo from "../../../media/logo.svg";
-import {pages} from "../page/pages";
+import {pageTree} from "../page/pages";
 import {Footer} from "./Footer";
 import {Header} from "./Header";
-import {Routes} from "./Routes";
+import {RouteTree} from "./Routes";
 import {Title} from "./Title";
 
 export const OldApp: FC = () => {
@@ -33,8 +33,9 @@ export const App: FC = () => {
     return <Title>
         <HashRouter>
             <Header/>
-            <Route exact path="/" component={() => <Redirect to="/Home"/>}/>
-            <Routes pages={pages.all}/>
+            {/*<Route exact path="/" component={() => <Redirect to="/Home"/>}/>*/}
+            {/*<Routes pages={pages.all}/>*/}
+            <RouteTree pages={pageTree}/>
             <Footer/>
         </HashRouter>
     </Title>;
