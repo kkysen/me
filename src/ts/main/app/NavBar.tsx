@@ -34,28 +34,26 @@ const NavBarDropDown: FC<{Items: FC, mainLink: boolean, title: string, path: str
     </NavDropdown>;
 };
 
-function makeNavBarTree(pages: PageTree, TopLevel: FC<{Items: FC, OwnLink: FC}>, path = ""): ReactElement {
+function makeNavBarTree(pages: PageTree, TopLevel: FC<{Items: FC, title: string}>, path = ""): ReactElement {
     const {title, Page, children} = pages;
     
-    const OwnLink: FC = () => <LinkContainer to={path || "/"}>
-        <NavItem>
-            <Button>
-                {title}
-            </Button>
-        </NavItem>
-    </LinkContainer>;
-    
     if (!children) {
-        return <OwnLink key={path}/>;
+        return <LinkContainer to={path || "/"} key={path}>
+            <NavItem>
+                <Button variant="outline-dark">
+                    {title}
+                </Button>
+            </NavItem>
+        </LinkContainer>;
     } else {
         const Items: FC = () => <>
             {Object.entries(children)
                 .map(([name, pages]) => makeNavBarTree(pages, TopLevel, `${path}/${name}`))}
         </>;
         if (path) {
-            return <NavBarDropDown Items={Items} mainLink={!!Page} title={title} path={path} key={path}/>;
+            return <NavBarDropDown Items={Items} title={title} mainLink={!!Page} path={path} key={path}/>;
         } else {
-            return <TopLevel Items={Items} OwnLink={OwnLink} key={path}/>;
+            return <TopLevel Items={Items} title={title} key={path}/>;
         }
     }
 }
@@ -66,10 +64,10 @@ export const NavBarTree: FC<{pages: PageTree}> = ({pages}) => {
     
     // TODO add search bar to TopLevel using searchMap
     
-    const TopLevel: FC<{Items: FC, OwnLink: FC}> = ({Items, OwnLink}) => {
+    return makeNavBarTree(pages, ({Items, title}) => {
         return <Navbar bg="light" expand="lg">
             <NavbarBrand>
-                <OwnLink/>
+                {title}
             </NavbarBrand>
             <NavbarToggle aria-controls="basic-navbar-nav"/>
             <NavbarCollapse>
@@ -78,7 +76,5 @@ export const NavBarTree: FC<{pages: PageTree}> = ({pages}) => {
                 </Nav>
             </NavbarCollapse>
         </Navbar>;
-    };
-    
-    return makeNavBarTree(pages, TopLevel);
+    });
 };
