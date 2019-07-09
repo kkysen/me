@@ -57,11 +57,20 @@ const NormalDropDown: FC<{args: DropDownProps}> = ({args}) => {
         },
     };
     
+    let timeoutHandle: number | undefined;
+    
     return <>
         {redirect && <Redirect to={path}/>}
         <div
-            onMouseEnter={() => setIsOpen(true)}
-            onMouseLeave={() => setIsOpen(false)}
+            onMouseEnter={() => {
+                window.clearTimeout(timeoutHandle);
+                setIsOpen(true);
+            }}
+            onMouseLeave={() => {
+                // sometimes there are gaps between the dropdown
+                const timeout = 100;
+                timeoutHandle = window.setTimeout(() => setIsOpen(false), timeout);
+            }}
         >
             <NavDropdown {...props}>
                 <Items/>
@@ -83,9 +92,9 @@ const DropDown: FC<{args: DropDownProps & {TopLevel: FC<{args: TopLevelProps}>}}
 const TreeLeaf: FC<{path: string, title: string}> = ({path, title}) => {
     return <LinkContainer to={path || "/"} key={path}>
         <NavItem>
-            <Button variant="outline-dark">
-                {title}
-            </Button>
+            {/*<Button variant="outline-dark">*/}
+            {title}
+            {/*</Button>*/}
         </NavItem>
     </LinkContainer>;
 };
