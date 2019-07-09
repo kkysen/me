@@ -1,4 +1,9 @@
+const firstName = "Khyber";
+const lastName = "Sen";
+
 export const me = {
-    name: "Khyber Sen",
+    firstName,
+    lastName,
+    name: `${firstName} ${lastName}`,
     email: "kkysen@gmail.com",
 } as const;

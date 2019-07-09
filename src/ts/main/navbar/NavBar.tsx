@@ -60,8 +60,8 @@ const NormalDropDown: FC<{args: DropDownProps}> = ({args}) => {
     return <>
         {redirect && <Redirect to={path}/>}
         <div
-            onMouseOver={() => setIsOpen(true)}
-            onMouseOut={() => setIsOpen(false)}
+            onMouseEnter={() => setIsOpen(true)}
+            onMouseLeave={() => setIsOpen(false)}
         >
             <NavDropdown {...props}>
                 <Items/>
