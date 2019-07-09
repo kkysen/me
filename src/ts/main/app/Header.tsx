@@ -1,6 +1,6 @@
 import React, {FC} from "react";
 import {pageTree} from "../page/pages";
-import {NavBarTree} from "./NavBar";
+import {NavBarTree} from "../navbar/NavBar";
 
 export const Header: FC = () => {
     return <header>

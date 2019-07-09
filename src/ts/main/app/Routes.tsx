@@ -1,4 +1,4 @@
-import React, {FC, ReactNode} from "react";
+import React, {FC} from "react";
 import {Route} from "react-router";
 import {getPages, PageTree} from "../page/pages";
 

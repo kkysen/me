@@ -1,10 +1,11 @@
 import React, {FC} from "react";
-import {HashRouter} from "react-router-dom";
 import "../../../css/App.css";
+import {HashRouter} from "react-router-dom";
 import logo from "../../../media/logo.svg";
 import {pageTree} from "../page/pages";
 import {Footer} from "./Footer";
 import {Header} from "./Header";
+import {NavBarTree2} from "../navbar/NavBar";
 import {RouteTree} from "./Routes";
 import {Title} from "./Title";
 
@@ -37,4 +38,5 @@ export const App: FC = () => {
             <Footer/>
         </HashRouter>
     </Title>;
+    // return <NavBarTree2/>;
 };
