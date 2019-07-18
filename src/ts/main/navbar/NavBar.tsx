@@ -1,5 +1,4 @@
 import React, {FC, useState} from "react";
-import Button from "react-bootstrap/es/Button";
 import Nav from "react-bootstrap/es/Nav";
 import Navbar from "react-bootstrap/es/Navbar";
 import NavbarBrand from "react-bootstrap/es/NavbarBrand";
@@ -7,28 +6,19 @@ import NavbarCollapse from "react-bootstrap/es/NavbarCollapse";
 import NavbarToggle from "react-bootstrap/es/NavbarToggle";
 import NavDropdown, {NavDropdownProps} from "react-bootstrap/es/NavDropdown";
 import NavItem from "react-bootstrap/es/NavItem";
-import NavLink from "react-bootstrap/es/NavLink";
 import {Redirect} from "react-router";
 import LinkContainer from "react-router-bootstrap/lib/LinkContainer";
 import {getPages, PageTree} from "../page/pages";
 
-const MainLink: FC<{path: string}> = ({path}) => {
-    return <>
-        <NavLink>
-            <LinkContainer to={path}>
-                <NavItem>
-                    <Button>
-                        Main
-                    </Button>
-                </NavItem>
-            </LinkContainer>
-        </NavLink>
-    </>;
-};
-
 type TopLevelProps = {Items: FC, title: string};
 
-type DropDownProps = TopLevelProps & {path: string, level: number, addMainLink: boolean};
+type DropDownProps = TopLevelProps & {
+    path: string;
+    level: number;
+    addMainLink: boolean;
+    isOpen: boolean;
+    setIsOpen: (isOpen: boolean) => void;
+};
 
 type RealNavDropdownProps = NavDropdownProps & {
     show?: boolean;
@@ -40,10 +30,9 @@ type RealNavDropdownProps = NavDropdownProps & {
 }
 
 const NormalDropDown: FC<{args: DropDownProps}> = ({args}) => {
-    const [isOpen, setIsOpen] = useState(false);
     const [redirect, setRedirect] = useState(false);
     
-    const {Items, title, path, addMainLink, level} = args;
+    const {Items, title, path, addMainLink, level, isOpen, setIsOpen} = args;
     
     const props: RealNavDropdownProps = {
         title,
@@ -69,7 +58,10 @@ const NormalDropDown: FC<{args: DropDownProps}> = ({args}) => {
             onMouseLeave={() => {
                 // sometimes there are gaps between the dropdown
                 const timeout = 100;
-                timeoutHandle = window.setTimeout(() => setIsOpen(false), timeout);
+                timeoutHandle = window.setTimeout(() => {
+                    console.log("closing");
+                    setIsOpen(false);
+                }, timeout);
             }}
         >
             <NavDropdown {...props}>
@@ -90,34 +82,69 @@ const DropDown: FC<{args: DropDownProps & {TopLevel: FC<{args: TopLevelProps}>}}
 };
 
 const TreeLeaf: FC<{path: string, title: string}> = ({path, title}) => {
-    return <LinkContainer to={path || "/"} key={path}>
-        <NavItem>
-            {/*<Button variant="outline-dark">*/}
-            {title}
-            {/*</Button>*/}
-        </NavItem>
-    </LinkContainer>;
+    const [hover, setHover] = useState(false);
+    return <div
+        style={{
+            // lineHeight: "40px",
+            padding: "10px 10px 5px 5px",
+            whiteSpace: "nowrap",
+            backgroundColor: hover ? "#f5f5f5" : "white",
+            fontSize: 14,
+        }}
+        onMouseEnter={() => setHover(true)}
+        onMouseLeave={() => setHover(false)}
+    >
+        <LinkContainer to={path || "/"} key={path}>
+            <NavItem>
+                {title}
+            </NavItem>
+        </LinkContainer>
+    </div>;
 };
 
 function makeTree(TopLevel: FC<{args: TopLevelProps}>): FC<{pages: PageTree}> {
-    const Tree: FC<{pages: PageTree, path: string, level: number}> = ({pages, path, level}) => {
+    type Args = {
+        pages: PageTree;
+        path: string;
+        level: number;
+        isOpen: boolean;
+        setIsOpen: (isOpen: boolean) => void;
+    };
+    const Tree: FC<{args: Args}> = ({args}) => {
+        const {pages, path, level, isOpen, setIsOpen} = args;
         const {title, Page, children} = pages;
         if (!children) {
             return <TreeLeaf path={path} title={title}/>;
         } else {
-            const Items: FC = () => <>
-                {Object.entries(children)
-                    .map(([name, pages]) => {
+            const Items: FC = () => {
+                const [openIndex, setOpenIndex] = useState(-2);
+                console.log({openIndex, path});
+                const items = Object.entries(children)
+                    .map(([name, pages], i) => {
                         const subPath = `${path}/${name}`;
-                        return <Tree pages={pages} path={subPath} level={level + 1} key={subPath}/>;
-                    })
-                }
-            </>;
-            return <DropDown args={{Items, title, addMainLink: !!Page, path, level, TopLevel}}/>;
+                        return <Tree args={{
+                            pages,
+                            path: subPath,
+                            level: level + 1,
+                            isOpen: openIndex === i,
+                            setIsOpen: isOpen => setOpenIndex(isOpen ? i : -1),
+                        }} key={subPath}/>;
+                    });
+                return <>{items}</>;
+            };
+            return <DropDown args={
+                {Items, title, addMainLink: !!Page, path, level, TopLevel, isOpen, setIsOpen}
+            }/>;
         }
     };
     
-    return ({pages}) => <Tree pages={pages} path={""} level={0}/>;
+    return ({pages}) => <Tree args={{
+        pages,
+        path: "",
+        level: 0,
+        isOpen: true,
+        setIsOpen: () => {}
+    }}/>;
 }
 
 export const NavBarTree: FC<{pages: PageTree}> = ({pages}) => {
