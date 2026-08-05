@@ -2,17 +2,17 @@
 
 ## Updating the resume
 
-The resume source of truth is `Khyber_Sen_CV.yaml`,
+The resume source of truth is `Resume-Khyber-Sen.yaml`,
 rendered with [RenderCV](https://docs.rendercv.com/).
 The Python side is managed with `uv`.
 
-The initial `Khyber_Sen_CV.yaml` template was scaffolded with `uv run rendercv new "Khyber Sen"`,
-then filled in by hand.
+The initial template was scaffolded with `uv run rendercv new "Khyber Sen"`,
+then filled in by hand and renamed to `Resume-Khyber-Sen.yaml` to match the old `Resume-Khyber-Sen.pdf`/`.png`.
 
 Render it with:
 
 ```sh
-uv run rendercv render Khyber_Sen_CV.yaml
+uv run rendercv render Resume-Khyber-Sen.yaml
 ```
 
 This generates multiple rendered formats.
@@ -28,6 +28,6 @@ Add `--watch` to re-render automatically as you edit the YAML.
 
 ## Hosting
 
-On every push to `main`, [`.github/workflows/resume.yml`](.github/workflows/resume.yml) renders `Khyber_Sen_CV.yaml`
+On every push to `main`, [`.github/workflows/resume.yml`](.github/workflows/resume.yml) renders `Resume-Khyber-Sen.yaml`
 and deploys `rendercv_output/` to GitHub Pages at <https://kkysen.github.io/me/>,
 so the PDF/HTML/PNGs are always hosted from the current source, without committing generated binaries to git.

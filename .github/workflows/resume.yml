@@ -22,7 +22,7 @@ jobs:
       - uses: astral-sh/setup-uv@v6
         with:
           enable-cache: true
-      - run: uv run rendercv render Khyber_Sen_CV.yaml
+      - run: uv run rendercv render Resume-Khyber-Sen.yaml
       - uses: actions/upload-pages-artifact@v3
         with:
           path: rendercv_output
