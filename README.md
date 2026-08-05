@@ -12,7 +12,7 @@ then filled in by hand and renamed to `Resume-Khyber-Sen.yaml` to match the old 
 Render it with:
 
 ```sh
-uv run rendercv render Resume-Khyber-Sen.yaml
+just render
 ```
 
 This generates multiple rendered formats.
@@ -24,7 +24,8 @@ Binary outputs in `rendercv_output/`, `.gitignore`d, and hosted via GitHub Pages
 - `.pdf` PDF
 - `.png` PNGs
 
-Add `--watch` to re-render automatically as you edit the YAML.
+For auto re-render as you edit the YAML, run
+`uv run rendercv render Resume-Khyber-Sen.yaml --watch` directly instead of `just render`.
 
 ## Hosting
 
