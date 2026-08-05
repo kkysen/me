@@ -4,7 +4,12 @@
 
 The resume source of truth is `Khyber_Sen_CV.yaml`,
 rendered with [RenderCV](https://docs.rendercv.com/).
-The Python side is managed with `uv`:
+The Python side is managed with `uv`.
+
+The initial `Khyber_Sen_CV.yaml` template was scaffolded with `uv run rendercv new "Khyber Sen"`,
+then filled in by hand.
+
+Render it with:
 
 ```sh
 uv run rendercv render Khyber_Sen_CV.yaml
