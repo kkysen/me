@@ -15,19 +15,19 @@ Render it with:
 uv run rendercv render Khyber_Sen_CV.yaml
 ```
 
-This generates multiple rendered formats in `rendercv_output/` (`.gitignore`d):
+This generates multiple rendered formats.
+Textual outputs committed in the repo:
 - `.md` Markdown
 - `.typ` Typst
+Binary outputs in `rendercv_output/`, `.gitignore`d, and hosted via GitHub Pages:
 - `.html` HTML
 - `.pdf` PDF
 - `.png` PNGs
-
-Only `Khyber_Sen_CV.md` is committed as a diff-friendly plain-text copy of the content at the repo root.
 
 Add `--watch` to re-render automatically as you edit the YAML.
 
 ## Hosting
 
-On every push to `main`, [.github/workflows/resume.yml](.github/workflows/resume.yml) renders `Khyber_Sen_CV.yaml`
+On every push to `main`, [`.github/workflows/resume.yml`](.github/workflows/resume.yml) renders `Khyber_Sen_CV.yaml`
 and deploys `rendercv_output/` to GitHub Pages at <https://kkysen.github.io/me/>,
 so the PDF/HTML/PNGs are always hosted from the current source, without committing generated binaries to git.
