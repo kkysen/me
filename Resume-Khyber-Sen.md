@@ -1,4 +1,4 @@
-# Khyber Sen's CV
+# Khyber Sen's Resume
 
 - Phone: +1 917 648 8677
 - Email: [kkysen@gmail.com](mailto:kkysen@gmail.com)
