@@ -1,6 +1,6 @@
 [project]
 name = "resume"
-version = "0.1.0"
+version = "2023.1.27"
 requires-python = ">=3.14"
 dependencies = [
     "rendercv[full]",
