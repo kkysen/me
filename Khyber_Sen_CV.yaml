@@ -336,7 +336,7 @@ settings:
     typst_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.typ
     pdf_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.pdf
     markdown_path: NAME_IN_SNAKE_CASE_CV.md
-    html_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.html
+    html_path: OUTPUT_FOLDER/index.html
     png_path: OUTPUT_FOLDER/NAME_IN_SNAKE_CASE_CV.png
     dont_generate_markdown: false
     dont_generate_html: false
