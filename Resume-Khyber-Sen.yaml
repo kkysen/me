@@ -336,7 +336,7 @@ settings:
     typst_path: Resume-NAME_IN_KEBAB_CASE.typ
     pdf_path: OUTPUT_FOLDER/Resume-NAME_IN_KEBAB_CASE.pdf
     markdown_path: Resume-NAME_IN_KEBAB_CASE.md
-    html_path: OUTPUT_FOLDER/index.html
+    html_path: OUTPUT_FOLDER/Resume-NAME_IN_KEBAB_CASE.html
     png_path: OUTPUT_FOLDER/Resume-NAME_IN_KEBAB_CASE.png
     dont_generate_markdown: false
     dont_generate_html: false
