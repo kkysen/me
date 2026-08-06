@@ -1,4 +1,7 @@
-![Khyber Sen's Resume](./Resume-Khyber-Sen.png)
+![Khyber Sen's Resume, page 1](https://kkysen.github.io/me/Resume-Khyber-Sen_1.png)
+![Khyber Sen's Resume, page 2](https://kkysen.github.io/me/Resume-Khyber-Sen_2.png)
+
+[View as HTML](https://kkysen.github.io/me/) | [Download as PDF](https://kkysen.github.io/me/Resume-Khyber-Sen.pdf)
 
 ## Updating the resume
 
