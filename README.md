@@ -1,9 +1,11 @@
-![Khyber Sen's Resume, page 1](https://kkysen.github.io/me/Resume-Khyber-Sen_1.png)
-![Khyber Sen's Resume, page 2](https://kkysen.github.io/me/Resume-Khyber-Sen_2.png)
+# Khyber's Resume
 
 [View as HTML](https://kkysen.github.io/me/) | [Download as PDF](https://kkysen.github.io/me/Resume-Khyber-Sen.pdf)
 
-## Updating the resume
+![Khyber Sen's Resume, page 1](https://kkysen.github.io/me/Resume-Khyber-Sen_1.png)
+![Khyber Sen's Resume, page 2](https://kkysen.github.io/me/Resume-Khyber-Sen_2.png)
+
+## Updating the Resume
 
 The resume source of truth is `Resume-Khyber-Sen.yaml`,
 rendered with [RenderCV](https://docs.rendercv.com/).
