@@ -1,8 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Khyber Sen
-  headline:
-  location:
+  headline: Software Engineer
+  location: New York, NY
   email: kkysen@gmail.com
   photo:
   phone: '+1-917-648-8677'
@@ -17,10 +17,10 @@ cv:
     education:
       - institution: Columbia University
         area: Computer Science
-        degree:
+        degree: BA
         date:
         start_date: 2018-09
-        end_date: 2022-12
+        end_date: 2023-02
         location:
         summary: Rabi Scholar, CS Major (GPA 3.79, CS GPA 3.98)
         highlights:
@@ -35,17 +35,47 @@ cv:
         summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team
         highlights:
     experience:
+      - company: Effective Transit Alliance
+        position: Director of Transit Operations and Planning
+        date:
+        start_date: 2023-11
+        end_date: present
+        location: New York City Metropolitan Area
+        summary:
+        highlights:
+          - Advocate for better public transit in the New York City metropolitan area.
+          - Following ETA's IBX report advocating for a short, shallow All Faiths Tunnel, the
+            MTA changed course from its street-running plans and adopted the shallow-tunnel
+            approach, increasing projected ridership by 35%, reducing travel times by 31%, and
+            saving a cumulative 3 years of riders' time per day.
+          - Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO,
+            preventing New York's transit system from being locked out of future modernization.
+      - company: QueensLink
+        position: Communications Associate (previously Volunteer)
+        date:
+        start_date: 2024-03
+        end_date: present
+        location: Queens, NY
+        summary:
+        highlights:
+          - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
+            rail line through central Queens into a dual-use subway extension and linear park.
       - company: Immunant
-        position: Junior Software Engineer (previously Intern)
+        position: Software Engineer (previously Junior Software Engineer, Intern)
         date:
         start_date: 2022-05
-        end_date: present
+        end_date: 2026-04
         location:
         summary:
         highlights:
           - '[github.com/immunant/c2rust](https://github.com/immunant/c2rust)'
-          - Worked on c2rust, a C to Rust transpiler, helping to lift the unsafe Rust output to
-            safe Rust through a combination of static and dynamic analysis.
+          - Worked on c2rust, a C to Rust transpiler, as part of the ALLSTAR and TRACTOR
+            programs, helping to lift the unsafe Rust output to safe Rust through a combination
+            of static and dynamic analysis.
+          - Ported the AV1 decoder dav1d from C to Rust, now named rav1d.
+          - Built IA2, a tool for sandboxing intraprocess compartments from each other's memory
+            using x86_64's Memory Protection Keys and Arm's Memory Tagging Extension (MTE);
+            tested IA2 on dav1d and added callgate data verification.
       - company: MediaTek
         position: Compiler Intern
         date:
@@ -67,7 +97,7 @@ cv:
         position: 'Teaching Assistant, Analysis of Algorithms (taught by Prof. Clifford Stein)'
         date:
         start_date: 2019-09
-        end_date: 2019-12
+        end_date: 2020-01
         location:
         summary:
         highlights:
@@ -75,7 +105,7 @@ cv:
           - Graded exams and problem sets for a class of 140 students.
           - Taught students during office hours and answered email questions throughout the week.
       - company: Columbia University
-        position: Smart Neural Fuzzer Intern
+        position: Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
         date:
         start_date: 2019-01
         end_date: 2019-08
@@ -85,13 +115,13 @@ cv:
           - '[github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)'
           - Developed a code coverage tool that records all the decisions (branches) a
             potentially multi-threaded, multi-process program makes, which allows for time
-            travel and record-replay debugging of control flow. Collaborated with Kexin Pei and
-            Junfeng Yang to integrate this decision data into a neural net that can intelligently
-            guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover
-            hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM
-            optimization pass.
-      - company: Columbia University
-        position: Fruit Fly Brain Observatory Intern
+            travel and record-replay debugging of control flow. Collaborated with Ph.D. student
+            Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net
+            that can intelligently guide fuzzing, taint analysis, and profile-guided
+            optimizations, helping to uncover hidden data dependencies and elusive bugs. Written
+            in modern C++17 as an LLVM optimization pass.
+      - company: Bionet Group, Columbia University
+        position: Summer Intern (Fruit Fly Brain Observatory)
         date:
         start_date: 2017-06
         end_date: 2017-08
@@ -101,6 +131,16 @@ cv:
           - Built a robot to model the fruit fly vision system and its motion detection
             capabilities using massively parallel programming (under the direction of Aurel
             Lazar).
+      - company: Dietrich Lab, Columbia University
+        position: Summer Intern
+        date:
+        start_date: 2015-06
+        end_date: 2015-07
+        location:
+        summary:
+        highlights:
+          - Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas
+            aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
     projects:
       - name: '[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify)
           (Rust)'

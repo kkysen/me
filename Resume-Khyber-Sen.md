@@ -2,13 +2,14 @@
 
 - Phone: +1 917 648 8677
 - Email: [kkysen@gmail.com](mailto:kkysen@gmail.com)
+- Location: New York, NY
 - GitHub: [kkysen](https://github.com/kkysen)
 - LinkedIn: [khyber-sen](https://linkedin.com/in/khyber-sen)
 
 
 # Education
-## **Columbia University**, Computer Science
-Sept 2018 – Dec 2022
+## **Columbia University**, BA in Computer Science
+Sept 2018 – Feb 2023
 
 Rabi Scholar, CS Major (GPA 3.79, CS GPA 3.98)
 
@@ -24,13 +25,37 @@ Sept 2014 – June 2018
 
 
 # Experience
-## **Junior Software Engineer (previously Intern)**, Immunant
+## **Director of Transit Operations and Planning**, Effective Transit Alliance -- New York City Metropolitan Area
 
-May 2022 – present
+Nov 2023 – present
+
+- Advocate for better public transit in the New York City metropolitan area.
+
+- Following ETA's IBX report advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
+
+- Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO, preventing New York's transit system from being locked out of future modernization.
+
+
+
+## **Communications Associate (previously Volunteer)**, QueensLink -- Queens, NY
+
+Mar 2024 – present
+
+- Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
+
+
+
+## **Software Engineer (previously Junior Software Engineer, Intern)**, Immunant
+
+May 2022 – Apr 2026
 
 - [github.com/immunant/c2rust](https://github.com/immunant/c2rust)
 
-- Worked on c2rust, a C to Rust transpiler, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+- Worked on c2rust, a C to Rust transpiler, as part of the ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+
+- Ported the AV1 decoder dav1d from C to Rust, now named rav1d.
+
+- Built IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86_64's Memory Protection Keys and Arm's Memory Tagging Extension (MTE); tested IA2 on dav1d and added callgate data verification.
 
 
 
@@ -48,7 +73,7 @@ May 2020 – Dec 2021
 
 ## **Teaching Assistant, Analysis of Algorithms (taught by Prof. Clifford Stein)**, Columbia University
 
-Sept 2019 – Dec 2019
+Sept 2019 – Jan 2020
 
 - Acted as liaison between professor and students.
 
@@ -58,21 +83,29 @@ Sept 2019 – Dec 2019
 
 
 
-## **Smart Neural Fuzzer Intern**, Columbia University
+## **Rabi Scholar Researcher (Smart Neural Fuzzer Internship)**, Columbia University
 
 Jan 2019 – Aug 2019
 
 - [github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)
 
-- Developed a code coverage tool that records all the decisions (branches) a potentially multi-threaded, multi-process program makes, which allows for time travel and record-replay debugging of control flow. Collaborated with Kexin Pei and Junfeng Yang to integrate this decision data into a neural net that can intelligently guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM optimization pass.
+- Developed a code coverage tool that records all the decisions (branches) a potentially multi-threaded, multi-process program makes, which allows for time travel and record-replay debugging of control flow. Collaborated with Ph.D. student Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net that can intelligently guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM optimization pass.
 
 
 
-## **Fruit Fly Brain Observatory Intern**, Columbia University
+## **Summer Intern (Fruit Fly Brain Observatory)**, Bionet Group, Columbia University
 
 June 2017 – Aug 2017
 
 - Built a robot to model the fruit fly vision system and its motion detection capabilities using massively parallel programming (under the direction of Aurel Lazar).
+
+
+
+## **Summer Intern**, Dietrich Lab, Columbia University
+
+June 2015 – July 2015
+
+- Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
 
 
 

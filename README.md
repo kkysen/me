@@ -4,6 +4,7 @@
 
 ![Khyber Sen's Resume, page 1](https://kkysen.github.io/me/Resume-Khyber-Sen_1.png)
 ![Khyber Sen's Resume, page 2](https://kkysen.github.io/me/Resume-Khyber-Sen_2.png)
+![Khyber Sen's Resume, page 3](https://kkysen.github.io/me/Resume-Khyber-Sen_3.png)
 
 ## Updating the Resume
 

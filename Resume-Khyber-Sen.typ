@@ -81,14 +81,17 @@
   date: datetime(
     year: 2026,
     month: 8,
-    day: 5,
+    day: 8,
   ),
 )
 
 
 = Khyber Sen
 
+  #headline([Software Engineer])
+
 #connections(
+  [New York, NY],
   [#link("mailto:kkysen@gmail.com", icon: false, if-underline: false, if-color: false)[kkysen\@gmail.com]],
   [#link("tel:+1-917-648-8677", icon: false, if-underline: false, if-color: false)[(917) 648-8677]],
   [#link("https://github.com/kkysen", icon: false, if-underline: false, if-color: false)[github.com\/kkysen]],
@@ -100,11 +103,11 @@
 
 #education-entry(
   [
-    #strong[Columbia University], Computer Science
+    #strong[Columbia University], BA in Computer Science
 
   ],
   [
-    Sept 2018 – Dec 2022
+    Sept 2018 – Feb 2023
 
   ],
   main-column-second-row: [
@@ -134,17 +137,55 @@
 
 #regular-entry(
   [
-    #strong[Junior Software Engineer (previously Intern)], Immunant
+    #strong[Director of Transit Operations and Planning], Effective Transit Alliance -- New York City Metropolitan Area
 
   ],
   [
-    May 2022 – present
+    Nov 2023 – present
+
+  ],
+  main-column-second-row: [
+    - Advocate for better public transit in the New York City metropolitan area.
+
+    - Following ETA's IBX report advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35\%, reducing travel times by 31\%, and saving a cumulative 3 years of riders' time per day.
+
+    - Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO, preventing New York's transit system from being locked out of future modernization.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Communications Associate (previously Volunteer)], QueensLink -- Queens, NY
+
+  ],
+  [
+    Mar 2024 – present
+
+  ],
+  main-column-second-row: [
+    - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Software Engineer (previously Junior Software Engineer, Intern)], Immunant
+
+  ],
+  [
+    May 2022 – Apr 2026
 
   ],
   main-column-second-row: [
     - #link("https://github.com/immunant/c2rust")[github.com\/immunant\/c2rust]
 
-    - Worked on c2rust, a C to Rust transpiler, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+    - Worked on c2rust, a C to Rust transpiler, as part of the ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+
+    - Ported the AV1 decoder dav1d from C to Rust, now named rav1d.
+
+    - Built IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86\_64's Memory Protection Keys and Arm's Memory Tagging Extension (MTE); tested IA2 on dav1d and added callgate data verification.
 
   ],
 )
@@ -174,7 +215,7 @@
 
   ],
   [
-    Sept 2019 – Dec 2019
+    Sept 2019 – Jan 2020
 
   ],
   main-column-second-row: [
@@ -189,7 +230,7 @@
 
 #regular-entry(
   [
-    #strong[Smart Neural Fuzzer Intern], Columbia University
+    #strong[Rabi Scholar Researcher (Smart Neural Fuzzer Internship)], Columbia University
 
   ],
   [
@@ -199,14 +240,14 @@
   main-column-second-row: [
     - #link("https://github.com/kkysen/SmartNeuralFuzzer")[github.com\/kkysen\/SmartNeuralFuzzer]
 
-    - Developed a code coverage tool that records all the decisions (branches) a potentially multi-threaded, multi-process program makes, which allows for time travel and record-replay debugging of control flow. Collaborated with Kexin Pei and Junfeng Yang to integrate this decision data into a neural net that can intelligently guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM optimization pass.
+    - Developed a code coverage tool that records all the decisions (branches) a potentially multi-threaded, multi-process program makes, which allows for time travel and record-replay debugging of control flow. Collaborated with Ph.D. student Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net that can intelligently guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM optimization pass.
 
   ],
 )
 
 #regular-entry(
   [
-    #strong[Fruit Fly Brain Observatory Intern], Columbia University
+    #strong[Summer Intern (Fruit Fly Brain Observatory)], Bionet Group, Columbia University
 
   ],
   [
@@ -215,6 +256,21 @@
   ],
   main-column-second-row: [
     - Built a robot to model the fruit fly vision system and its motion detection capabilities using massively parallel programming (under the direction of Aurel Lazar).
+
+  ],
+)
+
+#regular-entry(
+  [
+    #strong[Summer Intern], Dietrich Lab, Columbia University
+
+  ],
+  [
+    June 2015 – July 2015
+
+  ],
+  main-column-second-row: [
+    - Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
 
   ],
 )
