@@ -105,7 +105,9 @@ Jan 2019 – Aug 2019
 
 June 2017 – Aug 2017
 
-- Built a robot to model the fruit fly vision system and its motion detection capabilities using massively parallel programming (under the direction of Aurel Lazar).
+- Worked on the Fruit Fly Brain Observatory, an international research initiative to understand the fruit fly brain and model it using GPU-based programming, under the direction of Aurel Lazar.
+
+- Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 
 
 
