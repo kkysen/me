@@ -6,7 +6,7 @@
   name: "Khyber Sen",
   title: "Khyber Sen - Resume",
   footer: context { [#emph[Khyber Sen -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Aug 2026] ],
+  top-note: [ #emph[Last updated in Sept 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 8,
-    day: 8,
+    month: 9,
+    day: 17,
   ),
 )
 
@@ -171,7 +171,7 @@
 
 #regular-entry(
   [
-    #strong[Software Engineer (previously Junior Software Engineer, Intern)], Immunant
+    #strong[Software Engineer (previously Junior Software Engineer, Intern)], Immunant -- Remote
 
   ],
   [
@@ -181,11 +181,19 @@
   main-column-second-row: [
     - #link("https://github.com/immunant/c2rust")[github.com\/immunant\/c2rust]
 
-    - Worked on c2rust, a C to Rust transpiler, as part of the ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+    - Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
 
-    - Ported the AV1 decoder dav1d from C to Rust, now named rav1d.
+    - Integrated c2rust into Hayroll, a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
 
-    - Built IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86\_64's Memory Protection Keys and Arm's Memory Tagging Extension (MTE); tested IA2 on dav1d and added callgate data verification.
+    - Added transpiler support for C constant macros, translating them as Rust constants, and wrote c2rust-postprocess, reinserting comments lost by the transpiler using LLMs. Added support for emitting edition 2024 code.
+
+    - Greatly strengthened testing, adding snapshot tests for the transpiler, reviving c2rust-refactor and dynamic analysis, and extending the integration test suite of various codebases.
+
+    - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modelling pointer permissions. Integrated the dynamic analysis outputs into the static analysis, modelled pointer permissions for known libc functions, and fixed how string literals and casts were analyzed.
+
+    - Ported the bulk of the AV1 decoder dav1d from C to Rust, now named rav1d, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5\% slower than C's dav1d, 3.8\% of which comes from the initial unsafe transpile.
+
+    - Helped develop IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86\_64's Memory Protection Keys and Arm's Memory Tagging Extension (MTE). Tested IA2 on dav1d, fixing bugs and adding features to handle a program as complex as dav1d, and added callgate data verification so data crossing the boundary between isolated compartments could be further verified.
 
   ],
 )
