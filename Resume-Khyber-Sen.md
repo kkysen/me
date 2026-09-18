@@ -125,6 +125,18 @@ June 2015 – July 2015
 
 
 
+## **Captain of Varsity Baseball**, Stuyvesant High School -- New York City Metropolitan Area
+
+Sept 2014 – Jan 2018
+
+- Starting pitcher and outfielder on Stuyvesant's Varsity Baseball team all 4 years of high school.
+
+- Team captain senior year.
+
+- Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
+
+
+
 # Projects
 ## **[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify) (Rust)**
 

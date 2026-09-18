@@ -291,6 +291,25 @@
   ],
 )
 
+#regular-entry(
+  [
+    #strong[Captain of Varsity Baseball], Stuyvesant High School -- New York City Metropolitan Area
+
+  ],
+  [
+    Sept 2014 – Jan 2018
+
+  ],
+  main-column-second-row: [
+    - Starting pitcher and outfielder on Stuyvesant's Varsity Baseball team all 4 years of high school.
+
+    - Team captain senior year.
+
+    - Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
+
+  ],
+)
+
 == Projects
 
 #regular-entry(

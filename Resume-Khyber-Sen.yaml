@@ -169,6 +169,18 @@ cv:
         highlights:
           - Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas
             aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
+      - company: Stuyvesant High School
+        position: Captain of Varsity Baseball
+        date:
+        start_date: 2014-09
+        end_date: 2018-01
+        location: New York City Metropolitan Area
+        summary:
+        highlights:
+          - Starting pitcher and outfielder on Stuyvesant's Varsity Baseball team all 4 years
+            of high school.
+          - Team captain senior year.
+          - Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
     projects:
       - name: '[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify)
           (Rust)'
