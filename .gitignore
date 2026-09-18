@@ -3,4 +3,5 @@ rendercv_output/
 
 # LinkedIn exports, kept locally as a diff base for content updates
 LinkedIn-*.pdf
+LinkedIn-*.html
 LinkedIn-*.png
