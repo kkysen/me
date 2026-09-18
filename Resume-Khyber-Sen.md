@@ -35,11 +35,15 @@ Nov 2023 – present
 
 - Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO, preventing New York's transit system from being locked out of future modernization.
 
+- Selected media: "Digging Out of a Very Deep Hole: Saving Billions on 125th Street", "The Century Old Idea that Can Revolutionize NYC Commuter Rail", and "Did NYC's Newest Subway Just Get Better?"
+
 
 
 ## **Communications Associate (previously Volunteer)**, QueensLink -- Queens, NY
 
 Mar 2024 – present
+
+- [thequeenslink.org/the-plan](https://thequeenslink.org/the-plan/)
 
 - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
@@ -49,7 +53,7 @@ Mar 2024 – present
 
 May 2022 – Apr 2026
 
-- [github.com/immunant/c2rust](https://github.com/immunant/c2rust)
+- [github.com/immunant/c2rust](https://github.com/immunant/c2rust) | [github.com/memorysafety/rav1d](https://github.com/memorysafety/rav1d)
 
 - Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
 
@@ -104,6 +108,8 @@ Jan 2019 – Aug 2019
 ## **Summer Intern (Fruit Fly Brain Observatory)**, Bionet Group, Columbia University
 
 June 2017 – Aug 2017
+
+- [fruitflybrain.org](https://fruitflybrain.org)
 
 - Worked on the Fruit Fly Brain Observatory, an international research initiative to understand the fruit fly brain and model it using GPU-based programming, under the direction of Aurel Lazar.
 
