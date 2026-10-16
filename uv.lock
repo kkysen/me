@@ -353,10 +353,14 @@ version = "2026.9.17"
 source = { virtual = "." }
 dependencies = [
     { name = "rendercv", extra = ["full"] },
+    { name = "ruamel-yaml" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "rendercv", extras = ["full"] }]
+requires-dist = [
+    { name = "rendercv", extras = ["full"] },
+    { name = "ruamel-yaml", specifier = ">=0.19.1" },
+]
 
 [[package]]
 name = "rich"
