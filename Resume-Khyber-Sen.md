@@ -37,25 +37,15 @@ Nov 2023 – present
 
 - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
 
-- [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): a rebuttal of Amtrak's report claiming through-running cannot support 48 tph, with a passenger crowding simulation showing that it can.
+- Built the passenger crowding model for [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load), a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
 - [A Not-So-Capital Plan, Part 1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train) and [Part 2](https://www.etany.org/not-so-capital-plan-the-future-is-electric): the MTA's 2025-29 Capital Plan, on subway rolling stock cost explosion and on commuter rail electrification.
-
-- [If It Can't Stand the Heat, You Need to Upgrade the Kitchen](https://www.etany.org/repairing-northeast-corridor-electrical-system): repairing the Northeast Corridor's electrical systems.
-
-- [Deinterlining](https://www.etany.org/statements/deinterlining): simpler service, fewer delays.
-
-- [Baffling Battery Blunder](https://www.etany.org/baffling-battery-blunder): expensive, experimental, slow battery locomotives have no place on already electrified rails.
-
-- Videos: [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc) and [Did NYC's Newest Subway Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)
 
 
 
 ## **Communications Associate (previously Volunteer)**, QueensLink -- Queens, NY
 
 Mar 2024 – present
-
-- [thequeenslink.org/the-plan](https://thequeenslink.org/the-plan/)
 
 - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
@@ -68,12 +58,6 @@ May 2022 – Apr 2026
 - [github.com/immunant/c2rust](https://github.com/immunant/c2rust) | [github.com/memorysafety/rav1d](https://github.com/memorysafety/rav1d)
 
 - Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
-
-- Integrated c2rust into Hayroll, a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
-
-- Added transpiler support for C constant macros, translating them as Rust constants, and wrote c2rust-postprocess, reinserting comments lost by the transpiler using LLMs. Added support for emitting edition 2024 code.
-
-- Greatly strengthened testing, adding snapshot tests for the transpiler, reviving c2rust-refactor and dynamic analysis, and extending the integration test suite of various codebases.
 
 - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modelling pointer permissions. Integrated the dynamic analysis outputs into the static analysis, modelled pointer permissions for known libc functions, and fixed how string literals and casts were analyzed.
 
@@ -99,12 +83,6 @@ May 2020 – Dec 2021
 
 Sept 2019 – Jan 2020
 
-- Acted as liaison between professor and students.
-
-- Graded exams and problem sets for a class of 140 students.
-
-- Taught students during office hours and answered email questions throughout the week.
-
 
 
 ## **Rabi Scholar Researcher (Smart Neural Fuzzer Internship)**, Columbia University
@@ -113,7 +91,7 @@ Jan 2019 – Aug 2019
 
 - [github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)
 
-- Developed a code coverage tool that records all the decisions (branches) a potentially multi-threaded, multi-process program makes, which allows for time travel and record-replay debugging of control flow. Collaborated with Ph.D. student Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net that can intelligently guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM optimization pass.
+- Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and guiding a neural net-based fuzzer.
 
 
 
@@ -122,8 +100,6 @@ Jan 2019 – Aug 2019
 June 2017 – Aug 2017
 
 - [fruitflybrain.org](https://fruitflybrain.org)
-
-- Worked on the Fruit Fly Brain Observatory, an international research initiative to understand the fruit fly brain and model it using GPU-based programming, under the direction of Aurel Lazar.
 
 - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 
@@ -137,27 +113,7 @@ June 2015 – July 2015
 
 
 
-## **Captain of Varsity Baseball**, Stuyvesant High School -- New York City Metropolitan Area
-
-Sept 2014 – Jan 2018
-
-- Starting pitcher and outfielder on Stuyvesant's Varsity Baseball team all 4 years of high school.
-
-- Team captain senior year.
-
-- Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
-
-
-
 # Projects
-## **[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify) (Rust)**
-
-May 2022 – Aug 2022
-
-- Leading a 5-person team at Codeprentice on the Change Journal project. We are developing a cross-platform change journal library in Rust, using the fanotify backend on Linux and the USN journal backend on Windows we're writing. Ultimately we plan to use the change journal to create an instantaneous and cross-platform file searcher application. I have also helped teach my teammates Rust.
-
-
-
 ## **[N Queens](https://github.com/kkysen/MKS22X/blob/master/02NQueens/NQueens.java) (Java)**
 
 - Developed a novel, extremely efficient bitwise solution to the classic N Queens problem faster than any other known software solution.
@@ -170,16 +126,12 @@ May 2022 – Aug 2022
 
 
 
-## **[Weather or Not at Stuy Hacks](https://github.com/wertylop5/WeatherOrNot) (JS)**
-
-- Led a 4-person team in 24 hours, ~200-person Major League Hackathon. My team created a website that overlays maps, traffic, weather, and more to better plan your trip.
-
-
-
 # Skills
-**Languages:** Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86 asm, Bash
+**Transit Data:** GTFS, GTFS-RT, transit open datasets, Python/pandas analysis, GeoJSON, passenger crowding modeling
 
-**Software:** rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal, Node, Deno, Bun, React, CMake, Webpack
+**Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
+
+**Software:** rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
 
 # Honors
 - 1st Place, Two Sigma Data Science Competition

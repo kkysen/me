@@ -44,39 +44,46 @@ cv:
         summary:
         highlights:
           - Advocate for better public transit in the New York City metropolitan area.
-          - 'Following ETA''s IBX report
-            ([IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel))
-            advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its
-            street-running plans and adopted the shallow-tunnel approach, increasing projected
-            ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of
-            riders'' time per day.'
-          - Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO
-            ([Impeding Progress, Costing
-            Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto)),
-            preventing New York's transit system from being locked out of future modernization.
-          - '[Digging Out of a Very Deep Hole: Saving Billions on 125th
-            Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower
-            125 St subway route, against a $7.7B plan with stations over 100 ft underground.'
-          - '[Penn Station Can Handle the
-            Load](https://www.etany.org/penn-station-can-handle-the-load): a rebuttal of
-            Amtrak''s report claiming through-running cannot support 48 tph, with a passenger
-            crowding simulation showing that it can.'
-          - '[A Not-So-Capital Plan, Part
-            1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train) and
-            [Part 2](https://www.etany.org/not-so-capital-plan-the-future-is-electric): the
-            MTA''s 2025-29 Capital Plan, on subway rolling stock cost explosion and on commuter
-            rail electrification.'
-          - '[If It Can''t Stand the Heat, You Need to Upgrade the
-            Kitchen](https://www.etany.org/repairing-northeast-corridor-electrical-system):
-            repairing the Northeast Corridor''s electrical systems.'
-          - '[Deinterlining](https://www.etany.org/statements/deinterlining): simpler service,
-            fewer delays.'
-          - '[Baffling Battery Blunder](https://www.etany.org/baffling-battery-blunder):
-            expensive, experimental, slow battery locomotives have no place on already
-            electrified rails.'
-          - 'Videos: [The Century Old Idea that Can Revolutionize NYC Commuter
-            Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc) and [Did NYC''s Newest Subway
-            Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)'
+          - text: 'Following ETA''s IBX report
+              ([IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel))
+              advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its
+              street-running plans and adopted the shallow-tunnel approach, increasing projected
+              ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of
+              riders'' time per day.'
+            versions: [cv, general, transit]
+          - text: Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO
+              ([Impeding Progress, Costing
+              Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto)),
+              preventing New York's transit system from being locked out of future modernization.
+            versions: [cv, general, transit]
+          - text: '[Digging Out of a Very Deep Hole: Saving Billions on 125th
+              Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower
+              125 St subway route, against a $7.7B plan with stations over 100 ft underground.'
+            versions: [cv, general, transit]
+          - 'Built the passenger crowding model for [Penn Station Can Handle the
+            Load](https://www.etany.org/penn-station-can-handle-the-load), a rebuttal of
+            Amtrak''s report claiming through-running cannot support 48 tph.'
+          - text: '[A Not-So-Capital Plan, Part
+              1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train) and
+              [Part 2](https://www.etany.org/not-so-capital-plan-the-future-is-electric): the
+              MTA''s 2025-29 Capital Plan, on subway rolling stock cost explosion and on commuter
+              rail electrification.'
+            versions: [cv, general, transit]
+          - text: '[If It Can''t Stand the Heat, You Need to Upgrade the
+              Kitchen](https://www.etany.org/repairing-northeast-corridor-electrical-system):
+              repairing the Northeast Corridor''s electrical systems.'
+            versions: [cv, transit]
+          - text: '[Deinterlining](https://www.etany.org/statements/deinterlining): simpler service,
+              fewer delays.'
+            versions: [cv, transit]
+          - text: '[Baffling Battery Blunder](https://www.etany.org/baffling-battery-blunder):
+              expensive, experimental, slow battery locomotives have no place on already
+              electrified rails.'
+            versions: [cv, transit]
+          - text: 'Videos: [The Century Old Idea that Can Revolutionize NYC Commuter
+              Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc) and [Did NYC''s Newest Subway
+              Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)'
+            versions: [cv, transit]
       - company: QueensLink
         position: Communications Associate (previously Volunteer)
         date:
@@ -85,7 +92,8 @@ cv:
         location: Queens, NY
         summary:
         highlights:
-          - '[thequeenslink.org/the-plan](https://thequeenslink.org/the-plan/)'
+          - text: '[thequeenslink.org/the-plan](https://thequeenslink.org/the-plan/)'
+            versions: [cv, transit]
           - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
       - company: Immunant
@@ -96,34 +104,40 @@ cv:
         location: Remote
         summary:
         highlights:
-          - '[github.com/immunant/c2rust](https://github.com/immunant/c2rust) | [github.com/memorysafety/rav1d](https://github.com/memorysafety/rav1d)'
+          - text: '[github.com/immunant/c2rust](https://github.com/immunant/c2rust) | [github.com/memorysafety/rav1d](https://github.com/memorysafety/rav1d)'
+            versions: [cv, general, software]
           - Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and
             TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a
             combination of static and dynamic analysis.
-          - Integrated c2rust into Hayroll, a wrapper handling single-platform conditional
-            compilation, then extended both to handle cross-platform compilation, in part by
-            building off of zig cc.
-          - Added transpiler support for C constant macros, translating them as Rust constants,
-            and wrote c2rust-postprocess, reinserting comments lost by the transpiler using
-            LLMs. Added support for emitting edition 2024 code.
-          - Greatly strengthened testing, adding snapshot tests for the transpiler, reviving
-            c2rust-refactor and dynamic analysis, and extending the integration test suite of
-            various codebases.
-          - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and
-            provenance throughout program runs, building a pointer derivation graph to
-            complement a static analysis modelling pointer permissions. Integrated the dynamic
-            analysis outputs into the static analysis, modelled pointer permissions for known
-            libc functions, and fixed how string literals and casts were analyzed.
+          - text: Integrated c2rust into Hayroll, a wrapper handling single-platform conditional
+              compilation, then extended both to handle cross-platform compilation, in part by
+              building off of zig cc.
+            versions: [cv, software]
+          - text: Added transpiler support for C constant macros, translating them as Rust constants,
+              and wrote c2rust-postprocess, reinserting comments lost by the transpiler using
+              LLMs. Added support for emitting edition 2024 code.
+            versions: [cv, software]
+          - text: Greatly strengthened testing, adding snapshot tests for the transpiler, reviving
+              c2rust-refactor and dynamic analysis, and extending the integration test suite of
+              various codebases.
+            versions: [cv, software, transit]
+          - text: Wrote a rustc instrumentation plugin to dynamically trace pointer usage and
+              provenance throughout program runs, building a pointer derivation graph to
+              complement a static analysis modelling pointer permissions. Integrated the dynamic
+              analysis outputs into the static analysis, modelled pointer permissions for known
+              libc functions, and fixed how string literals and casts were analyzed.
+            versions: [cv, general, software]
           - Ported the bulk of the AV1 decoder dav1d from C to Rust, now named rav1d,
             translating complex C idioms while preserving performance, and extensively
             optimizing the result, including instrumenting and modifying rustc where it
             differed from C. The result is just 5% slower than C's dav1d, 3.8% of which comes
             from the initial unsafe transpile.
-          - Helped develop IA2, a tool for sandboxing intraprocess compartments from each
-            other's memory using x86_64's Memory Protection Keys and Arm's Memory Tagging
-            Extension (MTE). Tested IA2 on dav1d, fixing bugs and adding features to handle a
-            program as complex as dav1d, and added callgate data verification so data crossing
-            the boundary between isolated compartments could be further verified.
+          - text: Helped develop IA2, a tool for sandboxing intraprocess compartments from each
+              other's memory using x86_64's Memory Protection Keys and Arm's Memory Tagging
+              Extension (MTE). Tested IA2 on dav1d, fixing bugs and adding features to handle a
+              program as complex as dav1d, and added callgate data verification so data crossing
+              the boundary between isolated compartments could be further verified.
+            versions: [cv, general, software]
       - company: MediaTek
         position: Compiler Intern
         date:
@@ -132,8 +146,9 @@ cv:
         location: Woburn, MA
         summary:
         highlights:
-          - 'If Conversion: Replaced monomorphic branch unswitching with polymorphic if
-            conversion for significant code size savings with minimal performance impact.'
+          - text: 'If Conversion: Replaced monomorphic branch unswitching with polymorphic if
+              conversion for significant code size savings with minimal performance impact.'
+            versions: [cv, general, software]
           - 'Little Doctor: Built the Little Doctor, a framework for testing the compiler''s
             debug info''s quality using gdb''s Python API, which already discovered hundreds
             of bugs in 2 months.'
@@ -149,9 +164,12 @@ cv:
         location:
         summary:
         highlights:
-          - Acted as liaison between professor and students.
-          - Graded exams and problem sets for a class of 140 students.
-          - Taught students during office hours and answered email questions throughout the week.
+          - text: Acted as liaison between professor and students.
+            versions: [cv]
+          - text: Graded exams and problem sets for a class of 140 students.
+            versions: [cv]
+          - text: Taught students during office hours and answered email questions throughout the week.
+            versions: [cv]
       - company: Columbia University
         position: Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
         date:
@@ -161,14 +179,20 @@ cv:
         summary:
         highlights:
           - '[github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)'
-          - Developed a code coverage tool that records all the decisions (branches) a
-            potentially multi-threaded, multi-process program makes, which allows for time
-            travel and record-replay debugging of control flow. Collaborated with Ph.D. student
-            Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net
-            that can intelligently guide fuzzing, taint analysis, and profile-guided
-            optimizations, helping to uncover hidden data dependencies and elusive bugs. Written
-            in modern C++17 as an LLVM optimization pass.
+          - text: Developed a code coverage tool that records all the decisions (branches) a
+              potentially multi-threaded, multi-process program makes, which allows for time
+              travel and record-replay debugging of control flow. Collaborated with Ph.D. student
+              Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net
+              that can intelligently guide fuzzing, taint analysis, and profile-guided
+              optimizations, helping to uncover hidden data dependencies and elusive bugs. Written
+              in modern C++17 as an LLVM optimization pass.
+            versions: [cv, software]
+          - text: Built an LLVM pass recording every branch decision of multi-threaded,
+              multi-process programs, enabling record-replay debugging of control flow and
+              guiding a neural net-based fuzzer.
+            versions: [general, transit]
       - company: Bionet Group, Columbia University
+        versions: [cv, general, software]
         position: Summer Intern (Fruit Fly Brain Observatory)
         date:
         start_date: 2017-06
@@ -177,13 +201,15 @@ cv:
         summary:
         highlights:
           - '[fruitflybrain.org](https://fruitflybrain.org)'
-          - Worked on the Fruit Fly Brain Observatory, an international research initiative to
-            understand the fruit fly brain and model it using GPU-based programming, under the
-            direction of Aurel Lazar.
+          - text: Worked on the Fruit Fly Brain Observatory, an international research initiative to
+              understand the fruit fly brain and model it using GPU-based programming, under the
+              direction of Aurel Lazar.
+            versions: [cv]
           - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound
             vision and motion detection, so that the robot could track, follow, and evade
             objects like a real fruit fly.
       - company: Dietrich Lab, Columbia University
+        versions: [cv, general]
         position: Summer Intern
         date:
         start_date: 2015-06
@@ -195,6 +221,7 @@ cv:
             aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
       - company: Stuyvesant High School
         position: Captain of Varsity Baseball
+        versions: [cv]
         date:
         start_date: 2014-09
         end_date: 2018-01
@@ -208,6 +235,7 @@ cv:
     projects:
       - name: '[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify)
           (Rust)'
+        versions: [cv, software]
         date:
         start_date: 2022-05
         end_date: 2022-08
@@ -242,6 +270,7 @@ cv:
             and applying complex filters to the flights. Used C++ compiled to WebAssembly to
             make it feasible performance- and memory-wise.
       - name: '[Weather or Not at Stuy Hacks](https://github.com/wertylop5/WeatherOrNot) (JS)'
+        versions: [cv, transit]
         date:
         start_date:
         end_date:
@@ -252,10 +281,22 @@ cv:
             a website that overlays maps, traffic, weather, and more to better plan your trip.
     skills:
       - label: Languages
+        versions: [cv]
         details: Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86 asm, Bash
       - label: Software
+        versions: [cv]
         details: rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal,
           Node, Deno, Bun, React, CMake, Webpack
+      - label: Transit Data
+        versions: [general, transit]
+        details: GTFS, GTFS-RT, transit open datasets, Python/pandas analysis, GeoJSON,
+          passenger crowding modeling
+      - label: Languages
+        versions: [general, software, transit]
+        details: Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
+      - label: Software
+        versions: [general, software]
+        details: rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
     honors:
       - bullet: '1st Place, Two Sigma Data Science Competition'
       - bullet: '1st Place, PClassic Programming Competition at UPenn'

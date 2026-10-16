@@ -153,7 +153,7 @@
 
     - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street]: a shallower 125 St subway route, against a \$7.7B plan with stations over 100 ft underground.
 
-    - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: a rebuttal of Amtrak's report claiming through-running cannot support 48 tph, with a passenger crowding simulation showing that it can.
+    - Built the passenger crowding model for #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load], a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
     - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1] and #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[Part 2]: the MTA's 2025-29 Capital Plan, on subway rolling stock cost explosion and on commuter rail electrification.
 

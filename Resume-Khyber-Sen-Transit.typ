@@ -153,7 +153,7 @@
 
     - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street]: a shallower 125 St subway route, against a \$7.7B plan with stations over 100 ft underground.
 
-    - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: a rebuttal of Amtrak's report claiming through-running cannot support 48 tph, with a passenger crowding simulation showing that it can.
+    - Built the passenger crowding model for #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load], a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
     - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1] and #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[Part 2]: the MTA's 2025-29 Capital Plan, on subway rolling stock cost explosion and on commuter rail electrification.
 
@@ -195,21 +195,11 @@
 
   ],
   main-column-second-row: [
-    - #link("https://github.com/immunant/c2rust")[github.com\/immunant\/c2rust] | #link("https://github.com/memorysafety/rav1d")[github.com\/memorysafety\/rav1d]
-
     - Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
-
-    - Integrated c2rust into Hayroll, a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
-
-    - Added transpiler support for C constant macros, translating them as Rust constants, and wrote c2rust-postprocess, reinserting comments lost by the transpiler using LLMs. Added support for emitting edition 2024 code.
 
     - Greatly strengthened testing, adding snapshot tests for the transpiler, reviving c2rust-refactor and dynamic analysis, and extending the integration test suite of various codebases.
 
-    - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modelling pointer permissions. Integrated the dynamic analysis outputs into the static analysis, modelled pointer permissions for known libc functions, and fixed how string literals and casts were analyzed.
-
     - Ported the bulk of the AV1 decoder dav1d from C to Rust, now named rav1d, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5\% slower than C's dav1d, 3.8\% of which comes from the initial unsafe transpile.
-
-    - Helped develop IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86\_64's Memory Protection Keys and Arm's Memory Tagging Extension (MTE). Tested IA2 on dav1d, fixing bugs and adding features to handle a program as complex as dav1d, and added callgate data verification so data crossing the boundary between isolated compartments could be further verified.
 
   ],
 )
@@ -224,8 +214,6 @@
 
   ],
   main-column-second-row: [
-    - If Conversion: Replaced monomorphic branch unswitching with polymorphic if conversion for significant code size savings with minimal performance impact.
-
     - Little Doctor: Built the Little Doctor, a framework for testing the compiler's debug info's quality using gdb's Python API, which already discovered hundreds of bugs in 2 months.
 
     - Louper: Helped optimize MediaTek's LLVM-based digital signal processing compiler by using deep learning to predict difficult optimization decisions. Developed the hyperheuristic framework Louper, which created a register pressure estimator 3x as accurate as the current human heuristic.
@@ -243,12 +231,6 @@
 
   ],
   main-column-second-row: [
-    - Acted as liaison between professor and students.
-
-    - Graded exams and problem sets for a class of 140 students.
-
-    - Taught students during office hours and answered email questions throughout the week.
-
   ],
 )
 
@@ -264,80 +246,12 @@
   main-column-second-row: [
     - #link("https://github.com/kkysen/SmartNeuralFuzzer")[github.com\/kkysen\/SmartNeuralFuzzer]
 
-    - Developed a code coverage tool that records all the decisions (branches) a potentially multi-threaded, multi-process program makes, which allows for time travel and record-replay debugging of control flow. Collaborated with Ph.D. student Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net that can intelligently guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM optimization pass.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Summer Intern (Fruit Fly Brain Observatory)], Bionet Group, Columbia University
-
-  ],
-  [
-    June 2017 – Aug 2017
-
-  ],
-  main-column-second-row: [
-    - #link("https://fruitflybrain.org")[fruitflybrain.org]
-
-    - Worked on the Fruit Fly Brain Observatory, an international research initiative to understand the fruit fly brain and model it using GPU-based programming, under the direction of Aurel Lazar.
-
-    - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Summer Intern], Dietrich Lab, Columbia University
-
-  ],
-  [
-    June 2015 – July 2015
-
-  ],
-  main-column-second-row: [
-    - Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #strong[Captain of Varsity Baseball], Stuyvesant High School -- New York City Metropolitan Area
-
-  ],
-  [
-    Sept 2014 – Jan 2018
-
-  ],
-  main-column-second-row: [
-    - Starting pitcher and outfielder on Stuyvesant's Varsity Baseball team all 4 years of high school.
-
-    - Team captain senior year.
-
-    - Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
+    - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and guiding a neural net-based fuzzer.
 
   ],
 )
 
 == Projects
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/codeprentice-org/fanotify")[Change Journal at Codeprentice] (Rust)]
-
-  ],
-  [
-    May 2022 – Aug 2022
-
-  ],
-  main-column-second-row: [
-    - Leading a 5-person team at Codeprentice on the Change Journal project. We are developing a cross-platform change journal library in Rust, using the fanotify backend on Linux and the USN journal backend on Windows we're writing. Ultimately we plan to use the change journal to create an instantaneous and cross-platform file searcher application. I have also helped teach my teammates Rust.
-
-  ],
-)
 
   #regular-entry(
   [
@@ -380,9 +294,9 @@
 
 == Skills
 
-#strong[Languages:] Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86 asm, Bash
+#strong[Transit Data:] GTFS, GTFS-RT, transit open datasets, Python\/pandas analysis, GeoJSON, passenger crowding modeling
 
-#strong[Software:] rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal, Node, Deno, Bun, React, CMake, Webpack
+#strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
 
 == Honors
 

@@ -31,31 +31,13 @@ Nov 2023 – present
 
 - Advocate for better public transit in the New York City metropolitan area.
 
-- Following ETA's IBX report ([IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel)) advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
-
-- Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO ([Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto)), preventing New York's transit system from being locked out of future modernization.
-
-- [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
-
-- [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): a rebuttal of Amtrak's report claiming through-running cannot support 48 tph, with a passenger crowding simulation showing that it can.
-
-- [A Not-So-Capital Plan, Part 1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train) and [Part 2](https://www.etany.org/not-so-capital-plan-the-future-is-electric): the MTA's 2025-29 Capital Plan, on subway rolling stock cost explosion and on commuter rail electrification.
-
-- [If It Can't Stand the Heat, You Need to Upgrade the Kitchen](https://www.etany.org/repairing-northeast-corridor-electrical-system): repairing the Northeast Corridor's electrical systems.
-
-- [Deinterlining](https://www.etany.org/statements/deinterlining): simpler service, fewer delays.
-
-- [Baffling Battery Blunder](https://www.etany.org/baffling-battery-blunder): expensive, experimental, slow battery locomotives have no place on already electrified rails.
-
-- Videos: [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc) and [Did NYC's Newest Subway Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)
+- Built the passenger crowding model for [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load), a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
 
 
 ## **Communications Associate (previously Volunteer)**, QueensLink -- Queens, NY
 
 Mar 2024 – present
-
-- [thequeenslink.org/the-plan](https://thequeenslink.org/the-plan/)
 
 - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
@@ -99,12 +81,6 @@ May 2020 – Dec 2021
 
 Sept 2019 – Jan 2020
 
-- Acted as liaison between professor and students.
-
-- Graded exams and problem sets for a class of 140 students.
-
-- Taught students during office hours and answered email questions throughout the week.
-
 
 
 ## **Rabi Scholar Researcher (Smart Neural Fuzzer Internship)**, Columbia University
@@ -123,29 +99,7 @@ June 2017 – Aug 2017
 
 - [fruitflybrain.org](https://fruitflybrain.org)
 
-- Worked on the Fruit Fly Brain Observatory, an international research initiative to understand the fruit fly brain and model it using GPU-based programming, under the direction of Aurel Lazar.
-
 - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
-
-
-
-## **Summer Intern**, Dietrich Lab, Columbia University
-
-June 2015 – July 2015
-
-- Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
-
-
-
-## **Captain of Varsity Baseball**, Stuyvesant High School -- New York City Metropolitan Area
-
-Sept 2014 – Jan 2018
-
-- Starting pitcher and outfielder on Stuyvesant's Varsity Baseball team all 4 years of high school.
-
-- Team captain senior year.
-
-- Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
 
 
 
@@ -170,16 +124,10 @@ May 2022 – Aug 2022
 
 
 
-## **[Weather or Not at Stuy Hacks](https://github.com/wertylop5/WeatherOrNot) (JS)**
-
-- Led a 4-person team in 24 hours, ~200-person Major League Hackathon. My team created a website that overlays maps, traffic, weather, and more to better plan your trip.
-
-
-
 # Skills
-**Languages:** Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86 asm, Bash
+**Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
 
-**Software:** rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal, Node, Deno, Bun, React, CMake, Webpack
+**Software:** rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
 
 # Honors
 - 1st Place, Two Sigma Data Science Competition
