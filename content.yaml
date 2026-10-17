@@ -85,7 +85,7 @@ cv:
               Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)'
             versions: [cv, transit]
       - company: QueensLink
-        versions: [-transit-mta]
+        versions: [-mta]
         position: Communications Associate (previously Volunteer)
         date:
         start_date: 2024-03

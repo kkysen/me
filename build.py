@@ -27,7 +27,7 @@ VARIANTS = {
     "software": ("Resume-Khyber-Sen-Software", "Resume", None, False),
     "transit": ("Resume-Khyber-Sen-Transit", "Resume", None, False),
     # For MTA applications: drops QueensLink.
-    "transit-mta": ("Resume-Khyber-Sen-Transit-MTA", "Resume", "transit", True),
+    "mta": ("Resume-Khyber-Sen-MTA", "Resume", "transit", True),
 }
 
 

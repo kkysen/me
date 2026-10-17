@@ -14,7 +14,7 @@ There are four versions, all generated from one source:
 - `Resume-Khyber-Sen-Software`: tailored for software jobs
 - `Resume-Khyber-Sen-Transit`: tailored for transit jobs
 
-There's also a private `Resume-Khyber-Sen-Transit-MTA` (transit minus QueensLink, for MTA applications),
+There's also a private `Resume-Khyber-Sen-MTA` (transit minus QueensLink, for MTA applications),
 rendered into `private/` (`.gitignore`d) and never committed or deployed.
 
 ## Updating the Resume
@@ -37,8 +37,8 @@ To limit an entry to certain versions, give it a `versions:` list
 ```
 
 Prefix a version with `-` to exclude it instead,
-e.g. `versions: [-transit-mta]` means every version except `transit-mta`.
-`transit-mta` otherwise gets everything `transit` does.
+e.g. `versions: [-mta]` means every version except `mta`.
+`mta` otherwise gets everything `transit` does.
 
 To limit a single highlight, write it as a `text`/`versions` mapping instead of a plain string:
 
