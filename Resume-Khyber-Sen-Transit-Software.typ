@@ -120,7 +120,7 @@
 
 #education-entry(
   [
-    #strong[Stuyvesant High School], High School Diploma
+    #strong[Stuyvesant High School]
 
   ],
   [

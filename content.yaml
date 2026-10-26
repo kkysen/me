@@ -26,7 +26,7 @@ cv:
         highlights:
       - institution: Stuyvesant High School
         area: ''
-        degree: High School Diploma
+        degree: ''
         date:
         start_date: 2014-09
         end_date: 2018-06
@@ -36,7 +36,7 @@ cv:
         versions: [cv]
       - institution: Stuyvesant High School
         area: ''
-        degree: High School Diploma
+        degree: ''
         date:
         start_date: 2014-09
         end_date: 2018-06
