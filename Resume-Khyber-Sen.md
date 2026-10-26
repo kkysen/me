@@ -44,13 +44,13 @@ Nov 2023 – present
 
 - 125 St Subway
 
-  - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
+  - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
 
 - Rolling Stock and Electrification
 
-  - [A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train): the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
+  - [A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train): how to stop the MTA's subway rolling stock cost explosion.
 
-  - [A Not-So-Capital Plan, Part 2: The Future is Electric](https://www.etany.org/not-so-capital-plan-the-future-is-electric): commuter rail electrification in the MTA's 2025-29 Capital Plan.
+  - [A Not-So-Capital Plan, Part 2: The Future is Electric](https://www.etany.org/not-so-capital-plan-the-future-is-electric): how to electrify affordably with catenary and tri-voltage trains.
 
 - Better Subway Service
 
@@ -58,7 +58,7 @@ Nov 2023 – present
 
 - Penn Station Through-Running
 
-  - [Penn Station Can Handle the Load: New York is Ready for Through-Running](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+  - [Penn Station Can Handle the Load: New York is Ready for Through-Running](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can safely support 48 tph.
 
 
 

@@ -172,15 +172,15 @@
 
     - 125 St Subway
 
-      - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street]: a shallower 125 St subway route, against a \$7.7B plan with stations over 100 ft underground.
+      - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street]: how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
 
-      - #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]: a video on the 125 St subway route.
+      - #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]: interviewed for a JTA video on the 125 St subway.
 
     - Rolling Stock and Electrification
 
-      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World]: the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
+      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World]: how to stop the MTA's subway rolling stock cost explosion.
 
-      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2: The Future is Electric]: commuter rail electrification in the MTA's 2025-29 Capital Plan.
+      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2: The Future is Electric]: how to electrify affordably with catenary and tri-voltage trains.
 
       - #link("https://www.etany.org/repairing-northeast-corridor-electrical-system")[If It Can't Stand the Heat, You Need to Upgrade the Kitchen: Repairing the Northeast Corridor's Electrical Systems]
 
@@ -194,11 +194,11 @@
 
     - Penn Station Through-Running
 
-      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load: New York is Ready for Through-Running]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load: New York is Ready for Through-Running]: rebuilt the passenger crowding model to show Penn Station can safely support 48 tph.
 
       - #link("https://www.etany.org/reports/through-running-first-connections")[Through-Running: First Connections]: a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
 
-      - #link("https://www.youtube.com/watch?v=l0xR6V-GIzc")[The Century Old Idea that Can Revolutionize NYC Commuter Rail]: a video on Penn Station through-running.
+      - #link("https://www.youtube.com/watch?v=l0xR6V-GIzc")[The Century Old Idea that Can Revolutionize NYC Commuter Rail]: interviewed for a JTA video on Penn Station through-running.
 
   ],
 )
