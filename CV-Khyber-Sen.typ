@@ -105,7 +105,7 @@
   [
     #strong[Columbia University], BA in Computer Science
 
-    #summary[Rabi Scholar (GPA 3.79, GPA in major 3.98)]
+    #summary[GPA 3.79, GPA in major 3.98, Rabi Scholar]
 
   ],
   [
