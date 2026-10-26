@@ -51,7 +51,7 @@ Nov 2023 – present
 
   - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west) (Project Manager): how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
 
-  - [Did NYC's Newest Subway Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A): interviewed for a JTA video on the 125 St subway.
+  - [Did NYC's Newest Subway Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A): interviewed for a JTA video.
 
 - Better Subway Service
 

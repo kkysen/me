@@ -180,7 +180,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
       - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street] (Project Manager): how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
 
-      - #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]: interviewed for a JTA video on the 125 St subway.
+      - #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]: interviewed for a JTA video.
 
     - Rolling Stock and Electrification
 
