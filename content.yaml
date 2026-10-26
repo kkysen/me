@@ -144,6 +144,7 @@ cv:
                 passes encourage ridership, reduce fare evasion, and ease proof-of-payment fare
                 collection.'
       - company: Joint Transit Association
+        logo: jta.png
         position: '**Board Member**'
         date:
         start_date: 2026-05

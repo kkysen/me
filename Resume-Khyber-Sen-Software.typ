@@ -172,6 +172,12 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.49in, box(width: 0.39in, align(right + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      let size = measure(image("logos/jta.png"))
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
+      image("logos/jta.png", width: size.width * scale)
+    })))
     #strong[Board Member], Joint Transit Association
 
   ],
