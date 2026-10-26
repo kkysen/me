@@ -64,6 +64,11 @@ cv:
           - Advocating for better transit in the NY metro area through technical analysis drawing
             from international best practices. Meeting with journalists, MTA staff, and
             elected officials.
+          - text: 'Attended transit conferences across the world to learn best practices from peer
+              cities:'
+            highlights:
+              - InnoTrans 2026 in Berlin
+              - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
           - text: IBX
             versions: [cv, general, transit]
             highlights:
@@ -138,11 +143,6 @@ cv:
                 Passes](https://www.etany.org/reports/monthly-passes): reasonably priced monthly
                 passes encourage ridership, reduce fare evasion, and ease proof-of-payment fare
                 collection.'
-          - text: 'Attended transit conferences across the world to learn best practices from peer
-              cities:'
-            highlights:
-              - InnoTrans 2026 in Berlin
-              - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
       - company: QueensLink
         logo: queenslink.png
         versions: [-mta]

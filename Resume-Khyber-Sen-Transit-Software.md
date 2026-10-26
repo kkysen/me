@@ -32,6 +32,12 @@ Nov 2023 – present
 
 - Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials.
 
+- Attended transit conferences across the world to learn best practices from peer cities:
+
+  - InnoTrans 2026 in Berlin
+
+  - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
+
 - IBX
 
   - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocated for a short, shallow All Faiths Tunnel, after which the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
@@ -73,12 +79,6 @@ Nov 2023 – present
 - Fares
 
   - [Bring Back the Monthly: The Value of Affordable Transit Passes](https://www.etany.org/reports/monthly-passes): reasonably priced monthly passes encourage ridership, reduce fare evasion, and ease proof-of-payment fare collection.
-
-- Attended transit conferences across the world to learn best practices from peer cities:
-
-  - InnoTrans 2026 in Berlin
-
-  - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
 
 
 

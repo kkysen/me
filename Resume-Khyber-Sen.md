@@ -32,6 +32,12 @@ Nov 2023 – present
 
 - Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials.
 
+- Attended transit conferences across the world to learn best practices from peer cities:
+
+  - InnoTrans 2026 in Berlin
+
+  - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
+
 - IBX
 
   - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocated for a short, shallow All Faiths Tunnel, after which the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
@@ -53,12 +59,6 @@ Nov 2023 – present
 - Penn Station Through-Running
 
   - [Penn Station Can Handle the Load: New York is Ready for Through-Running](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
-
-- Attended transit conferences across the world to learn best practices from peer cities:
-
-  - InnoTrans 2026 in Berlin
-
-  - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
 
 
 
