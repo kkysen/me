@@ -26,7 +26,7 @@ Sept 2014 – June 2018
 
 
 # Experience
-## **Effective Transit Alliance**, Director of Transit Operations and Planning -- NYC
+## Effective Transit Alliance, **Director of Transit Operations and Planning** -- NYC
 
 Nov 2023 – present
 
@@ -52,7 +52,7 @@ Nov 2023 – present
 
 
 
-## **QueensLink**, Communications Associate (previously Volunteer) -- Queens, NY
+## QueensLink, **Communications Associate** (previously Volunteer) -- Queens, NY
 
 Mar 2024 – present
 
@@ -62,7 +62,7 @@ Mar 2024 – present
 
 
 
-## **Immunant**, Software Engineer (previously Junior Software Engineer, Intern) -- Remote
+## Immunant, **Software Engineer** (previously Junior Software Engineer, Intern) -- Remote
 
 May 2022 – Apr 2026
 
@@ -84,7 +84,7 @@ May 2022 – Apr 2026
 
 
 
-## **MediaTek**, Compiler Intern -- Woburn, MA
+## MediaTek, **Compiler Intern** -- Woburn, MA
 
 May 2020 – Dec 2021
 
@@ -96,7 +96,7 @@ May 2020 – Dec 2021
 
 
 
-## **Columbia University**, Teaching Assistant, Analysis of Algorithms (Prof. Clifford Stein)
+## Columbia University, **Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein)
 
 Sept 2019 – Jan 2020
 
@@ -108,7 +108,7 @@ Sept 2019 – Jan 2020
 
 
 
-## **Columbia University**, Rabi Scholar Researcher ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
+## Columbia University, **Rabi Scholar Researcher** ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
 
 Jan 2019 – Aug 2019
 
@@ -116,7 +116,7 @@ Jan 2019 – Aug 2019
 
 
 
-## **Bionet Group, Columbia University**, Summer Intern ([fruitflybrain.org](https://fruitflybrain.org))
+## Bionet Group, Columbia University, **Summer Intern** ([fruitflybrain.org](https://fruitflybrain.org))
 
 June 2017 – Aug 2017
 
@@ -126,7 +126,7 @@ June 2017 – Aug 2017
 
 
 
-## **Dietrich Lab, Columbia University**, Summer Intern
+## Dietrich Lab, Columbia University, **Summer Intern**
 
 June 2015 – July 2015
 
@@ -134,7 +134,7 @@ June 2015 – July 2015
 
 
 
-## **Stuyvesant High School**, Captain of Varsity Baseball -- New York City Metropolitan Area
+## Stuyvesant High School, **Captain of Varsity Baseball** -- New York City Metropolitan Area
 
 Sept 2014 – Jan 2018
 

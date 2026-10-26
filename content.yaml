@@ -46,7 +46,7 @@ cv:
         versions: [-cv]
     experience:
       - company: Effective Transit Alliance
-        position: Director of Transit Operations and Planning
+        position: '**Director of Transit Operations and Planning**'
         date:
         start_date: 2023-11
         end_date: present
@@ -96,7 +96,7 @@ cv:
             versions: [cv, transit]
       - company: QueensLink
         versions: [-mta]
-        position: Communications Associate (previously Volunteer)
+        position: '**Communications Associate** (previously Volunteer)'
         date:
         start_date: 2024-03
         end_date: present
@@ -108,7 +108,7 @@ cv:
           - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
       - company: Immunant
-        position: Software Engineer (previously Junior Software Engineer, Intern)
+        position: '**Software Engineer** (previously Junior Software Engineer, Intern)'
         date:
         start_date: 2022-05
         end_date: 2026-04
@@ -150,7 +150,7 @@ cv:
               the boundary between isolated compartments could be further verified.
             versions: [cv, general, software]
       - company: MediaTek
-        position: Compiler Intern
+        position: '**Compiler Intern**'
         date:
         start_date: 2020-05
         end_date: 2021-12
@@ -168,7 +168,7 @@ cv:
             hyperheuristic framework Louper, which created a register pressure estimator 3x as
             accurate as the current human heuristic.'
       - company: Columbia University
-        position: 'Teaching Assistant, Analysis of Algorithms (Prof. Clifford Stein)'
+        position: '**Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein)'
         date:
         start_date: 2019-09
         end_date: 2020-01
@@ -182,7 +182,7 @@ cv:
           - text: Taught students during office hours and answered email questions throughout the week.
             versions: [cv]
       - company: Columbia University
-        position: Rabi Scholar Researcher ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
+        position: '**Rabi Scholar Researcher** ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))'
         date:
         start_date: 2019-01
         end_date: 2019-08
@@ -203,7 +203,7 @@ cv:
             versions: [general, transit]
       - company: Bionet Group, Columbia University
         versions: [cv, general, software]
-        position: Summer Intern ([fruitflybrain.org](https://fruitflybrain.org))
+        position: '**Summer Intern** ([fruitflybrain.org](https://fruitflybrain.org))'
         date:
         start_date: 2017-06
         end_date: 2017-08
@@ -219,7 +219,7 @@ cv:
             objects like a real fruit fly.
       - company: Dietrich Lab, Columbia University
         versions: [cv, general]
-        position: Summer Intern
+        position: '**Summer Intern**'
         date:
         start_date: 2015-06
         end_date: 2015-07
@@ -229,7 +229,7 @@ cv:
           - Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas
             aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
       - company: Stuyvesant High School
-        position: Captain of Varsity Baseball
+        position: '**Captain of Varsity Baseball**'
         versions: [cv]
         date:
         start_date: 2014-09
@@ -379,7 +379,7 @@ design:
         LOCATION
     experience_entry:
       main_column: |-
-        **COMPANY**, POSITION -- LOCATION
+        COMPANY, POSITION -- LOCATION
         SUMMARY
         HIGHLIGHTS
   # page:
