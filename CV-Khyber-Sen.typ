@@ -63,7 +63,7 @@
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.15cm,
-  sections-space-between-regular-entries: 0.42cm,
+  sections-space-between-regular-entries: 0.25cm,
   entries-date-and-location-width: 3.6cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
@@ -113,7 +113,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 == Education
 
 #context if query(selector(<education-entry>).before(here())).len() > 0 {
-  v(-0.42cm)
+  v(-0.25cm)
 }
 #metadata(none) <education-entry>
 #education-entry(
@@ -130,7 +130,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 )
 
 #context if query(selector(<education-entry>).before(here())).len() > 0 {
-  v(-0.42cm)
+  v(-0.25cm)
 }
 #metadata(none) <education-entry>
 #education-entry(
