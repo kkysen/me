@@ -446,7 +446,7 @@ cv:
         versions: [cv]
     interests:
       - text: Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology,
-          Optimization, Exploring Cities, Trains
+          Optimization, Trains, Exploring Cities
         versions: [-transit]
       - text: Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology,
           Optimization, Exploring Cities
