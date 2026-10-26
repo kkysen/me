@@ -375,7 +375,7 @@
 
 == Skills
 
-#strong[Transit Data:] GTFS, GTFS-RT, transit open datasets, Python\/pandas analysis, GeoJSON, passenger crowding modeling
+#strong[Transit Data:] OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, RAPTOR, SIRI, transit open datasets, Python\/pandas analysis, GeoJSON, passenger crowding modeling
 
 #strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, Bash
 

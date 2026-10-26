@@ -121,7 +121,7 @@ June 2015 – July 2015
 
 
 # Skills
-**Transit Data:** GTFS, GTFS-RT, transit open datasets, Python/pandas analysis, GeoJSON, passenger crowding modeling
+**Transit Data:** OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, RAPTOR, SIRI, transit open datasets, Python/pandas analysis, GeoJSON, passenger crowding modeling
 
 **Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
 
