@@ -277,7 +277,7 @@ cv:
           - Team captain senior year.
           - Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
     recent_transit_projects:
-      - name: '[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python)'
+      - name: '[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)'
         versions: [cv, transit]
         date:
         start_date: 2026-08
@@ -288,7 +288,7 @@ cv:
           - Analyzed MTA's public subway origin-destination ridership data to quantify, for proposed
             deinterlining scenarios, the share of one-seat rides lost and how many of those riders
             would still be a short walk from the other trunk.
-      - name: '[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python)'
+      - name: '[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust)'
         versions: [cv, transit]
         date:
         start_date: 2026-10
@@ -299,7 +299,7 @@ cv:
           - Computed minimum train runtimes from track geometry and train performance, and compared
             them with scheduled timetables for LIRR services into Penn Station, Grand Central
             Madison, and Atlantic Terminal.
-      - name: '[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, R5)'
+      - name: '[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, TypeScript, R5)'
         versions: [cv, transit]
         date:
         start_date: 2026-10
@@ -309,7 +309,7 @@ cv:
         highlights:
           - Mapped how far you can get on the NYC subway in a given time, with and without
             QueensLink, routed with R5 over the real street network and counting waits for trains.
-      - name: '[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Android, Python)'
+      - name: '[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Android, Python)'
         versions: [cv, transit]
         date:
         start_date: 2026-10
@@ -319,7 +319,7 @@ cv:
         highlights:
           - Built an Android app recording rides (trains, buses, planes) from phone sensors without
             ever losing data, with a Rust session format, CLI, and Python bindings for analysis.
-      - name: '[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python)'
+      - name: '[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst)'
         versions: [cv, transit]
         date:
         start_date: 2026-08

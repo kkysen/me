@@ -339,7 +339,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/kkysen/mta-od-data")[MTA OD Data] (Python)]
+    #strong[#link("https://github.com/kkysen/mta-od-data")[MTA OD Data] (Python, Rust)]
 
   ],
   [
@@ -354,7 +354,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/kkysen/rail-runtime")[Rail Runtime] (Python)]
+    #strong[#link("https://github.com/kkysen/rail-runtime")[Rail Runtime] (Python, Rust)]
 
   ],
   [
@@ -369,7 +369,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/kkysen/subway-sheds")[Subway Sheds] (Python, R5)]
+    #strong[#link("https://github.com/kkysen/subway-sheds")[Subway Sheds] (Python, TypeScript, R5)]
 
   ],
   [
@@ -384,7 +384,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/kkysen/ride-measurement-app")[Ride Logger] (Rust, Android, Python)]
+    #strong[#link("https://github.com/kkysen/ride-measurement-app")[Ride Logger] (Rust, Kotlin, Android, Python)]
 
   ],
   [
@@ -399,7 +399,7 @@
 
 #regular-entry(
   [
-    #strong[#link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python)]
+    #strong[#link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python, Typst)]
 
   ],
   [

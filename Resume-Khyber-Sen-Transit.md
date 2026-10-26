@@ -115,7 +115,7 @@ Jan 2019 – Aug 2019
 
 
 # Recent Transit Projects
-## **[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python)**
+## **[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)**
 
 Aug 2026 – present
 
@@ -123,7 +123,7 @@ Aug 2026 – present
 
 
 
-## **[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python)**
+## **[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust)**
 
 Oct 2026 – present
 
@@ -131,7 +131,7 @@ Oct 2026 – present
 
 
 
-## **[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, R5)**
+## **[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, TypeScript, R5)**
 
 Oct 2026 – present
 
@@ -139,7 +139,7 @@ Oct 2026 – present
 
 
 
-## **[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Android, Python)**
+## **[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Android, Python)**
 
 Oct 2026 – present
 
@@ -147,7 +147,7 @@ Oct 2026 – present
 
 
 
-## **[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python)**
+## **[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst)**
 
 Aug 2026 – present
 
