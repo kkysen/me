@@ -200,8 +200,8 @@ cv:
                 versions: [cv, software, transit]
               - text: Wrote a rustc instrumentation plugin to dynamically trace pointer usage and
                   provenance throughout program runs, building a pointer derivation graph to
-                  complement a static analysis modelling pointer permissions. Integrated the dynamic
-                  analysis outputs into the static analysis, modelled pointer permissions for known
+                  complement a static analysis modeling pointer permissions. Integrated the dynamic
+                  analysis outputs into the static analysis, modeled pointer permissions for known
                   libc functions, and fixed how string literals and casts were analyzed.
                 versions: [cv, general, software]
           - '[rav1d](https://github.com/memorysafety/rav1d):
