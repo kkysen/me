@@ -391,7 +391,8 @@ cv:
           Node, Deno, Bun, React, CMake, Webpack
       - label: Transit Data
         versions: [general, transit]
-        details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, RAPTOR, SIRI, transit open datasets,
+        details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, RAPTOR, SIRI, NFPA 130,
+          transit open datasets,
           Python/pandas analysis, GeoJSON,
           passenger crowding modeling
       - label: Languages
