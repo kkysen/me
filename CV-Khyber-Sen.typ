@@ -112,6 +112,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 == Education
 
+#context if query(selector(<education-entry>).before(here())).len() > 0 {
+  v(-0.42cm)
+}
+#metadata(none) <education-entry>
 #education-entry(
   [
     #strong[Columbia University], BA in Computer Science
@@ -129,6 +133,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   ],
 )
 
+#context if query(selector(<education-entry>).before(here())).len() > 0 {
+  v(-0.42cm)
+}
+#metadata(none) <education-entry>
 #education-entry(
   [
     #strong[Stuyvesant High School]
