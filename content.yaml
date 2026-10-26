@@ -417,6 +417,9 @@ design:
   theme: engineeringresumes
   colors:
     links: rgb(0, 79, 144)
+  header:
+    connections:
+      space_between_connections: 0.25cm
   entries:
     highlights:
       nested_bullet: ◦

@@ -56,7 +56,7 @@
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
   header-connections-separator: "|",
-  header-connections-space-between-connections: 0.5cm,
+  header-connections-space-between-connections: 0.25cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
