@@ -144,10 +144,5 @@ Aug 2026 – present
 
 **Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
 
-# Honors
-- 1st Place, Two Sigma Data Science Competition
-
-- 1st Place, PClassic Programming Competition at UPenn
-
 # Interests
 **Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains

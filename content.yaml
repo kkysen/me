@@ -363,7 +363,9 @@ cv:
         details: rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
     honors:
       - bullet: '1st Place, Two Sigma Data Science Competition'
+        versions: [cv]
       - bullet: '1st Place, PClassic Programming Competition at UPenn'
+        versions: [cv]
     interests:
       - label: Interests
         details: Programming Language Design, Tennis, Baseball, Quantum Mechanics,

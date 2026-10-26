@@ -105,10 +105,5 @@ June 2017 – Aug 2017
 
 **Software:** rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
 
-# Honors
-- 1st Place, Two Sigma Data Science Competition
-
-- 1st Place, PClassic Programming Competition at UPenn
-
 # Interests
 **Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains
