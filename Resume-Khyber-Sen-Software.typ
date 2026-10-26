@@ -245,7 +245,7 @@
 
 #regular-entry(
   [
-    Bionet Group, Columbia University, #strong[Summer Intern] (#link("https://fruitflybrain.org")[fruitflybrain.org])
+    Bionet Group, Columbia University, #strong[Intern] (#link("https://fruitflybrain.org")[fruitflybrain.org])
 
   ],
   [

@@ -112,7 +112,7 @@ Jan 2019 – Aug 2019
 
 
 
-## Bionet Group, Columbia University, **Summer Intern** ([fruitflybrain.org](https://fruitflybrain.org))
+## Bionet Group, Columbia University, **Intern** ([fruitflybrain.org](https://fruitflybrain.org))
 
 June 2017 – Aug 2017
 

@@ -203,7 +203,7 @@ cv:
             versions: [general, transit]
       - company: Bionet Group, Columbia University
         versions: [cv, general, software]
-        position: '**Summer Intern** ([fruitflybrain.org](https://fruitflybrain.org))'
+        position: '**Intern** ([fruitflybrain.org](https://fruitflybrain.org))'
         date:
         start_date: 2017-06
         end_date: 2017-08
@@ -219,7 +219,7 @@ cv:
             objects like a real fruit fly.
       - company: Dietrich Lab, Columbia University
         versions: [cv, general]
-        position: '**Summer Intern**'
+        position: '**Intern**'
         date:
         start_date: 2015-06
         end_date: 2015-07

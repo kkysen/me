@@ -116,7 +116,7 @@ Jan 2019 – Aug 2019
 
 
 
-## Bionet Group, Columbia University, **Summer Intern** ([fruitflybrain.org](https://fruitflybrain.org))
+## Bionet Group, Columbia University, **Intern** ([fruitflybrain.org](https://fruitflybrain.org))
 
 June 2017 – Aug 2017
 
@@ -126,7 +126,7 @@ June 2017 – Aug 2017
 
 
 
-## Dietrich Lab, Columbia University, **Summer Intern**
+## Dietrich Lab, Columbia University, **Intern**
 
 June 2015 – July 2015
 
