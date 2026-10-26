@@ -238,8 +238,8 @@ cv:
               conversion for significant code size savings with minimal performance impact.'
             versions: [cv, general, software]
           - 'Little Doctor: Built the Little Doctor, a framework for testing the compiler''s
-            debug info''s quality using gdb''s Python API, which already discovered hundreds
-            of bugs in 2 months.'
+            debug info''s quality using gdb''s Python API, which discovered hundreds
+            of bugs in just 2 months.'
           - 'Louper: Helped optimize MediaTek''s LLVM-based digital signal processing compiler
             by using deep learning to predict difficult optimization decisions. Developed the
             hyperheuristic framework Louper, which created a register pressure estimator 3x as
