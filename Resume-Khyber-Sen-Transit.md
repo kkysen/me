@@ -139,25 +139,6 @@ Aug 2026 – present
 
 
 
-# Projects
-## **[N Queens](https://github.com/kkysen/MKS22X/blob/master/02NQueens/NQueens.java) (Java)**
-
-- Developed a novel, extremely efficient bitwise solution to the classic N Queens problem faster than any other known software solution.
-
-
-
-## **[Flight Delay Visualizer](https://github.com/kkysen/r3d3) (TypeScript, WebAssembly (C++17), d3)**
-
-- Designed an interactive website to visualize all 6 million flights over the US in the past year, watching how certain airlines and airports are chronically delayed, and applying complex filters to the flights. Used C++ compiled to WebAssembly to make it feasible performance- and memory-wise.
-
-
-
-## **[Weather or Not at Stuy Hacks](https://github.com/wertylop5/WeatherOrNot) (JS)**
-
-- Led a 4-person team in 24 hours, ~200-person Major League Hackathon. My team created a website that overlays maps, traffic, weather, and more to better plan your trip.
-
-
-
 # Skills
 **Transit Data:** GTFS, GTFS-RT, transit open datasets, Python/pandas analysis, GeoJSON, passenger crowding modeling
 

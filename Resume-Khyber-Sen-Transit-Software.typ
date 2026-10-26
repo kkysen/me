@@ -355,62 +355,6 @@
   ],
 )
 
-== Projects
-
-#regular-entry(
-  [
-    #strong[#link("https://github.com/codeprentice-org/fanotify")[Change Journal at Codeprentice] (Rust)]
-
-  ],
-  [
-    May 2022 – Aug 2022
-
-  ],
-  main-column-second-row: [
-    - Leading a 5-person team at Codeprentice on the Change Journal project. We are developing a cross-platform change journal library in Rust, using the fanotify backend on Linux and the USN journal backend on Windows we're writing. Ultimately we plan to use the change journal to create an instantaneous and cross-platform file searcher application. I have also helped teach my teammates Rust.
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[#link("https://github.com/kkysen/MKS22X/blob/master/02NQueens/NQueens.java")[N Queens] (Java)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Developed a novel, extremely efficient bitwise solution to the classic N Queens problem faster than any other known software solution.
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[#link("https://github.com/kkysen/r3d3")[Flight Delay Visualizer] (TypeScript, WebAssembly (C++17), d3)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Designed an interactive website to visualize all 6 million flights over the US in the past year, watching how certain airlines and airports are chronically delayed, and applying complex filters to the flights. Used C++ compiled to WebAssembly to make it feasible performance- and memory-wise.
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[#link("https://github.com/wertylop5/WeatherOrNot")[Weather or Not at Stuy Hacks] (JS)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Led a 4-person team in 24 hours, \~200-person Major League Hackathon. My team created a website that overlays maps, traffic, weather, and more to better plan your trip.
-
-  ],
-)
-
 == Skills
 
 #strong[Transit Data:] GTFS, GTFS-RT, transit open datasets, Python\/pandas analysis, GeoJSON, passenger crowding modeling

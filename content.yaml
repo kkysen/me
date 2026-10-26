@@ -297,7 +297,7 @@ cv:
     projects:
       - name: '[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify)
           (Rust)'
-        versions: [cv, software]
+        versions: [cv]
         date:
         start_date: 2022-05
         end_date: 2022-08
@@ -311,6 +311,7 @@ cv:
             file searcher application. I have also helped teach my teammates Rust.
       - name: '[N Queens](https://github.com/kkysen/MKS22X/blob/master/02NQueens/NQueens.java)
           (Java)'
+        versions: [cv]
         date:
         start_date:
         end_date:
@@ -321,6 +322,7 @@ cv:
             problem faster than any other known software solution.
       - name: '[Flight Delay Visualizer](https://github.com/kkysen/r3d3) (TypeScript,
           WebAssembly (C++17), d3)'
+        versions: [cv]
         date:
         start_date:
         end_date:
@@ -332,7 +334,7 @@ cv:
             and applying complex filters to the flights. Used C++ compiled to WebAssembly to
             make it feasible performance- and memory-wise.
       - name: '[Weather or Not at Stuy Hacks](https://github.com/wertylop5/WeatherOrNot) (JS)'
-        versions: [cv, transit]
+        versions: [cv]
         date:
         start_date:
         end_date:

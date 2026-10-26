@@ -275,34 +275,6 @@
   ],
 )
 
-== Projects
-
-  #regular-entry(
-  [
-    #strong[#link("https://github.com/kkysen/MKS22X/blob/master/02NQueens/NQueens.java")[N Queens] (Java)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Developed a novel, extremely efficient bitwise solution to the classic N Queens problem faster than any other known software solution.
-
-  ],
-)
-
-  #regular-entry(
-  [
-    #strong[#link("https://github.com/kkysen/r3d3")[Flight Delay Visualizer] (TypeScript, WebAssembly (C++17), d3)]
-
-  ],
-  [
-  ],
-  main-column-second-row: [
-    - Designed an interactive website to visualize all 6 million flights over the US in the past year, watching how certain airlines and airports are chronically delayed, and applying complex filters to the flights. Used C++ compiled to WebAssembly to make it feasible performance- and memory-wise.
-
-  ],
-)
-
 == Skills
 
 #strong[Transit Data:] GTFS, GTFS-RT, transit open datasets, Python\/pandas analysis, GeoJSON, passenger crowding modeling
