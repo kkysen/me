@@ -424,7 +424,7 @@ cv:
           Node, Deno, Bun, React, Webpack, Claude
       - label: Transit Data
         versions: [general, transit]
-        details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, RAPTOR, SIRI, NFPA 130,
+        details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130,
           transit open datasets,
           Python/pandas analysis, GeoJSON,
           passenger crowding modeling
