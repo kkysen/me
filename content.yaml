@@ -458,6 +458,9 @@ design:
     right_margin: 0.5in
     # `Header.j2.typ` puts the top note next to the name instead.
     show_top_note: false
+  typography:
+    # Justified text stretched some spaces wide enough to look doubled.
+    alignment: left
   colors:
     links: rgb(0, 79, 144)
   entries:

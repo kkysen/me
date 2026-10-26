@@ -25,7 +25,7 @@
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
-  typography-alignment: "justified",
+  typography-alignment: "left",
   typography-date-and-location-column-alignment: right,
   typography-font-family-body: "XCharter",
   typography-font-family-name: "XCharter",
