@@ -103,7 +103,7 @@ June 2017 – Aug 2017
 # Skills
 **Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
 
-**Software:** rustc, LLVM, Clang, gdb, WebAssembly, Node, React
+**Software:** rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Claude
 
 # Interests
 **Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains
