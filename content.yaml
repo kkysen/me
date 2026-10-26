@@ -33,6 +33,17 @@ cv:
         location:
         summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete
         highlights:
+        versions: [cv]
+      - institution: Stuyvesant High School
+        area: ''
+        degree: High School Diploma
+        date:
+        start_date: 2014-09
+        end_date: 2018-06
+        location:
+        summary: 97.5 GPA unweighted, Scholar Athlete
+        highlights:
+        versions: [-cv]
     experience:
       - company: Effective Transit Alliance
         position: Director of Transit Operations and Planning
