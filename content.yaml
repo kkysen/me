@@ -334,7 +334,7 @@ cv:
             power limitations, and compared them with scheduled runtimes.
           - Identified schedule padding hotspots and bottlenecks in signaling, junctions, and
             traction power.
-      - name: '[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, TypeScript, R5)'
+      - name: '[Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5)'
         versions: [cv, transit]
         date:
         start_date:

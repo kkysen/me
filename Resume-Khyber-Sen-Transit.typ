@@ -367,7 +367,7 @@
 
   #regular-entry(
   [
-    #strong[#link("https://github.com/kkysen/subway-sheds")[Subway Sheds] (Python, TypeScript, R5)]
+    #strong[#link("https://kkysen.github.io/subway-sheds/")[Subway Sheds] (Python, TypeScript, R5)]
 
   ],
   [

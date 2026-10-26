@@ -165,7 +165,7 @@ June 2017 – Aug 2017
 
 
 
-## **[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, TypeScript, R5)**
+## **[Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5)**
 
 - Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network.
 
