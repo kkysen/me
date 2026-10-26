@@ -8,10 +8,12 @@
   [
 {% if entry.logo is defined and entry.logo %}
     #place(left + top, dx: -({{ design.page.left_margin }} + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/{{ entry.logo }}"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/{{ entry.logo }}", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/{{ entry.logo }}", width: size.width * scale))
     })))
 {% endif %}
 {% for line in entry.main_column.splitlines()[:first_row_lines] %}

@@ -151,10 +151,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/eta.svg"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/eta.svg", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/eta.svg", width: size.width * scale))
     })))
     #strong[Director of Transit Operations and Planning], #link("https://www.etany.org/")[Effective Transit Alliance] (ETA) -- NYC
 
@@ -218,10 +220,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/jta.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/jta.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/jta.png", width: size.width * scale))
     })))
     #strong[Board Member], #link("https://jointtransit.org/")[Joint Transit Association] (JTA) -- NYC
 
@@ -237,10 +241,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/queenslink.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/queenslink.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/queenslink.png", width: size.width * scale))
     })))
     #strong[Communications Associate], #link("https://thequeenslink.org/")[QueensLink] -- NYC
 
@@ -258,10 +264,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/immunant.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/immunant.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/immunant.png", width: size.width * scale))
     })))
     #strong[Software Engineer] (previously Junior Software Engineer, Intern), #link("https://immunant.com/")[Immunant] -- Remote
 
@@ -291,10 +299,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/mediatek.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/mediatek.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/mediatek.png", width: size.width * scale))
     })))
     #strong[Compiler Intern], MediaTek -- Woburn, MA
 
@@ -316,10 +326,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/columbia.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/columbia.png", width: size.width * scale))
     })))
     #strong[Teaching Assistant], Analysis of Algorithms (Prof. Clifford Stein), Columbia University
 
@@ -341,10 +353,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/columbia.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/columbia.png", width: size.width * scale))
     })))
     #strong[Rabi Scholar Researcher], Columbia University (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer])
 
@@ -362,10 +376,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/columbia.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/columbia.png", width: size.width * scale))
     })))
     #strong[Intern], Bionet Group, Columbia University (#link("https://fruitflybrain.org")[fruitflybrain.org])
 
@@ -385,10 +401,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/columbia.png", width: size.width * scale)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/columbia.png", width: size.width * scale))
     })))
     #strong[Intern], Dietrich Lab, Columbia University
 
