@@ -168,7 +168,7 @@ June 2017 – Aug 2017
 
 ## **[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst)**
 
-- Built ETA's automated tool to publish report Google Docs as HTML, Markdown, and PDF, replacing a manual, error-prone upload to Squarespace.
+- Built ETA's automated tool to publish report Google Docs, replacing a manual, error-prone upload to Squarespace.
 
 
 

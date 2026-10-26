@@ -367,7 +367,7 @@ cv:
         location:
         summary:
         highlights:
-          - Built ETA's automated tool to publish report Google Docs as HTML, Markdown, and PDF,
+          - Built ETA's automated tool to publish report Google Docs,
             replacing a manual, error-prone upload to Squarespace.
     projects:
       - name: '[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify)

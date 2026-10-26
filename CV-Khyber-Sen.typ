@@ -483,7 +483,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   [
   ],
   main-column-second-row: [
-    - Built ETA's automated tool to publish report Google Docs as HTML, Markdown, and PDF, replacing a manual, error-prone upload to Squarespace.
+    - Built ETA's automated tool to publish report Google Docs, replacing a manual, error-prone upload to Squarespace.
 
   ],
 )
