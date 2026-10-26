@@ -147,7 +147,7 @@
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/eta.svg", width: size.width * scale)
     })))
-    #strong[Director of Transit Operations and Planning], Effective Transit Alliance (ETA) -- NYC
+    #strong[Director of Transit Operations and Planning], #link("https://www.etany.org/")[Effective Transit Alliance] (ETA) -- NYC
 
   ],
   [
@@ -214,7 +214,7 @@
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/jta.png", width: size.width * scale)
     })))
-    #strong[Board Member], Joint Transit Association (JTA) -- NYC
+    #strong[Board Member], #link("https://jointtransit.org/")[Joint Transit Association] (JTA) -- NYC
 
   ],
   [
@@ -233,7 +233,7 @@
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/queenslink.png", width: size.width * scale)
     })))
-    #strong[Communications Associate], QueensLink -- Queens, NY
+    #strong[Communications Associate], #link("https://thequeenslink.org/")[QueensLink] -- Queens, NY
 
   ],
   [
@@ -254,7 +254,7 @@
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/immunant.png", width: size.width * scale)
     })))
-    #strong[Software Engineer] (previously Junior Software Engineer, Intern), Immunant -- Remote
+    #strong[Software Engineer] (previously Junior Software Engineer, Intern), #link("https://immunant.com/")[Immunant] -- Remote
 
   ],
   [

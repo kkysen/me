@@ -52,7 +52,7 @@ cv:
         highlights:
         versions: [-cv]
     experience:
-      - company: Effective Transit Alliance (ETA)
+      - company: '[Effective Transit Alliance](https://www.etany.org/) (ETA)'
         logo: eta.svg
         position: '**Director of Transit Operations and Planning**'
         date:
@@ -143,7 +143,7 @@ cv:
                 Passes](https://www.etany.org/reports/monthly-passes): reasonably priced monthly
                 passes encourage ridership, reduce fare evasion, and ease proof-of-payment fare
                 collection.'
-      - company: Joint Transit Association (JTA)
+      - company: '[Joint Transit Association](https://jointtransit.org/) (JTA)'
         logo: jta.png
         position: '**Board Member**'
         date:
@@ -152,7 +152,7 @@ cv:
         location: NYC
         summary:
         highlights:
-      - company: QueensLink
+      - company: '[QueensLink](https://thequeenslink.org/)'
         logo: queenslink.png
         versions: [-mta]
         position: '**Communications Associate**'
@@ -164,7 +164,7 @@ cv:
         highlights:
           - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
-      - company: Immunant
+      - company: '[Immunant](https://immunant.com/)'
         logo: immunant.png
         position:
           - text: '**Software Engineer** (previously Junior Software Engineer, Intern)'

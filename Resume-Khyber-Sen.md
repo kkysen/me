@@ -26,7 +26,7 @@ Sept 2014 – June 2018
 
 
 # Experience
-## **Director of Transit Operations and Planning**, Effective Transit Alliance (ETA) -- NYC
+## **Director of Transit Operations and Planning**, [Effective Transit Alliance](https://www.etany.org/) (ETA) -- NYC
 
 Nov 2023 – present
 
@@ -56,13 +56,13 @@ Nov 2023 – present
 
 
 
-## **Board Member**, Joint Transit Association (JTA) -- NYC
+## **Board Member**, [Joint Transit Association](https://jointtransit.org/) (JTA) -- NYC
 
 May 2026 – present
 
 
 
-## **Communications Associate**, QueensLink -- Queens, NY
+## **Communications Associate**, [QueensLink](https://thequeenslink.org/) -- Queens, NY
 
 Mar 2024 – present
 
@@ -70,7 +70,7 @@ Mar 2024 – present
 
 
 
-## **Software Engineer**, Immunant -- Remote
+## **Software Engineer**, [Immunant](https://immunant.com/) -- Remote
 
 May 2022 – Apr 2026
 
