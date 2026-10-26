@@ -197,7 +197,7 @@ cv:
               - text: Greatly strengthened testing, adding snapshot tests for the transpiler, reviving
                   c2rust-refactor and dynamic analysis, and extending the integration test suite of
                   various codebases.
-                versions: [cv, software, transit]
+                versions: [cv]
               - text: Wrote a rustc instrumentation plugin to dynamically trace pointer usage and
                   provenance throughout program runs, building a pointer derivation graph to
                   complement a static analysis modeling pointer permissions. Integrated the dynamic
