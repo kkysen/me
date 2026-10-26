@@ -213,9 +213,9 @@ cv:
             versions: [cv]
           - text: Taught students during office hours and answered email questions throughout the week.
             versions: [cv]
-      - company: Columbia University
+      - company: 'Columbia University ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))'
         logo: columbia.png
-        position: '**Rabi Scholar Researcher** ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))'
+        position: '**Rabi Scholar Researcher**'
         date:
         start_date: 2019-01
         end_date: 2019-08
@@ -234,10 +234,10 @@ cv:
               multi-process programs, enabling record-replay debugging of control flow and
               guiding a neural net-based fuzzer.
             versions: [general, transit]
-      - company: Bionet Group, Columbia University
+      - company: 'Bionet Group, Columbia University ([fruitflybrain.org](https://fruitflybrain.org))'
         logo: columbia.png
         versions: [cv, general, software]
-        position: '**Intern** ([fruitflybrain.org](https://fruitflybrain.org))'
+        position: '**Intern**'
         date:
         start_date: 2017-06
         end_date: 2017-08

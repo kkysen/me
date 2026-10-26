@@ -289,7 +289,7 @@
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/columbia.png", width: size.width * scale)
     })))
-    #strong[Rabi Scholar Researcher] (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer]), Columbia University
+    #strong[Rabi Scholar Researcher], Columbia University (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer])
 
   ],
   [

@@ -116,7 +116,7 @@ Sept 2019 – Jan 2020
 
 
 
-## **Rabi Scholar Researcher** ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)), Columbia University
+## **Rabi Scholar Researcher**, Columbia University ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
 
 Jan 2019 – Aug 2019
 
@@ -126,7 +126,7 @@ Jan 2019 – Aug 2019
 
 
 
-## **Intern** ([fruitflybrain.org](https://fruitflybrain.org)), Bionet Group, Columbia University
+## **Intern**, Bionet Group, Columbia University ([fruitflybrain.org](https://fruitflybrain.org))
 
 June 2017 – Aug 2017
 
