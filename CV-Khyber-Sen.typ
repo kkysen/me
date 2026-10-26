@@ -137,10 +137,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/eta.svg"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/eta.svg", width: size.width * scale)
     })))
     #strong[Director of Transit Operations and Planning], Effective Transit Alliance (ETA) -- NYC
@@ -192,10 +192,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/queenslink.png"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/queenslink.png", width: size.width * scale)
     })))
     #strong[Communications Associate] (previously Volunteer), QueensLink -- Queens, NY
@@ -215,10 +215,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/immunant.png"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/immunant.png", width: size.width * scale)
     })))
     #strong[Software Engineer] (previously Junior Software Engineer, Intern), Immunant -- Remote
@@ -248,10 +248,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/mediatek.png"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/mediatek.png", width: size.width * scale)
     })))
     #strong[Compiler Intern], MediaTek -- Woburn, MA
@@ -273,10 +273,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/columbia.png", width: size.width * scale)
     })))
     #strong[Teaching Assistant], Analysis of Algorithms (Prof. Clifford Stein), Columbia University
@@ -298,10 +298,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/columbia.png", width: size.width * scale)
     })))
     #strong[Rabi Scholar Researcher] (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer]), Columbia University
@@ -319,10 +319,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/columbia.png", width: size.width * scale)
     })))
     #strong[Intern] (#link("https://fruitflybrain.org")[fruitflybrain.org]), Bionet Group, Columbia University
@@ -342,10 +342,10 @@
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/columbia.png", width: size.width * scale)
     })))
     #strong[Intern], Dietrich Lab, Columbia University

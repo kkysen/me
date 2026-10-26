@@ -7,10 +7,10 @@
 #regular-entry(
   [
 {% if entry.logo is defined and entry.logo %}
-    #place(left + top, dx: -0.64in, box(width: 0.58in, align(center + top, context {
-      // Fit within 0.58in by 0.36in, but top-aligned with the title, unlike `fit: "contain"`.
+    #place(left + top, dx: -0.545in, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/{{ entry.logo }}"))
-      let scale = calc.min(0.58in / size.width, 0.36in / size.height)
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/{{ entry.logo }}", width: size.width * scale)
     })))
 {% endif %}
