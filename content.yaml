@@ -475,6 +475,8 @@ design:
   colors:
     links: rgb(0, 79, 144)
   entries:
+    # Just wide enough for the longest dates, like "Sep 2014 – Jun 2018".
+    date_and_location_width: 3.6cm
     # Let long entries like ETA split across pages
     # instead of leaving the rest of the page blank.
     allow_page_break: true

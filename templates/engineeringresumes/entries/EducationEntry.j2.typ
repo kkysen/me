@@ -12,6 +12,10 @@
 #education-entry(
   [
 {% for line in entry.main_column.splitlines()[:first_row_lines] %}
+{# Push the location (e.g. a gap year) right, next to the dates. #}
+{% if entry.location and line.endswith(" " ~ entry.location) %}
+{% set line = line[:-(entry.location|length)] ~ "#h(1fr) " ~ entry.location %}
+{% endif %}
     {{ line|indent(4) }}
 
 {% endfor %}

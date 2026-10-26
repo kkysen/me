@@ -64,7 +64,7 @@
   sections-allow-page-break: true,
   sections-space-between-text-based-entries: 0.15cm,
   sections-space-between-regular-entries: 0.42cm,
-  entries-date-and-location-width: 4.15cm,
+  entries-date-and-location-width: 3.6cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: true,
@@ -118,7 +118,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #metadata(none) <education-entry>
 #education-entry(
   [
-    #strong[Columbia University], BA in CS: 3.79 GPA, 3.98 GPA in major, Rabi Scholar (gap year 2020–21)
+    #strong[Columbia University], BA in CS: 3.79 GPA, 3.98 GPA in major, Rabi Scholar #h(1fr) (gap year 2020–21)
 
   ],
   [
