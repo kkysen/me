@@ -151,31 +151,35 @@ June 2017 – Aug 2017
 # Recent Transit Projects
 ## **[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)**
 
-- Analyzed MTA's public subway origin-destination ridership data to quantify, for proposed deinterlining scenarios, the share of one-seat rides lost and how many of those riders would still be a short walk from the other trunk.
+- Analyzed the MTA's subway origin-destination dataset to quantify how many one-seat rides are lost under different deinterlining scenarios.
+
+- Used RAPTOR to turn origin-destination data into trip paths to analyze ridership and crowding across lines, stations, and platforms.
 
 
 
 ## **[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust)**
 
-- Computed minimum train runtimes from track geometry and train performance, and compared them with scheduled timetables for LIRR services into Penn Station, Grand Central Madison, and Atlantic Terminal.
+- Computed minimum train runtimes from track geometry, train performance, and traction power limitations, and compared them with scheduled runtimes.
+
+- Identified schedule padding hotspots and bottlenecks in signaling, junctions, and traction power.
 
 
 
 ## **[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, TypeScript, R5)**
 
-- Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network and counting waits for trains.
+- Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network.
 
 
 
 ## **[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Android, Python)**
 
-- Built an Android app recording rides (trains, buses, planes) from phone sensors without ever losing data, with a Rust session format, CLI, and Python bindings for analysis.
+- Built an app to record rides and use sensor fusion (GNSS, IMU, cell, Wi-Fi, Bluetooth beacons, magnetometer, pedometer, microphone) to estimate speed and position underground, on trains and in stations.
 
 
 
 ## **[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst)**
 
-- Built ETA's tool converting report Google Docs into publish-ready HTML, Markdown, and PDF, replacing a manual, error-prone hand-off to Squarespace.
+- Built ETA's automated tool to publish report Google Docs as HTML, Markdown, and PDF, replacing a manual, error-prone upload to Squarespace.
 
 
 

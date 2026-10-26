@@ -425,7 +425,9 @@
   [
   ],
   main-column-second-row: [
-    - Analyzed MTA's public subway origin-destination ridership data to quantify, for proposed deinterlining scenarios, the share of one-seat rides lost and how many of those riders would still be a short walk from the other trunk.
+    - Analyzed the MTA's subway origin-destination dataset to quantify how many one-seat rides are lost under different deinterlining scenarios.
+
+    - Used RAPTOR to turn origin-destination data into trip paths to analyze ridership and crowding across lines, stations, and platforms.
 
   ],
 )
@@ -438,7 +440,9 @@
   [
   ],
   main-column-second-row: [
-    - Computed minimum train runtimes from track geometry and train performance, and compared them with scheduled timetables for LIRR services into Penn Station, Grand Central Madison, and Atlantic Terminal.
+    - Computed minimum train runtimes from track geometry, train performance, and traction power limitations, and compared them with scheduled runtimes.
+
+    - Identified schedule padding hotspots and bottlenecks in signaling, junctions, and traction power.
 
   ],
 )
@@ -451,7 +455,7 @@
   [
   ],
   main-column-second-row: [
-    - Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network and counting waits for trains.
+    - Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network.
 
   ],
 )
@@ -464,7 +468,7 @@
   [
   ],
   main-column-second-row: [
-    - Built an Android app recording rides (trains, buses, planes) from phone sensors without ever losing data, with a Rust session format, CLI, and Python bindings for analysis.
+    - Built an app to record rides and use sensor fusion (GNSS, IMU, cell, Wi-Fi, Bluetooth beacons, magnetometer, pedometer, microphone) to estimate speed and position underground, on trains and in stations.
 
   ],
 )
@@ -477,7 +481,7 @@
   [
   ],
   main-column-second-row: [
-    - Built ETA's tool converting report Google Docs into publish-ready HTML, Markdown, and PDF, replacing a manual, error-prone hand-off to Squarespace.
+    - Built ETA's automated tool to publish report Google Docs as HTML, Markdown, and PDF, replacing a manual, error-prone upload to Squarespace.
 
   ],
 )
