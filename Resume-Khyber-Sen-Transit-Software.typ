@@ -211,6 +211,19 @@
 
 #regular-entry(
   [
+    #strong[Board Member], Joint Transit Association
+
+  ],
+  [
+    May 2026 – present
+
+  ],
+  main-column-second-row: [
+  ],
+)
+
+#regular-entry(
+  [
     #place(left + top, dx: -0.49in, box(width: 0.39in, align(right + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/queenslink.png"))

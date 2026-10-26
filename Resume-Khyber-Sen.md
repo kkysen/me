@@ -62,6 +62,12 @@ Nov 2023 – present
 
 
 
+## **Board Member**, Joint Transit Association
+
+May 2026 – present
+
+
+
 ## **Communications Associate** (previously Volunteer), QueensLink -- Queens, NY
 
 Mar 2024 – present
