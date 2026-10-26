@@ -14,7 +14,7 @@ Sept 2018 – Feb 2023
 
 (Gap year 2020–2021)
 
-GPA 3.79, GPA in major 3.98, Rabi Scholar
+3.79 GPA, 3.98 GPA in major, Rabi Scholar
 
 
 
