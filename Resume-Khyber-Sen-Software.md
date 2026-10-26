@@ -30,7 +30,7 @@ Sept 2014 – June 2018
 
 Nov 2023 – present
 
-- Advocate for better public transit in the NY Metro Area.
+- Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials.
 
 - Penn Station Through-Running
 
