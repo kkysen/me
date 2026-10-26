@@ -26,11 +26,11 @@ Sept 2014 – June 2018
 
 
 # Experience
-## **Director of Transit Operations and Planning**, Effective Transit Alliance -- New York City Metropolitan Area
+## **Director of Transit Operations and Planning**, Effective Transit Alliance -- NYC
 
 Nov 2023 – present
 
-- Advocate for better public transit in the New York City metropolitan area.
+- Advocate for better public transit in the NY Metro Area.
 
 - Following ETA's IBX report ([IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel)) advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
 

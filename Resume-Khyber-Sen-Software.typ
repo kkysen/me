@@ -137,7 +137,7 @@
 
 #regular-entry(
   [
-    #strong[Director of Transit Operations and Planning], Effective Transit Alliance -- New York City Metropolitan Area
+    #strong[Director of Transit Operations and Planning], Effective Transit Alliance -- NYC
 
   ],
   [
@@ -145,7 +145,7 @@
 
   ],
   main-column-second-row: [
-    - Advocate for better public transit in the New York City metropolitan area.
+    - Advocate for better public transit in the NY Metro Area.
 
     - Built the passenger crowding model for #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load], a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 

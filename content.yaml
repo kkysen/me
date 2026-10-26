@@ -50,10 +50,10 @@ cv:
         date:
         start_date: 2023-11
         end_date: present
-        location: New York City Metropolitan Area
+        location: NYC
         summary:
         highlights:
-          - Advocate for better public transit in the New York City metropolitan area.
+          - Advocate for better public transit in the NY Metro Area.
           - text: 'Following ETA''s IBX report
               ([IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel))
               advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its
