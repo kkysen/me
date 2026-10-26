@@ -145,7 +145,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/eta.svg"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
@@ -176,7 +176,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/jta.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
@@ -195,7 +195,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/queenslink.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
@@ -216,7 +216,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/immunant.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
@@ -249,7 +249,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/mediatek.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
@@ -274,7 +274,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
@@ -293,7 +293,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
@@ -314,7 +314,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #regular-entry(
   [
-    #place(left + top, dx: -0.49in, box(width: 0.39in, align(center + top, context {
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
       let size = measure(image("logos/columbia.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
