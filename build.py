@@ -18,6 +18,7 @@ Private variants render into `private/` (`.gitignore`d) and aren't deployed.
 """
 
 import copy
+import shutil
 import sys
 from pathlib import Path
 
@@ -131,6 +132,11 @@ def main():
     yaml.width = 4096
     content = yaml.load(ROOT / "content.yaml")
     BUILD.mkdir(exist_ok=True)
+    # RenderCV looks for template overrides next to the input YAML.
+    shutil.copytree(ROOT / "templates", BUILD, dirs_exist_ok=True)
+    # Typst resolves images relative to the `.typ` file, and private ones are in `private/`.
+    (ROOT / "private").mkdir(exist_ok=True)
+    shutil.copytree(ROOT / "logos", ROOT / "private" / "logos", dirs_exist_ok=True)
     for variant, (stem, word, _, private) in VARIANTS.items():
         yaml.dump(build(content, variant, stem, word, private), BUILD / f"{stem}.yaml")
         print(BUILD / f"{stem}.yaml")
