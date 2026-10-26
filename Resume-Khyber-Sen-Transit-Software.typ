@@ -401,7 +401,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   [
   ],
   main-column-second-row: [
-    - Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network.
+    - Mapped NYC subway isochrones, with and without QueensLink, routed with R5 over the real street network.
 
   ],
 )

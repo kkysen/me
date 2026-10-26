@@ -346,8 +346,7 @@ cv:
         location:
         summary:
         highlights:
-          - Mapped how far you can get on the NYC subway in a given time, with and without
-            QueensLink, routed with R5 over the real street network.
+          - Mapped NYC subway isochrones, with and without QueensLink, routed with R5 over the real street network.
       - name: '[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Python, Android)'
         versions: [cv, transit]
         date:
