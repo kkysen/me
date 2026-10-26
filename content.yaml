@@ -437,7 +437,7 @@ cv:
       - label: Transit Data
         versions: [general, transit]
         details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130,
-          GeoJSON, passenger crowding modeling
+          GeoJSON, crowd modeling
       - label: Languages
         versions: [general, software, transit]
         details: Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm,
