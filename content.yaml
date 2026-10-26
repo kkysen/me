@@ -457,6 +457,8 @@ design:
     bottom_margin: 0.5in
     left_margin: 0.5in
     right_margin: 0.5in
+    # `Header.j2.typ` puts the top note next to the name instead.
+    show_top_note: false
   colors:
     links: rgb(0, 79, 144)
   entries:

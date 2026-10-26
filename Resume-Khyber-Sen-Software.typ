@@ -15,7 +15,7 @@
   page-left-margin: 0.5in,
   page-right-margin: 0.5in,
   page-show-footer: false,
-  page-show-top-note: true,
+  page-show-top-note: false,
   colors-body: rgb(0, 0, 0),
   colors-name: rgb(0, 0, 0),
   colors-headline: rgb(0, 0, 0),
@@ -86,7 +86,12 @@
 )
 
 
-= Khyber Sen
+= Khyber Sen#place(top + right, context {
+  let note = text.with(font: "XCharter", size: 0.9 * 10pt)
+  // The name's line starts at its cap height, so drop the note by the difference in cap heights.
+  let drop = measure(text("H")).height - measure(note("H")).height
+  move(dy: drop, note(fill: rgb(128, 128, 128), [#emph[Last updated in Oct 2026]]))
+})
 
   #headline([Software Engineer])
 

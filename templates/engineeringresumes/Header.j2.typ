@@ -20,7 +20,13 @@
 {% endif %}
 {% endif %}
 {% if cv.name %}
-= {{ cv.name }}
+{# The top note, placed next to the name instead of in the top margin so they share a baseline. #}
+= {{ cv.name }}#place(top + right, context {
+  let note = text.with(font: "{{ design.typography.font_family.body }}", size: 0.9 * {{ design.typography.font_size.body }})
+  // The name's line starts at its cap height, so drop the note by the difference in cap heights.
+  let drop = measure(text("H")).height - measure(note("H")).height
+  move(dy: drop, note(fill: {{ design.colors.top_note }}, [{{ cv._top_note }}]))
+})
 {% endif %}
 
 {% if cv.headline %}
