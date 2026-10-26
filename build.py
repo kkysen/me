@@ -7,7 +7,8 @@ Anything without `versions` is included in every variant.
 A `-name` in `versions` excludes that variant instead;
 a list of only exclusions includes every other variant.
 
-A variant with a base gets everything its base gets, minus its own exclusions.
+A variant may have bases: it gets everything any of its bases gets,
+minus anything excluded from it or from any of its bases (recursively).
 Private variants render into `private/` (`.gitignore`d) and aren't deployed.
 """
 
@@ -20,14 +21,23 @@ from ruamel.yaml import YAML
 ROOT = Path(__file__).parent
 BUILD = ROOT / "build"
 
-# name -> (file stem, document word, base variant, private)
+# name -> (file stem, document word, base variants, private)
 VARIANTS = {
-    "cv": ("CV-Khyber-Sen", "CV", None, False),
-    "general": ("Resume-Khyber-Sen", "Resume", None, False),
-    "software": ("Resume-Khyber-Sen-Software", "Resume", None, False),
-    "transit": ("Resume-Khyber-Sen-Transit", "Resume", None, False),
-    "mta": ("Resume-Khyber-Sen-MTA", "Resume", "transit", True),
+    "cv": ("CV-Khyber-Sen", "CV", (), False),
+    "general": ("Resume-Khyber-Sen", "Resume", (), False),
+    "software": ("Resume-Khyber-Sen-Software", "Resume", (), False),
+    "transit": ("Resume-Khyber-Sen-Transit", "Resume", (), False),
+    "transit-software": ("Resume-Khyber-Sen-Transit-Software", "Resume", ("transit", "software"), False),
+    "mta": ("Resume-Khyber-Sen-MTA", "Resume", ("transit",), True),
+    "mta-software": ("Resume-Khyber-Sen-MTA-Software", "Resume", ("mta", "software"), True),
 }
+
+
+def ancestors(variant: str) -> set[str]:
+    out = {variant}
+    for base in VARIANTS[variant][2]:
+        out |= ancestors(base)
+    return out
 
 
 def included(item, variant: str) -> bool:
@@ -39,12 +49,11 @@ def included(item, variant: str) -> bool:
     unknown = (excluded | wanted) - VARIANTS.keys()
     if unknown:
         sys.exit(f"unknown versions {sorted(unknown)} in {item!r}")
-    base = VARIANTS[variant][2]
-    if variant in excluded:
+    if excluded & ancestors(variant):
         return False
     if not wanted:
-        return base not in excluded
-    return variant in wanted or base in wanted
+        return True
+    return bool(wanted & ancestors(variant))
 
 
 def filter_highlights(highlights, variant: str):

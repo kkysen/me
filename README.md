@@ -8,11 +8,12 @@
 
 ## Versions
 
-There are four versions, all generated from one source:
+There are five public versions, all generated from one source:
 - `CV-Khyber-Sen`: the complete CV, with everything
 - `Resume-Khyber-Sen`: the general resume
 - `Resume-Khyber-Sen-Software`: tailored for software jobs
 - `Resume-Khyber-Sen-Transit`: tailored for transit jobs
+- `Resume-Khyber-Sen-Transit-Software`: tailored for software jobs in transit
 
 Private versions, if any, render into `private/` (`.gitignore`d) and are never committed or deployed.
 
@@ -28,7 +29,7 @@ then filled in by hand.
 `build.py` generates one RenderCV YAML per version into `build/` (`.gitignore`d).
 Everything in `content.yaml` goes into every version by default.
 To limit an entry to certain versions, give it a `versions:` list
-(any of `cv`, `general`, `software`, `transit`):
+(any of `cv`, `general`, `software`, `transit`, `transit-software`):
 
 ```yaml
       - company: Dietrich Lab, Columbia University
@@ -37,7 +38,8 @@ To limit an entry to certain versions, give it a `versions:` list
 
 Prefix a version with `-` to exclude it instead,
 e.g. `versions: [-software]` means every version except `software`.
-A version can also be based on another, getting everything its base does minus its own exclusions.
+A version can also be based on others, getting everything any of its bases does,
+minus anything excluded from it or from any of its bases.
 
 To limit a single highlight, write it as a `text`/`versions` mapping instead of a plain string:
 

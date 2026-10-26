@@ -1,5 +1,5 @@
-variants := "CV-Khyber-Sen Resume-Khyber-Sen Resume-Khyber-Sen-Software Resume-Khyber-Sen-Transit"
-private_variants := "Resume-Khyber-Sen-MTA"
+variants := "CV-Khyber-Sen Resume-Khyber-Sen Resume-Khyber-Sen-Software Resume-Khyber-Sen-Transit Resume-Khyber-Sen-Transit-Software"
+private_variants := "Resume-Khyber-Sen-MTA Resume-Khyber-Sen-MTA-Software"
 
 render:
     uv run python build.py
