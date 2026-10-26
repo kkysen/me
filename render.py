@@ -6,7 +6,8 @@ so Typst renders sub-bullets as top-level bullets.
 This keeps each line's indentation around the converted text.
 
 RenderCV also hardcodes header connection links as uncolored and not underlined.
-This styles them like every other link, so they read as links on paper.
+This styles web links like every other link, so they read as links on paper,
+but leaves email and phone links plain.
 """
 
 import re
@@ -37,7 +38,12 @@ def compute_connections_styled_as_links(rendercv_model, file_type):
     connections = compute_connections(rendercv_model, file_type)
     if file_type != "typst":
         return connections
-    return [c.replace(", if-underline: false, if-color: false", "") for c in connections]
+    return [
+        c.replace(", if-underline: false, if-color: false", "")
+        if c.startswith('#link("https://')
+        else c
+        for c in connections
+    ]
 
 
 model_processor.compute_connections = compute_connections_styled_as_links

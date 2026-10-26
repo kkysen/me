@@ -92,8 +92,8 @@
 
 #connections(
   [NYC],
-  [#link("mailto:kkysen@gmail.com", icon: false)[kkysen\@gmail.com]],
-  [#link("tel:+1-917-648-8677", icon: false)[(917) 648-8677]],
+  [#link("mailto:kkysen@gmail.com", icon: false, if-underline: false, if-color: false)[kkysen\@gmail.com]],
+  [#link("tel:+1-917-648-8677", icon: false, if-underline: false, if-color: false)[(917) 648-8677]],
   [#link("https://github.com/kkysen", icon: false)[github.com\/kkysen]],
   [#link("https://linkedin.com/in/khyber-sen", icon: false)[linkedin.com\/in\/khyber-sen]],
   [#link("https://bsky.app/profile/khyber.bsky.social", icon: false)[\@khyber.bsky.social]],
