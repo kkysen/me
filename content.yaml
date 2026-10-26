@@ -233,6 +233,59 @@ cv:
             of high school.
           - Team captain senior year.
           - Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
+    transit_projects:
+      - name: '[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python)'
+        versions: [cv, transit]
+        date:
+        start_date: 2026-08
+        end_date:
+        location:
+        summary:
+        highlights:
+          - Analyzed MTA's public subway origin-destination ridership data to quantify, for proposed
+            deinterlining scenarios, the share of one-seat rides lost and how many of those riders
+            would still be a short walk from the other trunk.
+      - name: '[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python)'
+        versions: [cv, transit]
+        date:
+        start_date: 2026-10
+        end_date:
+        location:
+        summary:
+        highlights:
+          - Computed minimum train runtimes from track geometry and train performance, and compared
+            them with scheduled timetables for LIRR services into Penn Station, Grand Central
+            Madison, and Atlantic Terminal.
+      - name: '[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, R5)'
+        versions: [cv, transit]
+        date:
+        start_date: 2026-10
+        end_date:
+        location:
+        summary:
+        highlights:
+          - Mapped how far you can get on the NYC subway in a given time, with and without
+            QueensLink, routed with R5 over the real street network and counting waits for trains.
+      - name: '[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Android, Python)'
+        versions: [cv, transit]
+        date:
+        start_date: 2026-10
+        end_date:
+        location:
+        summary:
+        highlights:
+          - Built an Android app recording rides (trains, buses, planes) from phone sensors without
+            ever losing data, with a Rust session format, CLI, and Python bindings for analysis.
+      - name: '[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python)'
+        versions: [cv, transit]
+        date:
+        start_date: 2026-08
+        end_date:
+        location:
+        summary:
+        highlights:
+          - Built ETA's tool converting report Google Docs into publish-ready HTML,
+            Markdown, and PDF, replacing a manual, error-prone hand-off to Squarespace.
     projects:
       - name: '[Change Journal at Codeprentice](https://github.com/codeprentice-org/fanotify)
           (Rust)'
