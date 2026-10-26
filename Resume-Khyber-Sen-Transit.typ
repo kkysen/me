@@ -93,8 +93,6 @@
   move(dy: drop, note(fill: rgb(128, 128, 128), [#emph[Last updated in Oct 2026]]))
 })
 
-  #headline([Software Engineer, Transit Advocate])
-
 #connections(
   [NYC],
   [#link("mailto:kkysen@gmail.com", icon: false, if-underline: false, if-color: false)[kkysen\@gmail.com]],
@@ -109,7 +107,7 @@
 )
 
 
-== Summary
+== Software Engineer, Transit Advocate
 
 Civic-minded systems engineer drawn to complex systems at every scale and across domains, from pure software like compilers and operating systems to real-world housing markets, the human endocrine system, and transit networks. I find where these systems interact and break down, and how they can be optimized for the benefit of all.
 

@@ -13,6 +13,8 @@ Anything without `versions` is included in every variant.
 A `-name` in `versions` excludes that variant instead;
 a list of only exclusions includes every other variant.
 
+The headline titles the summary section instead of showing under the name.
+
 A variant may have bases: it gets everything any of its bases gets,
 minus anything excluded from it or from any of its bases (recursively).
 Private variants render into `private/` (`.gitignore`d) and aren't deployed.
@@ -122,6 +124,12 @@ def build(content, variant: str, stem: str, word: str, private: bool):
         sections[name] = filter_entries(sections[name], variant)
         if not sections[name]:
             del sections[name]
+    # Title the summary with the headline instead of showing the headline under the name.
+    headline = data["cv"].pop("headline", None)
+    if headline and "summary" in sections:
+        data["cv"]["sections"] = {
+            (headline if name == "summary" else name): entries for name, entries in sections.items()
+        }
     data["settings"]["pdf_title"] = f"NAME - {word}"
     paths = data["settings"]["render_command"]
     # Paths resolve relative to the generated YAML in `build/`.
