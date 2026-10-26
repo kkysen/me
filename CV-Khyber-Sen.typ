@@ -500,14 +500,6 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   #regular-entry(
   [
-    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
-      let size = measure(image("logos/eta.svg"))
-      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      // The title line runs from its cap height down to its baseline.
-      let line-height = measure(text("H")).height
-      move(dy: (line-height - size.height * scale) / 2, image("logos/eta.svg", width: size.width * scale))
-    })))
     #strong[#link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python, Typst)]
 
   ],
