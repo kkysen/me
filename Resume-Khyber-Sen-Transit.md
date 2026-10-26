@@ -76,10 +76,6 @@ Nov 2023 – present
 
   - [Deinterlining: Simpler Service, Fewer Delays](https://www.etany.org/statements/deinterlining)
 
-- Fares
-
-  - [Bring Back the Monthly: The Value of Affordable Transit Passes](https://www.etany.org/reports/monthly-passes): reasonably priced monthly passes encourage ridership, reduce fare evasion, and ease proof-of-payment fare collection.
-
 
 
 ## **Board Member**, Joint Transit Association (JTA) -- NYC
