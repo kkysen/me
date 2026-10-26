@@ -32,15 +32,25 @@ Nov 2023 – present
 
 - Advocate for better public transit in the NY Metro Area.
 
-- Following ETA's IBX report ([IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel)) advocating for a short, shallow All Faiths Tunnel, the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
+- IBX: the MTA changed course from its street-running plans and adopted ETA's shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
 
-- Helped convince Governor Hochul to veto a 2025 bill that would have banned OPTO ([Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto)), preventing New York's transit system from being locked out of future modernization.
+  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocating for a short, shallow All Faiths Tunnel.
 
-- [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
+- 125 St Subway: pushed for a shallower, cheaper Second Avenue Subway extension along 125 St.
+
+  - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
+
+- Rolling Stock and Electrification: the MTA's 2025-29 Capital Plan and the Northeast Corridor.
+
+  - [A Not-So-Capital Plan, Part 1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train): the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
+
+  - [A Not-So-Capital Plan, Part 2](https://www.etany.org/not-so-capital-plan-the-future-is-electric): commuter rail electrification in the MTA's 2025-29 Capital Plan.
+
+- OPTO: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
+
+  - [Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto): ETA's statement on the bill.
 
 - Built the passenger crowding model for [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load), a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
-
-- [A Not-So-Capital Plan, Part 1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train) and [Part 2](https://www.etany.org/not-so-capital-plan-the-future-is-electric): the MTA's 2025-29 Capital Plan, on subway rolling stock cost explosion and on commuter rail electrification.
 
 
 
