@@ -3,6 +3,7 @@
 Any entry (a dict in a section's list or in the header's connections)
 or highlight may be limited to certain variants. An entry takes a `versions:` list; a highlight is
 written as `{text: ..., versions: [...]}` instead of a plain string.
+So is a text entry, such as a line in the interests section.
 Such a highlight may also have its own `highlights:` as sub-bullets.
 RenderCV makes sub-bullets by splitting on " - ",
 so a highlight's own text can't contain one.
@@ -98,6 +99,9 @@ def filter_entries(entries, variant: str):
     for entry in entries:
         if not included(entry, variant):
             continue
+        if isinstance(entry, dict) and entry.keys() <= {"text", "versions"}:
+            # A versioned text entry, which RenderCV takes as a plain string.
+            entry = entry["text"]
         if isinstance(entry, dict):
             entry.pop("versions", None)
             pick_alternatives(entry, variant)

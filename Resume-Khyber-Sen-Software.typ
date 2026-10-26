@@ -341,4 +341,4 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 == Interests
 
-#strong[Interests:] Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains
+Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains
