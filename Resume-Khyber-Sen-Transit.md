@@ -12,12 +12,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 # Education
 ## **Columbia University**, BA in CS: 3.79 GPA, 3.98 GPA in major, Rabi Scholar (gap year 2020–21)
-Sept 2018 – Feb 2023
+Sep 2018 – Feb 2023
 
 
 
 ## **Stuyvesant High School**, 97.5 GPA unweighted, Scholar Athlete award
-Sept 2014 – June 2018
+Sep 2014 – Jun 2018
 
 
 
@@ -98,7 +98,7 @@ May 2020 – Dec 2021
 
 ## **Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein), Columbia University
 
-Sept 2019 – Jan 2020
+Sep 2019 – Jan 2020
 
 
 

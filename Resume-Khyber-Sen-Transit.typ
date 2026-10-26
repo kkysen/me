@@ -123,7 +123,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   [
-    Sept 2018 – Feb 2023
+    Sep 2018 – Feb 2023
 
   ],
   main-column-second-row: [
@@ -140,7 +140,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   [
-    Sept 2014 – June 2018
+    Sep 2014 – Jun 2018
 
   ],
   main-column-second-row: [
@@ -300,7 +300,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   [
-    Sept 2019 – Jan 2020
+    Sep 2019 – Jan 2020
 
   ],
   main-column-second-row: [

@@ -623,6 +623,8 @@ design:
   #     date_and_location_column: DATE
 locale:
   language: english
+  # Three letters each, instead of the default June, July, and Sept.
+  month_abbreviations: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
   # last_updated: Last updated in
   # month: month
   # months: months

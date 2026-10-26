@@ -12,12 +12,12 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 # Education
 ## **Columbia University**, BA in CS: 3.79 GPA, 3.98 GPA in major, Rabi Scholar (gap year 2020–21)
-Sept 2018 – Feb 2023
+Sep 2018 – Feb 2023
 
 
 
 ## **Stuyvesant High School**, 97.5 GPA unweighted, Scholar Athlete award
-Sept 2014 – June 2018
+Sep 2014 – Jun 2018
 
 
 
@@ -94,7 +94,7 @@ May 2020 – Dec 2021
 
 ## **Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein), Columbia University
 
-Sept 2019 – Jan 2020
+Sep 2019 – Jan 2020
 
 
 
@@ -108,7 +108,7 @@ Jan 2019 – Aug 2019
 
 ## **Intern**, Bionet Group, Columbia University ([fruitflybrain.org](https://fruitflybrain.org))
 
-June 2017 – Aug 2017
+Jun 2017 – Aug 2017
 
 - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 
@@ -116,7 +116,7 @@ June 2017 – Aug 2017
 
 ## **Intern**, Dietrich Lab, Columbia University
 
-June 2015 – July 2015
+Jun 2015 – Jul 2015
 
 - Studied the wrinkling adaptation of bacterial biofilms, specifically of Pseudomonas aeruginosa and Bacillus subtilis, in response to oxygen deprivation.
 
