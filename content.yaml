@@ -221,7 +221,7 @@ cv:
           - text: '[IA2](https://github.com/immunant/IA2-Phase2):
               Helped develop IA2, a tool for sandboxing intraprocess compartments from each
               other''s memory using x86_64''s Memory Protection Keys and Arm''s Memory Tagging
-              Extension (MTE). Tested IA2 on dav1d, fixing bugs and adding features to handle a
+              Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a
               program as complex as dav1d, and added callgate data verification so data crossing
               the boundary between isolated compartments could be further verified.'
             versions: [cv, general, software]
