@@ -21,7 +21,7 @@
   colors-headline: rgb(0, 0, 0),
   colors-connections: rgb(0, 0, 0),
   colors-section-titles: rgb(0, 0, 0),
-  colors-links: rgb(0, 0, 0),
+  colors-links: rgb(0, 79, 144),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 25,
+    day: 26,
   ),
 )
 

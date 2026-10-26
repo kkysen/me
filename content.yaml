@@ -392,6 +392,8 @@ cv:
           Endocrinology, Optimization, Trains
 design:
   theme: engineeringresumes
+  colors:
+    links: rgb(0, 79, 144)
   templates:
     education_entry:
       main_column: |-
