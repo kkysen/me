@@ -26,7 +26,7 @@ Sept 2014 – June 2018
 
 
 # Experience
-## Effective Transit Alliance, **Director of Transit Operations and Planning** -- NYC
+## Effective Transit Alliance (ETA), **Director of Transit Operations and Planning** -- NYC
 
 Nov 2023 – present
 

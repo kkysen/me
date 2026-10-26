@@ -137,7 +137,7 @@
 
 #regular-entry(
   [
-    Effective Transit Alliance, #strong[Director of Transit Operations and Planning] -- NYC
+    Effective Transit Alliance (ETA), #strong[Director of Transit Operations and Planning] -- NYC
 
   ],
   [
