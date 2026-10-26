@@ -151,7 +151,7 @@ Jan 2019 – Aug 2019
 
 
 
-## **[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Android, Python)**
+## **[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Python, Android)**
 
 - Built an app to record rides and use sensor fusion (GNSS, IMU, cell, Wi-Fi, Bluetooth beacons, magnetometer, pedometer, microphone) to estimate speed and position underground, on trains and in stations.
 

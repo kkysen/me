@@ -462,7 +462,7 @@
 
   #regular-entry(
   [
-    #strong[#link("https://github.com/kkysen/ride-measurement-app")[Ride Logger] (Rust, Kotlin, Android, Python)]
+    #strong[#link("https://github.com/kkysen/ride-measurement-app")[Ride Logger] (Rust, Kotlin, Python, Android)]
 
   ],
   [
