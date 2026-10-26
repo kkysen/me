@@ -176,7 +176,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - IBX (Project Manager)
 
-      - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX: 515 Feet from Greatness]: advocated for an All Faiths Tunnel, prompting the MTA to abandon street-running and commit to a tunnel, increasing ridership by 35\% and speed by 31\%, and saving 3 years of riders' time per day.
+      - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX: 515 Feet from Greatness]: advocated for an All Faiths Tunnel, prompting the MTA to abandon street-running and commit to a tunnel, increasing ridership by 35\% and speed by 31\%, and saving riders a combined 3 years per day.
 
       - #link("https://www.etany.org/reports/ibx-automation")[Automated Light Metro is Right for the IBX]: now that the IBX will be fully grade-separated, it should be an ALM.
 

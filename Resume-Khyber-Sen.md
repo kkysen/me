@@ -36,7 +36,7 @@ Nov 2023 – present
 
 - IBX (Project Manager)
 
-  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocated for an All Faiths Tunnel, prompting the MTA to abandon street-running and commit to a tunnel, increasing ridership by 35% and speed by 31%, and saving 3 years of riders' time per day.
+  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocated for an All Faiths Tunnel, prompting the MTA to abandon street-running and commit to a tunnel, increasing ridership by 35% and speed by 31%, and saving riders a combined 3 years per day.
 
 - 125 St Subway (Project Manager)
 
