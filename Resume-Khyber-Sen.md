@@ -32,25 +32,27 @@ Nov 2023 – present
 
 - Advocate for better public transit in the NY Metro Area.
 
-- IBX: the MTA changed course from its street-running plans and adopted ETA's shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
+- IBX
 
-  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocating for a short, shallow All Faiths Tunnel.
+  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocated for a short, shallow All Faiths Tunnel, after which the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
 
-- 125 St Subway: pushed for a shallower, cheaper Second Avenue Subway extension along 125 St.
+- 125 St Subway
 
   - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
 
-- Rolling Stock and Electrification: the MTA's 2025-29 Capital Plan and the Northeast Corridor.
+- Rolling Stock and Electrification
 
   - [A Not-So-Capital Plan, Part 1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train): the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
 
   - [A Not-So-Capital Plan, Part 2](https://www.etany.org/not-so-capital-plan-the-future-is-electric): commuter rail electrification in the MTA's 2025-29 Capital Plan.
 
-- OPTO: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
+- OPTO
 
-  - [Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto): ETA's statement on the bill.
+  - [Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto): helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
 
-- Built the passenger crowding model for [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load), a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+- Penn Station Through-Running
+
+  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
 
 

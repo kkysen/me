@@ -147,7 +147,9 @@
   main-column-second-row: [
     - Advocate for better public transit in the NY Metro Area.
 
-    - Built the passenger crowding model for #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load], a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+    - Penn Station Through-Running
+
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
   ],
 )

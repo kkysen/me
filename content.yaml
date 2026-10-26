@@ -54,22 +54,21 @@ cv:
         summary:
         highlights:
           - Advocate for better public transit in the NY Metro Area.
-          - text: 'IBX: the MTA changed course from its street-running plans and adopted ETA''s
-              shallow-tunnel approach, increasing projected ridership by 35%, reducing travel
-              times by 31%, and saving a cumulative 3 years of riders'' time per day.'
+          - text: IBX
             versions: [cv, general, transit]
             highlights:
               - '[IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel):
-                advocating for a short, shallow All Faiths Tunnel.'
-          - text: '125 St Subway: pushed for a shallower, cheaper Second Avenue Subway extension
-              along 125 St.'
+                advocated for a short, shallow All Faiths Tunnel, after which the MTA changed
+                course from its street-running plans and adopted the shallow-tunnel approach, increasing projected
+                ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of
+                riders'' time per day.'
+          - text: 125 St Subway
             versions: [cv, general, transit]
             highlights:
               - '[Digging Out of a Very Deep Hole: Saving Billions on 125th
                 Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower
                 125 St subway route, against a $7.7B plan with stations over 100 ft underground.'
-          - text: 'Rolling Stock and Electrification: the MTA''s 2025-29 Capital Plan and the
-              Northeast Corridor.'
+          - text: Rolling Stock and Electrification
             versions: [cv, general, transit]
             highlights:
               - '[A Not-So-Capital Plan, Part
@@ -86,20 +85,25 @@ cv:
                   expensive, experimental, slow battery locomotives have no place on already
                   electrified rails.'
                 versions: [cv, transit]
-          - text: 'OPTO: helped convince Governor Hochul to veto a 2025 bill that would have banned
-              one-person train operation, preventing New York''s transit system from being locked
-              out of future modernization.'
+          - text: OPTO
             versions: [cv, general, transit]
             highlights:
               - '[Impeding Progress, Costing
                 Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto):
-                ETA''s statement on the bill.'
-          - 'Built the passenger crowding model for [Penn Station Can Handle the
-            Load](https://www.etany.org/penn-station-can-handle-the-load), a rebuttal of
-            Amtrak''s report claiming through-running cannot support 48 tph.'
-          - text: '[Deinterlining](https://www.etany.org/statements/deinterlining): simpler service,
-              fewer delays.'
+                helped convince Governor Hochul to veto a 2025 bill that would have banned
+                one-person train operation, preventing New York''s transit system from being
+                locked out of future modernization.'
+          - text: Penn Station Through-Running
+            highlights:
+              - '[Penn Station Can Handle the
+                Load](https://www.etany.org/penn-station-can-handle-the-load): built the passenger
+                crowding model for this rebuttal of Amtrak''s report claiming through-running
+                cannot support 48 tph.'
+          - text: Deinterlining
             versions: [cv, transit]
+            highlights:
+              - '[Deinterlining](https://www.etany.org/statements/deinterlining): simpler service,
+                fewer delays.'
           - text: 'Videos: [The Century Old Idea that Can Revolutionize NYC Commuter
               Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc) and [Did NYC''s Newest Subway
               Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)'

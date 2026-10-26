@@ -147,15 +147,15 @@
   main-column-second-row: [
     - Advocate for better public transit in the NY Metro Area.
 
-    - IBX: the MTA changed course from its street-running plans and adopted ETA's shallow-tunnel approach, increasing projected ridership by 35\%, reducing travel times by 31\%, and saving a cumulative 3 years of riders' time per day.
+    - IBX
 
-      - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX: 515 Feet from Greatness]: advocating for a short, shallow All Faiths Tunnel.
+      - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX: 515 Feet from Greatness]: advocated for a short, shallow All Faiths Tunnel, after which the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35\%, reducing travel times by 31\%, and saving a cumulative 3 years of riders' time per day.
 
-    - 125 St Subway: pushed for a shallower, cheaper Second Avenue Subway extension along 125 St.
+    - 125 St Subway
 
       - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street]: a shallower 125 St subway route, against a \$7.7B plan with stations over 100 ft underground.
 
-    - Rolling Stock and Electrification: the MTA's 2025-29 Capital Plan and the Northeast Corridor.
+    - Rolling Stock and Electrification
 
       - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1]: the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
 
@@ -165,13 +165,17 @@
 
       - #link("https://www.etany.org/baffling-battery-blunder")[Baffling Battery Blunder]: expensive, experimental, slow battery locomotives have no place on already electrified rails.
 
-    - OPTO: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
+    - OPTO
 
-      - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders]: ETA's statement on the bill.
+      - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
 
-    - Built the passenger crowding model for #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load], a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+    - Penn Station Through-Running
 
-    - #link("https://www.etany.org/statements/deinterlining")[Deinterlining]: simpler service, fewer delays.
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+
+    - Deinterlining
+
+      - #link("https://www.etany.org/statements/deinterlining")[Deinterlining]: simpler service, fewer delays.
 
     - Videos: #link("https://www.youtube.com/watch?v=l0xR6V-GIzc")[The Century Old Idea that Can Revolutionize NYC Commuter Rail] and #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]
 

@@ -32,7 +32,9 @@ Nov 2023 – present
 
 - Advocate for better public transit in the NY Metro Area.
 
-- Built the passenger crowding model for [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load), a rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+- Penn Station Through-Running
+
+  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
 
 
