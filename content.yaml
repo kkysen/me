@@ -216,8 +216,8 @@ cv:
             Ported the bulk of the AV1 decoder dav1d from C to Rust,
             translating complex C idioms while preserving performance, and extensively
             optimizing the result, including instrumenting and modifying rustc where it
-            differed from C. The result is just 5% slower than C''s dav1d, 3.8% of which comes
-            from the initial unsafe transpile.'
+            differed from C. The result is just 5% slower than C''s dav1d, with the initial
+            unsafe transpile alone accounting for 3.8%.'
           - text: '[IA2](https://github.com/immunant/IA2-Phase2):
               Helped develop IA2, a tool for sandboxing intraprocess compartments from each
               other''s memory using x86_64''s Memory Protection Keys and Arm''s Memory Tagging
