@@ -200,7 +200,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - Penn Station Through-Running
 
-      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the passenger crowding model to show Penn Station can support 48 tph.
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the passenger crowding model to show Penn Station can safely support 48 tph.
 
       - #link("https://www.etany.org/reports/through-running-first-connections")[Through-Running: First Connections]: a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
 
