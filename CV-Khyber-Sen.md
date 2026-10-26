@@ -90,8 +90,6 @@ May 2026 – present
 
 Mar 2024 – present
 
-- [thequeenslink.org/the-plan](https://thequeenslink.org/the-plan/)
-
 - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
 

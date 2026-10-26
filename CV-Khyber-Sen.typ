@@ -241,8 +241,6 @@
 
   ],
   main-column-second-row: [
-    - #link("https://thequeenslink.org/the-plan/")[thequeenslink.org\/the-plan]
-
     - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
   ],
