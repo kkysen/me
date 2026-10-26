@@ -56,7 +56,7 @@
   header-connections-show-icons: false,
   header-connections-display-urls-instead-of-usernames: true,
   header-connections-separator: "|",
-  header-connections-space-between-connections: 0.25cm,
+  header-connections-space-between-connections: 0.5cm,
   section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
@@ -94,6 +94,10 @@
   [NYC],
   [#link("mailto:kkysen@gmail.com", icon: false, if-underline: false, if-color: false)[kkysen\@gmail.com]],
   [#link("tel:+1-917-648-8677", icon: false, if-underline: false, if-color: false)[(917) 648-8677]],
+)
+#v(-(0.7cm - 0.5cm))
+#v(0.6em * 1.7, weak: true)
+#connections(
   [#link("https://github.com/kkysen", icon: false)[github.com\/kkysen]],
   [#link("https://linkedin.com/in/khyber-sen", icon: false)[linkedin.com\/in\/khyber-sen]],
 )
