@@ -101,7 +101,7 @@ June 2017 – Aug 2017
 
 
 # Skills
-**Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
+**Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
 
 **Software:** rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
 

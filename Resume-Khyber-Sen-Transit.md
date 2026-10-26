@@ -148,7 +148,7 @@ Jan 2019 – Aug 2019
 # Skills
 **Transit Data:** GTFS, GTFS-RT, transit open datasets, Python/pandas analysis, GeoJSON, passenger crowding modeling
 
-**Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
+**Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
 
 # Interests
 **Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization

@@ -384,7 +384,7 @@ cv:
     skills:
       - label: Languages
         versions: [cv]
-        details: Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86 asm, Bash
+        details: Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
       - label: Software
         versions: [cv]
         details: rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal,
@@ -395,7 +395,8 @@ cv:
           passenger crowding modeling
       - label: Languages
         versions: [general, software, transit]
-        details: Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
+        details: Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm,
+          Bash
       - label: Software
         versions: [general, software]
         details: rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React

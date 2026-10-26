@@ -306,7 +306,7 @@
 
 == Skills
 
-#strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
+#strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, Bash
 
 #strong[Software:] rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
 

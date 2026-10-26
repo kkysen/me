@@ -219,7 +219,7 @@ May 2022 – Aug 2022
 
 
 # Skills
-**Languages:** Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86 asm, Bash
+**Languages:** Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
 
 **Software:** rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal, Node, Deno, Bun, React, CMake, Webpack
 
