@@ -161,6 +161,12 @@
 
       - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load: New York is Ready for Through-Running]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
+    - Attended transit conferences across the world to learn best practices from peer cities:
+
+      - InnoTrans 2026 in Berlin
+
+      - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
+
   ],
 )
 

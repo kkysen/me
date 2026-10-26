@@ -74,6 +74,12 @@ Nov 2023 – present
 
   - [Bring Back the Monthly: The Value of Affordable Transit Passes](https://www.etany.org/reports/monthly-passes): reasonably priced monthly passes encourage ridership, reduce fare evasion, and ease proof-of-payment fare collection.
 
+- Attended transit conferences across the world to learn best practices from peer cities:
+
+  - InnoTrans 2026 in Berlin
+
+  - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
+
 
 
 ## **Communications Associate** (previously Volunteer), QueensLink -- Queens, NY
