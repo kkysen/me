@@ -43,13 +43,13 @@ Nov 2023 – present
 
 - IBX
 
-  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocated for a short, shallow All Faiths Tunnel, after which the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
+  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel) (Project Manager): advocated for a short, shallow All Faiths Tunnel, after which the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
 
-  - [No Need to Wait: Automated Light Metro is Right for the IBX](https://www.etany.org/reports/ibx-automation): now that the IBX will be fully grade-separated, it should be built as an automated light metro.
+  - [No Need to Wait: Automated Light Metro is Right for the IBX](https://www.etany.org/reports/ibx-automation) (Project Manager): now that the IBX will be fully grade-separated, it should be built as an automated light metro.
 
 - 125 St Subway
 
-  - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
+  - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west) (Project Manager): how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
 
   - [Did NYC's Newest Subway Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A): interviewed for a JTA video on the 125 St subway.
 
