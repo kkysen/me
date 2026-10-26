@@ -62,7 +62,7 @@ May 2022 – Apr 2026
 
   - Integrated c2rust into [Hayroll](https://github.com/UW-HARVEST/Hayroll), a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
 
-  - Added transpiler support for C constant macros, translating them as Rust constants, and wrote c2rust-postprocess, reinserting comments lost by the transpiler using LLMs. Added support for emitting edition 2024 code.
+  - Added transpiler support for C constant macros, translating them as Rust constants, and wrote c2rust-postprocess, using LLMs to reinsert comments the transpiler drops. Added support for emitting edition 2024 code.
 
   - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modeling pointer permissions.
 

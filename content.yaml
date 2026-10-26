@@ -195,8 +195,8 @@ cv:
                   building off of zig cc.
                 versions: [cv, software]
               - text: Added transpiler support for C constant macros, translating them as Rust constants,
-                  and wrote c2rust-postprocess, reinserting comments lost by the transpiler using
-                  LLMs. Added support for emitting edition 2024 code.
+                  and wrote c2rust-postprocess, using LLMs to reinsert comments the transpiler
+                  drops. Added support for emitting edition 2024 code.
                 versions: [cv, software]
               - text: Greatly strengthened testing, adding snapshot tests for the transpiler, reviving
                   c2rust-refactor and dynamic analysis, and extending the integration test suite of
