@@ -90,7 +90,7 @@ May 2022 – Apr 2026
 
 May 2020 – Dec 2021
 
-- Little Doctor: Built the Little Doctor, a framework for testing the compiler's debug info's quality using gdb's Python API, which discovered hundreds of bugs in just 2 months.
+- Little Doctor: Built a framework for testing the compiler's debug info quality using gdb's Python API, which discovered hundreds of bugs in just 2 months.
 
 - Louper: Helped optimize MediaTek's LLVM-based digital signal processing compiler by using deep learning to predict difficult optimization decisions. Developed the hyperheuristic framework Louper, which created a register pressure estimator 3x as accurate as the current human heuristic.
 
