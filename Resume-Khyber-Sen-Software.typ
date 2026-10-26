@@ -67,7 +67,7 @@
   entries-date-and-location-width: 4.15cm,
   entries-side-space: 0cm,
   entries-space-between-columns: 0.1cm,
-  entries-allow-page-break: false,
+  entries-allow-page-break: true,
   entries-short-second-row: false,
   entries-degree-width: 1cm,
   entries-summary-space-left: 0cm,

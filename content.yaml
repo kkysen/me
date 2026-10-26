@@ -437,6 +437,9 @@ design:
   colors:
     links: rgb(0, 79, 144)
   entries:
+    # Let long entries like ETA split across pages
+    # instead of leaving the rest of the page blank.
+    allow_page_break: true
     highlights:
       nested_bullet: ◦
   templates:
