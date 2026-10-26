@@ -119,15 +119,11 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #metadata(none) <education-entry>
 #education-entry(
   [
-    #strong[Columbia University], BA in Computer Science
-
-    #summary[3.79 GPA, 3.98 GPA in major, Rabi Scholar]
+    #strong[Columbia University], BA in CS: 3.79 GPA, 3.98 GPA in major, Rabi Scholar (gap year 2020–21)
 
   ],
   [
     Sept 2018 – Feb 2023
-
-    (Gap year 2020–2021)
 
   ],
   main-column-second-row: [
@@ -140,7 +136,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #metadata(none) <education-entry>
 #education-entry(
   [
-    #strong[Stuyvesant High School]
+    #strong[Stuyvesant High School], 97.5 GPA unweighted, Scholar Athlete award
 
   ],
   [
@@ -148,8 +144,6 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   main-column-second-row: [
-    #summary[97.5 GPA unweighted, Scholar Athlete award]
-
   ],
 )
 

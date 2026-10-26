@@ -28,12 +28,12 @@ cv:
         break down, and how they can be optimized for the benefit of all.
     education:
       - institution: Columbia University
-        area: Computer Science
+        area: CS
         degree: BA
         date:
         start_date: 2018-09
         end_date: 2023-02
-        location: (Gap year 2020–2021)
+        location: (gap year 2020–21)
         summary: 3.79 GPA, 3.98 GPA in major, Rabi Scholar
         highlights:
       - institution: Stuyvesant High School
@@ -483,12 +483,10 @@ design:
   templates:
     education_entry:
       main_column: |-
-        **INSTITUTION**, DEGREE_WITH_AREA
-        SUMMARY
+        **INSTITUTION**, DEGREE_WITH_AREA: SUMMARY LOCATION
         HIGHLIGHTS
       date_and_location_column: |-
         DATE
-        LOCATION
     experience_entry:
       main_column: |-
         POSITION, COMPANY -- LOCATION
