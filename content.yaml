@@ -148,7 +148,7 @@ cv:
               TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a
               combination of static and dynamic analysis.'
             highlights:
-              - text: Integrated c2rust into Hayroll, a wrapper handling single-platform conditional
+              - text: Integrated c2rust into [Hayroll](https://github.com/UW-HARVEST/Hayroll), a wrapper handling single-platform conditional
                   compilation, then extended both to handle cross-platform compilation, in part by
                   building off of zig cc.
                 versions: [cv, software]
