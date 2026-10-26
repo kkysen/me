@@ -426,7 +426,7 @@ cv:
       - label: Software
         versions: [cv]
         details: rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, JVM, Graal,
-          Node, Deno, Bun, React, Webpack, Claude
+          Node, Deno, Bun, React, Webpack, Android (AOSP), DuckDB, SQLite, Claude
       - label: Transit Data
         versions: [general, transit]
         details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130,
@@ -437,7 +437,8 @@ cv:
           SQL, Bash
       - label: Software
         versions: [general, software]
-        details: rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Claude
+        details: rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), DuckDB,
+          SQLite, Claude
     honors:
       - bullet: '1st Place, Two Sigma Data Science Competition'
         versions: [cv]
