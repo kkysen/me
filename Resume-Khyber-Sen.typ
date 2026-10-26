@@ -128,7 +128,7 @@
 
   ],
   main-column-second-row: [
-    #summary[97.5 GPA unweighted, Scholar Athlete]
+    #summary[97.5 GPA unweighted, Scholar Athlete award]
 
   ],
 )

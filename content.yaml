@@ -31,7 +31,7 @@ cv:
         start_date: 2014-09
         end_date: 2018-06
         location:
-        summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete
+        summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete award
         highlights:
         versions: [cv]
       - institution: Stuyvesant High School
@@ -41,7 +41,7 @@ cv:
         start_date: 2014-09
         end_date: 2018-06
         location:
-        summary: 97.5 GPA unweighted, Scholar Athlete
+        summary: 97.5 GPA unweighted, Scholar Athlete award
         highlights:
         versions: [-cv]
     experience:

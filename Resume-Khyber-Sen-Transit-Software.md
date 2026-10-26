@@ -21,7 +21,7 @@ Rabi Scholar (GPA 3.79, GPA in major 3.98)
 ## **Stuyvesant High School**
 Sept 2014 – June 2018
 
-97.5 GPA unweighted, Scholar Athlete
+97.5 GPA unweighted, Scholar Athlete award
 
 
 
