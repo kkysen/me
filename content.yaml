@@ -93,7 +93,7 @@ cv:
                   video on the 125 St subway.'
                 versions: [cv, transit]
           - text: Rolling Stock and Electrification
-            versions: [cv, general, transit]
+            versions: [cv]
             highlights:
               - '[A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in
                 the World](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train):

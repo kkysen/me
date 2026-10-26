@@ -171,12 +171,6 @@
 
       - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street]: how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
 
-    - Rolling Stock and Electrification
-
-      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World]: how to stop the MTA's subway rolling stock cost explosion.
-
-      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2: The Future is Electric]: how to electrify affordably with catenary and tri-voltage trains.
-
     - Better Subway Service
 
       - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders: Bill Banning One-Person Trains Would Lock NY Transit in the Past]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.

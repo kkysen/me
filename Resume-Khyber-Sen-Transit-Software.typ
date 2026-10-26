@@ -176,16 +176,6 @@
 
       - #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]: interviewed for a JTA video on the 125 St subway.
 
-    - Rolling Stock and Electrification
-
-      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World]: how to stop the MTA's subway rolling stock cost explosion.
-
-      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2: The Future is Electric]: how to electrify affordably with catenary and tri-voltage trains.
-
-      - #link("https://www.etany.org/repairing-northeast-corridor-electrical-system")[If It Can't Stand the Heat, You Need to Upgrade the Kitchen: Repairing the Northeast Corridor's Electrical Systems]
-
-      - #link("https://www.etany.org/baffling-battery-blunder")[Baffling Battery Blunder: Expensive, Experimental, Slow Battery Locomotives Have No Place on Already Electrified Rails]
-
     - Better Subway Service
 
       - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders: Bill Banning One-Person Trains Would Lock NY Transit in the Past]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
