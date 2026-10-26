@@ -137,6 +137,7 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.53in, image("logos/eta.svg", width: 0.36in, height: 0.36in, fit: "contain"))
     #strong[Director of Transit Operations and Planning], Effective Transit Alliance (ETA) -- NYC
 
   ],
@@ -156,6 +157,7 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.53in, image("logos/queenslink.png", width: 0.36in, height: 0.36in, fit: "contain"))
     #strong[Communications Associate] (previously Volunteer), QueensLink -- Queens, NY
 
   ],
@@ -171,6 +173,7 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.53in, image("logos/immunant.png", width: 0.36in, height: 0.36in, fit: "contain"))
     #strong[Software Engineer], Immunant -- Remote
 
   ],
@@ -198,6 +201,7 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.53in, image("logos/mediatek.png", width: 0.36in, height: 0.36in, fit: "contain"))
     #strong[Compiler Intern], MediaTek -- Woburn, MA
 
   ],
@@ -217,6 +221,7 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.53in, image("logos/columbia.png", width: 0.36in, height: 0.36in, fit: "contain"))
     #strong[Teaching Assistant], Analysis of Algorithms (Prof. Clifford Stein), Columbia University
 
   ],
@@ -230,6 +235,7 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.53in, image("logos/columbia.png", width: 0.36in, height: 0.36in, fit: "contain"))
     #strong[Rabi Scholar Researcher] (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer]), Columbia University
 
   ],
@@ -245,6 +251,7 @@
 
 #regular-entry(
   [
+    #place(left + top, dx: -0.53in, image("logos/columbia.png", width: 0.36in, height: 0.36in, fit: "contain"))
     #strong[Intern] (#link("https://fruitflybrain.org")[fruitflybrain.org]), Bionet Group, Columbia University
 
   ],

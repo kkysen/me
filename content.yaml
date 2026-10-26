@@ -50,6 +50,7 @@ cv:
         versions: [-cv]
     experience:
       - company: Effective Transit Alliance (ETA)
+        logo: eta.svg
         position: '**Director of Transit Operations and Planning**'
         date:
         start_date: 2023-11
@@ -117,6 +118,7 @@ cv:
               - '[Deinterlining](https://www.etany.org/statements/deinterlining): simpler service,
                 fewer delays.'
       - company: QueensLink
+        logo: queenslink.png
         versions: [-mta]
         position: '**Communications Associate** (previously Volunteer)'
         date:
@@ -130,6 +132,7 @@ cv:
           - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
       - company: Immunant
+        logo: immunant.png
         position:
           - text: '**Software Engineer** (previously Junior Software Engineer, Intern)'
             versions: [cv]
@@ -177,6 +180,7 @@ cv:
               the boundary between isolated compartments could be further verified.'
             versions: [cv, general, software]
       - company: MediaTek
+        logo: mediatek.png
         position: '**Compiler Intern**'
         date:
         start_date: 2020-05
@@ -195,6 +199,7 @@ cv:
             hyperheuristic framework Louper, which created a register pressure estimator 3x as
             accurate as the current human heuristic.'
       - company: Columbia University
+        logo: columbia.png
         position: '**Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein)'
         date:
         start_date: 2019-09
@@ -209,6 +214,7 @@ cv:
           - text: Taught students during office hours and answered email questions throughout the week.
             versions: [cv]
       - company: Columbia University
+        logo: columbia.png
         position: '**Rabi Scholar Researcher** ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))'
         date:
         start_date: 2019-01
@@ -229,6 +235,7 @@ cv:
               guiding a neural net-based fuzzer.
             versions: [general, transit]
       - company: Bionet Group, Columbia University
+        logo: columbia.png
         versions: [cv, general, software]
         position: '**Intern** ([fruitflybrain.org](https://fruitflybrain.org))'
         date:
@@ -245,6 +252,7 @@ cv:
             vision and motion detection, so that the robot could track, follow, and evade
             objects like a real fruit fly.
       - company: Dietrich Lab, Columbia University
+        logo: columbia.png
         versions: [cv, general]
         position: '**Intern**'
         date:
