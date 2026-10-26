@@ -11,9 +11,10 @@
 ## **Columbia University**, BA in Computer Science
 Sept 2018 – Feb 2023
 
-Rabi Scholar (GPA 3.79, GPA in major 3.98)
 
-- Gap year 2020-2021
+(Gap year 2020–2021)
+
+Rabi Scholar (GPA 3.79, GPA in major 3.98)
 
 
 

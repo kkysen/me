@@ -21,10 +21,9 @@ cv:
         date:
         start_date: 2018-09
         end_date: 2023-02
-        location:
+        location: (Gap year 2020–2021)
         summary: Rabi Scholar (GPA 3.79, GPA in major 3.98)
         highlights:
-          - Gap year 2020-2021
       - institution: Stuyvesant High School
         area: ''
         degree: High School Diploma
@@ -361,6 +360,15 @@ cv:
           Endocrinology, Optimization, Trains
 design:
   theme: engineeringresumes
+  templates:
+    education_entry:
+      main_column: |-
+        **INSTITUTION**, DEGREE_WITH_AREA
+        SUMMARY
+        HIGHLIGHTS
+      date_and_location_column: |-
+        DATE
+        LOCATION
   # page:
   #   size: us-letter
   #   top_margin: 0.7in

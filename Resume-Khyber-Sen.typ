@@ -105,16 +105,16 @@
   [
     #strong[Columbia University], BA in Computer Science
 
+    #summary[Rabi Scholar (GPA 3.79, GPA in major 3.98)]
+
   ],
   [
     Sept 2018 – Feb 2023
 
+    (Gap year 2020–2021)
+
   ],
   main-column-second-row: [
-    #summary[Rabi Scholar (GPA 3.79, GPA in major 3.98)]
-
-    - Gap year 2020-2021
-
   ],
 )
 
