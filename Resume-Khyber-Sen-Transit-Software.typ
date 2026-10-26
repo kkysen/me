@@ -128,7 +128,7 @@
 
   ],
   main-column-second-row: [
-    #summary[97.5 GPA unweighted, Captain of Varsity Baseball Team]
+    #summary[97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete]
 
   ],
 )
@@ -428,8 +428,6 @@
 - 1st Place, Two Sigma Data Science Competition
 
 - 1st Place, PClassic Programming Competition at UPenn
-
-- Scholar Athlete, 850-person high school class
 
 == Interests
 

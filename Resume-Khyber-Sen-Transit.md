@@ -21,7 +21,7 @@ Rabi Scholar (GPA 3.79, GPA in major 3.98)
 ## **Stuyvesant High School**, High School Diploma
 Sept 2014 – June 2018
 
-97.5 GPA unweighted, Captain of Varsity Baseball Team
+97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete
 
 
 
@@ -169,8 +169,6 @@ Aug 2026 – present
 - 1st Place, Two Sigma Data Science Competition
 
 - 1st Place, PClassic Programming Competition at UPenn
-
-- Scholar Athlete, 850-person high school class
 
 # Interests
 **Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains

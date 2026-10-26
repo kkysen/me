@@ -31,7 +31,7 @@ cv:
         start_date: 2014-09
         end_date: 2018-06
         location:
-        summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team
+        summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete
         highlights:
     experience:
       - company: Effective Transit Alliance
@@ -353,7 +353,6 @@ cv:
     honors:
       - bullet: '1st Place, Two Sigma Data Science Competition'
       - bullet: '1st Place, PClassic Programming Competition at UPenn'
-      - bullet: 'Scholar Athlete, 850-person high school class'
     interests:
       - label: Interests
         details: Programming Language Design, Tennis, Baseball, Quantum Mechanics,
