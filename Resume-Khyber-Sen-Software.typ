@@ -159,7 +159,7 @@
 
     - Penn Station Through-Running
 
-      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load: New York is Ready for Through-Running]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
   ],
 )

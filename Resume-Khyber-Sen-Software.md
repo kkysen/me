@@ -34,7 +34,7 @@ Nov 2023 – present
 
 - Penn Station Through-Running
 
-  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+  - [Penn Station Can Handle the Load: New York is Ready for Through-Running](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
 
 

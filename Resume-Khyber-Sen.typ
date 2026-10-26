@@ -167,17 +167,17 @@
 
     - Rolling Stock and Electrification
 
-      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1]: the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
+      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World]: the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
 
-      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2]: commuter rail electrification in the MTA's 2025-29 Capital Plan.
+      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2: The Future is Electric]: commuter rail electrification in the MTA's 2025-29 Capital Plan.
 
     - OPTO
 
-      - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
+      - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders: Bill Banning One-Person Trains Would Lock NY Transit in the Past]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
 
     - Penn Station Through-Running
 
-      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load: New York is Ready for Through-Running]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
   ],
 )

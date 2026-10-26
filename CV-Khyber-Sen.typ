@@ -169,27 +169,27 @@
 
     - Rolling Stock and Electrification
 
-      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1]: the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
+      - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1: Perhaps the Most Expensive Subway Train in the World]: the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
 
-      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2]: commuter rail electrification in the MTA's 2025-29 Capital Plan.
+      - #link("https://www.etany.org/not-so-capital-plan-the-future-is-electric")[A Not-So-Capital Plan, Part 2: The Future is Electric]: commuter rail electrification in the MTA's 2025-29 Capital Plan.
 
-      - #link("https://www.etany.org/repairing-northeast-corridor-electrical-system")[If It Can't Stand the Heat, You Need to Upgrade the Kitchen]: repairing the Northeast Corridor's electrical systems.
+      - #link("https://www.etany.org/repairing-northeast-corridor-electrical-system")[If It Can't Stand the Heat, You Need to Upgrade the Kitchen: Repairing the Northeast Corridor's Electrical Systems]
 
-      - #link("https://www.etany.org/baffling-battery-blunder")[Baffling Battery Blunder]: expensive, experimental, slow battery locomotives have no place on already electrified rails.
+      - #link("https://www.etany.org/baffling-battery-blunder")[Baffling Battery Blunder: Expensive, Experimental, Slow Battery Locomotives Have No Place on Already Electrified Rails]
 
     - OPTO
 
-      - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
+      - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders: Bill Banning One-Person Trains Would Lock NY Transit in the Past]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
 
     - Penn Station Through-Running
 
-      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load: New York is Ready for Through-Running]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
       - #link("https://www.youtube.com/watch?v=l0xR6V-GIzc")[The Century Old Idea that Can Revolutionize NYC Commuter Rail]: a video on Penn Station through-running.
 
     - Deinterlining
 
-      - #link("https://www.etany.org/statements/deinterlining")[Deinterlining]: simpler service, fewer delays.
+      - #link("https://www.etany.org/statements/deinterlining")[Deinterlining: Simpler Service, Fewer Delays]
 
   ],
 )
