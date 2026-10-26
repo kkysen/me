@@ -137,15 +137,11 @@ June 2017 – Aug 2017
 # Recent Transit Projects
 ## **[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)**
 
-Aug 2026 – present
-
 - Analyzed MTA's public subway origin-destination ridership data to quantify, for proposed deinterlining scenarios, the share of one-seat rides lost and how many of those riders would still be a short walk from the other trunk.
 
 
 
 ## **[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust)**
-
-Oct 2026 – present
 
 - Computed minimum train runtimes from track geometry and train performance, and compared them with scheduled timetables for LIRR services into Penn Station, Grand Central Madison, and Atlantic Terminal.
 
@@ -153,23 +149,17 @@ Oct 2026 – present
 
 ## **[Subway Sheds](https://github.com/kkysen/subway-sheds) (Python, TypeScript, R5)**
 
-Oct 2026 – present
-
 - Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network and counting waits for trains.
 
 
 
 ## **[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Android, Python)**
 
-Oct 2026 – present
-
 - Built an Android app recording rides (trains, buses, planes) from phone sensors without ever losing data, with a Rust session format, CLI, and Python bindings for analysis.
 
 
 
 ## **[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst)**
-
-Aug 2026 – present
 
 - Built ETA's tool converting report Google Docs into publish-ready HTML, Markdown, and PDF, replacing a manual, error-prone hand-off to Squarespace.
 

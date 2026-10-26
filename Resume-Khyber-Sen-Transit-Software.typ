@@ -337,14 +337,12 @@
 
 == Recent Transit Projects
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[#link("https://github.com/kkysen/mta-od-data")[MTA OD Data] (Python, Rust)]
 
   ],
   [
-    Aug 2026 – present
-
   ],
   main-column-second-row: [
     - Analyzed MTA's public subway origin-destination ridership data to quantify, for proposed deinterlining scenarios, the share of one-seat rides lost and how many of those riders would still be a short walk from the other trunk.
@@ -352,14 +350,12 @@
   ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[#link("https://github.com/kkysen/rail-runtime")[Rail Runtime] (Python, Rust)]
 
   ],
   [
-    Oct 2026 – present
-
   ],
   main-column-second-row: [
     - Computed minimum train runtimes from track geometry and train performance, and compared them with scheduled timetables for LIRR services into Penn Station, Grand Central Madison, and Atlantic Terminal.
@@ -367,14 +363,12 @@
   ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[#link("https://github.com/kkysen/subway-sheds")[Subway Sheds] (Python, TypeScript, R5)]
 
   ],
   [
-    Oct 2026 – present
-
   ],
   main-column-second-row: [
     - Mapped how far you can get on the NYC subway in a given time, with and without QueensLink, routed with R5 over the real street network and counting waits for trains.
@@ -382,14 +376,12 @@
   ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[#link("https://github.com/kkysen/ride-measurement-app")[Ride Logger] (Rust, Kotlin, Android, Python)]
 
   ],
   [
-    Oct 2026 – present
-
   ],
   main-column-second-row: [
     - Built an Android app recording rides (trains, buses, planes) from phone sensors without ever losing data, with a Rust session format, CLI, and Python bindings for analysis.
@@ -397,14 +389,12 @@
   ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[#link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python, Typst)]
 
   ],
   [
-    Aug 2026 – present
-
   ],
   main-column-second-row: [
     - Built ETA's tool converting report Google Docs into publish-ready HTML, Markdown, and PDF, replacing a manual, error-prone hand-off to Squarespace.
