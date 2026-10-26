@@ -7,6 +7,9 @@
 - LinkedIn: [khyber-sen](https://linkedin.com/in/khyber-sen)
 
 
+# Summary
+Civic-minded systems engineer drawn to complex systems at every scale and across domains, from pure software like compilers and operating systems to real-world housing markets, the human endocrine system, and transit networks. I find where these systems interact and break down, and how they can be optimized for the benefit of all.
+
 # Education
 ## **Columbia University**, BA in Computer Science
 Sept 2018 – Feb 2023
