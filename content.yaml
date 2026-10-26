@@ -246,6 +246,7 @@ cv:
             accurate as the current human heuristic.'
       - company: Columbia University
         logo: columbia.png
+        versions: [cv]
         position: '**Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein)'
         date:
         start_date: 2019-09

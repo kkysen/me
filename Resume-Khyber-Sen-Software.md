@@ -84,12 +84,6 @@ May 2020 – Dec 2021
 
 
 
-## **Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein), Columbia University
-
-Sep 2019 – Jan 2020
-
-
-
 ## **Rabi Scholar Researcher**, Columbia University ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
 
 Jan 2019 – Aug 2019

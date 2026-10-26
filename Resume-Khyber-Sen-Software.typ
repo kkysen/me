@@ -283,25 +283,6 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/columbia.png", width: size.width * scale)
     })))
-    #strong[Teaching Assistant], Analysis of Algorithms (Prof. Clifford Stein), Columbia University
-
-  ],
-  [
-    Sep 2019 – Jan 2020
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, but top-aligned with the title, unlike `fit: "contain"`.
-      let size = measure(image("logos/columbia.png"))
-      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      image("logos/columbia.png", width: size.width * scale)
-    })))
     #strong[Rabi Scholar Researcher], Columbia University (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer])
 
   ],
