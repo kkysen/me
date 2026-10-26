@@ -2,9 +2,9 @@
 cv:
   name: Khyber Sen
   headline:
-    - text: Software Engineer, Transit Advocate
+    - text: Systems Software Engineer, Transit Advocate
       versions: [transit]
-    - text: Software Engineer
+    - text: Systems Software Engineer
   location: NYC
   email: kkysen@gmail.com
   photo:
