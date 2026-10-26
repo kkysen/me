@@ -168,7 +168,7 @@ cv:
             hyperheuristic framework Louper, which created a register pressure estimator 3x as
             accurate as the current human heuristic.'
       - company: Columbia University
-        position: 'Teaching Assistant, Analysis of Algorithms (taught by Prof. Clifford Stein)'
+        position: 'Teaching Assistant, Analysis of Algorithms (Prof. Clifford Stein)'
         date:
         start_date: 2019-09
         end_date: 2020-01

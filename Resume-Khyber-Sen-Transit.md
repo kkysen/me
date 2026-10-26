@@ -84,7 +84,7 @@ May 2020 – Dec 2021
 
 
 
-## **Columbia University**, Teaching Assistant, Analysis of Algorithms (taught by Prof. Clifford Stein)
+## **Columbia University**, Teaching Assistant, Analysis of Algorithms (Prof. Clifford Stein)
 
 Sept 2019 – Jan 2020
 

@@ -217,7 +217,7 @@
 
 #regular-entry(
   [
-    #strong[Columbia University], Teaching Assistant, Analysis of Algorithms (taught by Prof. Clifford Stein)
+    #strong[Columbia University], Teaching Assistant, Analysis of Algorithms (Prof. Clifford Stein)
 
   ],
   [
