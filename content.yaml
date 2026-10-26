@@ -379,6 +379,11 @@ design:
       date_and_location_column: |-
         DATE
         LOCATION
+    experience_entry:
+      main_column: |-
+        **COMPANY**, POSITION -- LOCATION
+        SUMMARY
+        HIGHLIGHTS
   # page:
   #   size: us-letter
   #   top_margin: 0.7in

@@ -26,7 +26,7 @@ Sept 2014 – June 2018
 
 
 # Experience
-## **Director of Transit Operations and Planning**, Effective Transit Alliance -- NYC
+## **Effective Transit Alliance**, Director of Transit Operations and Planning -- NYC
 
 Nov 2023 – present
 
@@ -52,7 +52,7 @@ Nov 2023 – present
 
 
 
-## **Communications Associate (previously Volunteer)**, QueensLink -- Queens, NY
+## **QueensLink**, Communications Associate (previously Volunteer) -- Queens, NY
 
 Mar 2024 – present
 
@@ -62,7 +62,7 @@ Mar 2024 – present
 
 
 
-## **Software Engineer (previously Junior Software Engineer, Intern)**, Immunant -- Remote
+## **Immunant**, Software Engineer (previously Junior Software Engineer, Intern) -- Remote
 
 May 2022 – Apr 2026
 
@@ -84,7 +84,7 @@ May 2022 – Apr 2026
 
 
 
-## **Compiler Intern**, MediaTek -- Woburn, MA
+## **MediaTek**, Compiler Intern -- Woburn, MA
 
 May 2020 – Dec 2021
 
@@ -96,7 +96,7 @@ May 2020 – Dec 2021
 
 
 
-## **Teaching Assistant, Analysis of Algorithms (taught by Prof. Clifford Stein)**, Columbia University
+## **Columbia University**, Teaching Assistant, Analysis of Algorithms (taught by Prof. Clifford Stein)
 
 Sept 2019 – Jan 2020
 
@@ -108,7 +108,7 @@ Sept 2019 – Jan 2020
 
 
 
-## **Rabi Scholar Researcher (Smart Neural Fuzzer Internship)**, Columbia University
+## **Columbia University**, Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
 
 Jan 2019 – Aug 2019
 
@@ -118,7 +118,7 @@ Jan 2019 – Aug 2019
 
 
 
-## **Summer Intern (Fruit Fly Brain Observatory)**, Bionet Group, Columbia University
+## **Bionet Group, Columbia University**, Summer Intern (Fruit Fly Brain Observatory)
 
 June 2017 – Aug 2017
 
@@ -130,7 +130,7 @@ June 2017 – Aug 2017
 
 
 
-## **Summer Intern**, Dietrich Lab, Columbia University
+## **Dietrich Lab, Columbia University**, Summer Intern
 
 June 2015 – July 2015
 
@@ -138,7 +138,7 @@ June 2015 – July 2015
 
 
 
-## **Captain of Varsity Baseball**, Stuyvesant High School -- New York City Metropolitan Area
+## **Stuyvesant High School**, Captain of Varsity Baseball -- New York City Metropolitan Area
 
 Sept 2014 – Jan 2018
 
