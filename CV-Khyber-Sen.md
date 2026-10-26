@@ -182,7 +182,7 @@ Sept 2014 – Jan 2018
 # Recent Transit Projects
 ## **[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)**
 
-- Analyzed the MTA's subway origin-destination dataset to quantify how many one-seat rides are lost under different deinterlining scenarios.
+- Analyzed origin-destination data to quantify how many one-seat rides are lost under different deinterlining scenarios.
 
 - Used RAPTOR to turn origin-destination data into trip paths to analyze ridership and crowding across lines, train cars, stations, and platforms.
 
