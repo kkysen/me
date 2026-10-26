@@ -26,7 +26,7 @@ Sept 2014 – June 2018
 
 
 # Experience
-## Effective Transit Alliance (ETA), **Director of Transit Operations and Planning** -- NYC
+## **Director of Transit Operations and Planning**, Effective Transit Alliance (ETA) -- NYC
 
 Nov 2023 – present
 
@@ -56,7 +56,7 @@ Nov 2023 – present
 
 
 
-## QueensLink, **Communications Associate** (previously Volunteer) -- Queens, NY
+## **Communications Associate** (previously Volunteer), QueensLink -- Queens, NY
 
 Mar 2024 – present
 
@@ -64,7 +64,7 @@ Mar 2024 – present
 
 
 
-## Immunant, **Software Engineer** (previously Junior Software Engineer, Intern) -- Remote
+## **Software Engineer** (previously Junior Software Engineer, Intern), Immunant -- Remote
 
 May 2022 – Apr 2026
 
@@ -78,7 +78,7 @@ May 2022 – Apr 2026
 
 
 
-## MediaTek, **Compiler Intern** -- Woburn, MA
+## **Compiler Intern**, MediaTek -- Woburn, MA
 
 May 2020 – Dec 2021
 
@@ -90,13 +90,13 @@ May 2020 – Dec 2021
 
 
 
-## Columbia University, **Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein)
+## **Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein), Columbia University
 
 Sept 2019 – Jan 2020
 
 
 
-## Columbia University, **Rabi Scholar Researcher** ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
+## **Rabi Scholar Researcher** ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)), Columbia University
 
 Jan 2019 – Aug 2019
 
@@ -104,7 +104,7 @@ Jan 2019 – Aug 2019
 
 
 
-## Bionet Group, Columbia University, **Intern** ([fruitflybrain.org](https://fruitflybrain.org))
+## **Intern** ([fruitflybrain.org](https://fruitflybrain.org)), Bionet Group, Columbia University
 
 June 2017 – Aug 2017
 
@@ -112,7 +112,7 @@ June 2017 – Aug 2017
 
 
 
-## Dietrich Lab, Columbia University, **Intern**
+## **Intern**, Dietrich Lab, Columbia University
 
 June 2015 – July 2015
 

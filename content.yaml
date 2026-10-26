@@ -417,7 +417,7 @@ design:
         LOCATION
     experience_entry:
       main_column: |-
-        COMPANY, POSITION -- LOCATION
+        POSITION, COMPANY -- LOCATION
         SUMMARY
         HIGHLIGHTS
   # page:

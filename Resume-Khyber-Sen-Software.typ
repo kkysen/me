@@ -137,7 +137,7 @@
 
 #regular-entry(
   [
-    Effective Transit Alliance (ETA), #strong[Director of Transit Operations and Planning] -- NYC
+    #strong[Director of Transit Operations and Planning], Effective Transit Alliance (ETA) -- NYC
 
   ],
   [
@@ -156,7 +156,7 @@
 
 #regular-entry(
   [
-    QueensLink, #strong[Communications Associate] (previously Volunteer) -- Queens, NY
+    #strong[Communications Associate] (previously Volunteer), QueensLink -- Queens, NY
 
   ],
   [
@@ -171,7 +171,7 @@
 
 #regular-entry(
   [
-    Immunant, #strong[Software Engineer] (previously Junior Software Engineer, Intern) -- Remote
+    #strong[Software Engineer] (previously Junior Software Engineer, Intern), Immunant -- Remote
 
   ],
   [
@@ -198,7 +198,7 @@
 
 #regular-entry(
   [
-    MediaTek, #strong[Compiler Intern] -- Woburn, MA
+    #strong[Compiler Intern], MediaTek -- Woburn, MA
 
   ],
   [
@@ -217,7 +217,7 @@
 
 #regular-entry(
   [
-    Columbia University, #strong[Teaching Assistant], Analysis of Algorithms (Prof. Clifford Stein)
+    #strong[Teaching Assistant], Analysis of Algorithms (Prof. Clifford Stein), Columbia University
 
   ],
   [
@@ -230,7 +230,7 @@
 
 #regular-entry(
   [
-    Columbia University, #strong[Rabi Scholar Researcher] (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer])
+    #strong[Rabi Scholar Researcher] (#link("https://github.com/kkysen/SmartNeuralFuzzer")[SmartNeuralFuzzer]), Columbia University
 
   ],
   [
@@ -245,7 +245,7 @@
 
 #regular-entry(
   [
-    Bionet Group, Columbia University, #strong[Intern] (#link("https://fruitflybrain.org")[fruitflybrain.org])
+    #strong[Intern] (#link("https://fruitflybrain.org")[fruitflybrain.org]), Bionet Group, Columbia University
 
   ],
   [
