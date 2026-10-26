@@ -25,6 +25,7 @@ import shutil
 import sys
 from pathlib import Path
 
+import rendercv_fonts
 from ruamel.yaml import YAML
 
 ROOT = Path(__file__).parent
@@ -150,8 +151,12 @@ def main():
     # RenderCV looks for template overrides next to the input YAML.
     shutil.copytree(ROOT / "templates", BUILD, dirs_exist_ok=True)
     # Typst resolves images relative to the `.typ` file, and private ones are in `private/`.
-    (ROOT / "private").mkdir(exist_ok=True)
-    shutil.copytree(ROOT / "logos", ROOT / "private" / "logos", dirs_exist_ok=True)
+    # The HTML loads them relative to itself, along with `engineeringresumes`'s font.
+    fonts = Path(rendercv_fonts.__file__).parent / "XCharter"
+    for out in ("private", "rendercv_output"):
+        (ROOT / out).mkdir(exist_ok=True)
+        shutil.copytree(ROOT / "logos", ROOT / out / "logos", dirs_exist_ok=True)
+        shutil.copytree(fonts, ROOT / out / "fonts", dirs_exist_ok=True, ignore=shutil.ignore_patterns("README"))
     for variant, (stem, word, _, private) in VARIANTS.items():
         yaml.dump(build(content, variant, stem, word, private), BUILD / f"{stem}.yaml")
         print(BUILD / f"{stem}.yaml")
