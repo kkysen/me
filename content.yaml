@@ -452,6 +452,11 @@ cv:
         versions: [transit]
 design:
   theme: engineeringresumes
+  page:
+    top_margin: 0.5in
+    bottom_margin: 0.5in
+    left_margin: 0.5in
+    right_margin: 0.5in
   colors:
     links: rgb(0, 79, 144)
   entries:
