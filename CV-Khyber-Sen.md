@@ -252,4 +252,4 @@ May 2022 – Aug 2022
 - 1st Place, PClassic Programming Competition at UPenn
 
 # Interests
-Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains, Exploring Cities
+Programming language design, tennis, baseball, quantum mechanics, endocrinology, optimization, trains, exploring cities

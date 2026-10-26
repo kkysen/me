@@ -160,4 +160,4 @@ Jan 2019 – Aug 2019
 **Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, SQL, Bash
 
 # Interests
-Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Exploring Cities
+Programming language design, tennis, baseball, quantum mechanics, endocrinology, optimization, exploring cities

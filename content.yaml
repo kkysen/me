@@ -445,11 +445,11 @@ cv:
       - bullet: '1st Place, PClassic Programming Competition at UPenn'
         versions: [cv]
     interests:
-      - text: Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology,
-          Optimization, Trains, Exploring Cities
+      - text: Programming language design, tennis, baseball, quantum mechanics, endocrinology,
+          optimization, trains, exploring cities
         versions: [-transit]
-      - text: Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology,
-          Optimization, Exploring Cities
+      - text: Programming language design, tennis, baseball, quantum mechanics, endocrinology,
+          optimization, exploring cities
         versions: [transit]
 design:
   theme: engineeringresumes
