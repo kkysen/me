@@ -155,6 +155,8 @@
 
       - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole: Saving Billions on 125th Street]: a shallower 125 St subway route, against a \$7.7B plan with stations over 100 ft underground.
 
+      - #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]: a video on the 125 St subway route.
+
     - Rolling Stock and Electrification
 
       - #link("https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train")[A Not-So-Capital Plan, Part 1]: the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
@@ -173,11 +175,11 @@
 
       - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
+      - #link("https://www.youtube.com/watch?v=l0xR6V-GIzc")[The Century Old Idea that Can Revolutionize NYC Commuter Rail]: a video on Penn Station through-running.
+
     - Deinterlining
 
       - #link("https://www.etany.org/statements/deinterlining")[Deinterlining]: simpler service, fewer delays.
-
-    - Videos: #link("https://www.youtube.com/watch?v=l0xR6V-GIzc")[The Century Old Idea that Can Revolutionize NYC Commuter Rail] and #link("https://www.youtube.com/watch?v=5FgyHCl6E3A")[Did NYC's Newest Subway Just Get Better?]
 
   ],
 )

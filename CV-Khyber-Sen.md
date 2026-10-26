@@ -40,6 +40,8 @@ Nov 2023 – present
 
   - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
 
+  - [Did NYC's Newest Subway Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A): a video on the 125 St subway route.
+
 - Rolling Stock and Electrification
 
   - [A Not-So-Capital Plan, Part 1](https://www.etany.org/a-not-so-capital-plan-1-most-expensive-subway-train): the subway rolling stock cost explosion in the MTA's 2025-29 Capital Plan.
@@ -58,11 +60,11 @@ Nov 2023 – present
 
   - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
+  - [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc): a video on Penn Station through-running.
+
 - Deinterlining
 
   - [Deinterlining](https://www.etany.org/statements/deinterlining): simpler service, fewer delays.
-
-- Videos: [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc) and [Did NYC's Newest Subway Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)
 
 
 

@@ -68,6 +68,10 @@ cv:
               - '[Digging Out of a Very Deep Hole: Saving Billions on 125th
                 Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower
                 125 St subway route, against a $7.7B plan with stations over 100 ft underground.'
+              - text: '[Did NYC''s Newest Subway Just Get
+                  Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A): a video on the 125 St
+                  subway route.'
+                versions: [cv, transit]
           - text: Rolling Stock and Electrification
             versions: [cv, general, transit]
             highlights:
@@ -99,15 +103,15 @@ cv:
                 Load](https://www.etany.org/penn-station-can-handle-the-load): built the passenger
                 crowding model for this rebuttal of Amtrak''s report claiming through-running
                 cannot support 48 tph.'
+              - text: '[The Century Old Idea that Can Revolutionize NYC Commuter
+                  Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc): a video on Penn Station
+                  through-running.'
+                versions: [cv, transit]
           - text: Deinterlining
             versions: [cv, transit]
             highlights:
               - '[Deinterlining](https://www.etany.org/statements/deinterlining): simpler service,
                 fewer delays.'
-          - text: 'Videos: [The Century Old Idea that Can Revolutionize NYC Commuter
-              Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc) and [Did NYC''s Newest Subway
-              Just Get Better?](https://www.youtube.com/watch?v=5FgyHCl6E3A)'
-            versions: [cv, transit]
       - company: QueensLink
         versions: [-mta]
         position: '**Communications Associate** (previously Volunteer)'
