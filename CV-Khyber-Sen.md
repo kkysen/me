@@ -71,7 +71,7 @@ Nov 2023 – present
 
 - Penn Station Through-Running
 
-  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can safely support 48 tph.
+  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can support 48 tph.
 
   - [Through-Running: First Connections](https://www.etany.org/reports/through-running-first-connections): a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
 
