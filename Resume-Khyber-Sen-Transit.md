@@ -36,6 +36,8 @@ Nov 2023 – present
 
   - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): advocated for a short, shallow All Faiths Tunnel, after which the MTA changed course from its street-running plans and adopted the shallow-tunnel approach, increasing projected ridership by 35%, reducing travel times by 31%, and saving a cumulative 3 years of riders' time per day.
 
+  - [No Need to Wait: Automated Light Metro is Right for the IBX](https://www.etany.org/reports/ibx-automation): now that the IBX will be fully grade-separated, it should be built as an automated light metro.
+
 - 125 St Subway
 
   - [Digging Out of a Very Deep Hole: Saving Billions on 125th Street](https://www.etany.org/reports/digging-out-deep-hole-sas-west): a shallower 125 St subway route, against a $7.7B plan with stations over 100 ft underground.
@@ -60,11 +62,17 @@ Nov 2023 – present
 
   - [Penn Station Can Handle the Load: New York is Ready for Through-Running](https://www.etany.org/penn-station-can-handle-the-load): built the passenger crowding model for this rebuttal of Amtrak's report claiming through-running cannot support 48 tph.
 
+  - [Through-Running: First Connections](https://www.etany.org/reports/through-running-first-connections): a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
+
   - [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc): a video on Penn Station through-running.
 
 - Deinterlining
 
   - [Deinterlining: Simpler Service, Fewer Delays](https://www.etany.org/statements/deinterlining)
+
+- Fares
+
+  - [Bring Back the Monthly: The Value of Affordable Transit Passes](https://www.etany.org/reports/monthly-passes): reasonably priced monthly passes encourage ridership, reduce fare evasion, and ease proof-of-payment fare collection.
 
 
 
