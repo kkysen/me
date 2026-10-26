@@ -133,7 +133,7 @@ cv:
         location: Remote
         summary:
         highlights:
-          - text: '[github.com/immunant/c2rust](https://github.com/immunant/c2rust):
+          - text: '[c2rust](https://github.com/immunant/c2rust):
               Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and
               TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a
               combination of static and dynamic analysis.'
@@ -156,13 +156,13 @@ cv:
                   analysis outputs into the static analysis, modelled pointer permissions for known
                   libc functions, and fixed how string literals and casts were analyzed.
                 versions: [cv, general, software]
-          - '[github.com/memorysafety/rav1d](https://github.com/memorysafety/rav1d):
+          - '[rav1d](https://github.com/memorysafety/rav1d):
             Ported the bulk of the AV1 decoder dav1d from C to Rust, now named rav1d,
             translating complex C idioms while preserving performance, and extensively
             optimizing the result, including instrumenting and modifying rustc where it
             differed from C. The result is just 5% slower than C''s dav1d, 3.8% of which comes
             from the initial unsafe transpile.'
-          - text: '[github.com/immunant/IA2-Phase2](https://github.com/immunant/IA2-Phase2):
+          - text: '[IA2](https://github.com/immunant/IA2-Phase2):
               Helped develop IA2, a tool for sandboxing intraprocess compartments from each
               other''s memory using x86_64''s Memory Protection Keys and Arm''s Memory Tagging
               Extension (MTE). Tested IA2 on dav1d, fixing bugs and adding features to handle a
@@ -202,7 +202,7 @@ cv:
           - text: Taught students during office hours and answered email questions throughout the week.
             versions: [cv]
       - company: Columbia University
-        position: '**Rabi Scholar Researcher** ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))'
+        position: '**Rabi Scholar Researcher** ([SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))'
         date:
         start_date: 2019-01
         end_date: 2019-08
