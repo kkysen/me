@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 10,
-    day: 16,
+    day: 25,
   ),
 )
 
@@ -111,7 +111,7 @@
 
   ],
   main-column-second-row: [
-    #summary[Rabi Scholar, CS Major (GPA 3.79, CS GPA 3.98)]
+    #summary[Rabi Scholar (GPA 3.79, GPA in major 3.98)]
 
     - Gap year 2020-2021
 
