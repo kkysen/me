@@ -90,11 +90,9 @@ Sept 2019 – Jan 2020
 
 
 
-## **Columbia University**, Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
+## **Columbia University**, Rabi Scholar Researcher ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
 
 Jan 2019 – Aug 2019
-
-- [github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)
 
 - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and guiding a neural net-based fuzzer.
 

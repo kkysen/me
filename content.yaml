@@ -182,14 +182,13 @@ cv:
           - text: Taught students during office hours and answered email questions throughout the week.
             versions: [cv]
       - company: Columbia University
-        position: Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
+        position: Rabi Scholar Researcher ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
         date:
         start_date: 2019-01
         end_date: 2019-08
         location:
         summary:
         highlights:
-          - '[github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)'
           - text: Developed a code coverage tool that records all the decisions (branches) a
               potentially multi-threaded, multi-process program makes, which allows for time
               travel and record-replay debugging of control flow. Collaborated with Ph.D. student
@@ -204,14 +203,13 @@ cv:
             versions: [general, transit]
       - company: Bionet Group, Columbia University
         versions: [cv, general, software]
-        position: Summer Intern (Fruit Fly Brain Observatory)
+        position: Summer Intern ([fruitflybrain.org](https://fruitflybrain.org))
         date:
         start_date: 2017-06
         end_date: 2017-08
         location:
         summary:
         highlights:
-          - '[fruitflybrain.org](https://fruitflybrain.org)'
           - text: Worked on the Fruit Fly Brain Observatory, an international research initiative to
               understand the fruit fly brain and model it using GPU-based programming, under the
               direction of Aurel Lazar.

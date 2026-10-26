@@ -236,7 +236,7 @@
 
 #regular-entry(
   [
-    #strong[Columbia University], Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
+    #strong[Columbia University], Rabi Scholar Researcher (#link("https://github.com/kkysen/SmartNeuralFuzzer")[github.com\/kkysen\/SmartNeuralFuzzer])
 
   ],
   [
@@ -244,8 +244,6 @@
 
   ],
   main-column-second-row: [
-    - #link("https://github.com/kkysen/SmartNeuralFuzzer")[github.com\/kkysen\/SmartNeuralFuzzer]
-
     - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and guiding a neural net-based fuzzer.
 
   ],

@@ -232,7 +232,7 @@
 
 #regular-entry(
   [
-    #strong[Columbia University], Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
+    #strong[Columbia University], Rabi Scholar Researcher (#link("https://github.com/kkysen/SmartNeuralFuzzer")[github.com\/kkysen\/SmartNeuralFuzzer])
 
   ],
   [
@@ -240,8 +240,6 @@
 
   ],
   main-column-second-row: [
-    - #link("https://github.com/kkysen/SmartNeuralFuzzer")[github.com\/kkysen\/SmartNeuralFuzzer]
-
     - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and guiding a neural net-based fuzzer.
 
   ],
@@ -249,7 +247,7 @@
 
 #regular-entry(
   [
-    #strong[Bionet Group, Columbia University], Summer Intern (Fruit Fly Brain Observatory)
+    #strong[Bionet Group, Columbia University], Summer Intern (#link("https://fruitflybrain.org")[fruitflybrain.org])
 
   ],
   [
@@ -257,8 +255,6 @@
 
   ],
   main-column-second-row: [
-    - #link("https://fruitflybrain.org")[fruitflybrain.org]
-
     - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 
   ],

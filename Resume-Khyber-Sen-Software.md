@@ -84,21 +84,17 @@ Sept 2019 – Jan 2020
 
 
 
-## **Columbia University**, Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
+## **Columbia University**, Rabi Scholar Researcher ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
 
 Jan 2019 – Aug 2019
-
-- [github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)
 
 - Developed a code coverage tool that records all the decisions (branches) a potentially multi-threaded, multi-process program makes, which allows for time travel and record-replay debugging of control flow. Collaborated with Ph.D. student Kexin Pei and Prof. Junfeng Yang to integrate this decision data into a neural net that can intelligently guide fuzzing, taint analysis, and profile-guided optimizations, helping to uncover hidden data dependencies and elusive bugs. Written in modern C++17 as an LLVM optimization pass.
 
 
 
-## **Bionet Group, Columbia University**, Summer Intern (Fruit Fly Brain Observatory)
+## **Bionet Group, Columbia University**, Summer Intern ([fruitflybrain.org](https://fruitflybrain.org))
 
 June 2017 – Aug 2017
-
-- [fruitflybrain.org](https://fruitflybrain.org)
 
 - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 

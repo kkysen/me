@@ -86,21 +86,17 @@ Sept 2019 – Jan 2020
 
 
 
-## **Columbia University**, Rabi Scholar Researcher (Smart Neural Fuzzer Internship)
+## **Columbia University**, Rabi Scholar Researcher ([github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer))
 
 Jan 2019 – Aug 2019
-
-- [github.com/kkysen/SmartNeuralFuzzer](https://github.com/kkysen/SmartNeuralFuzzer)
 
 - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and guiding a neural net-based fuzzer.
 
 
 
-## **Bionet Group, Columbia University**, Summer Intern (Fruit Fly Brain Observatory)
+## **Bionet Group, Columbia University**, Summer Intern ([fruitflybrain.org](https://fruitflybrain.org))
 
 June 2017 – Aug 2017
-
-- [fruitflybrain.org](https://fruitflybrain.org)
 
 - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 
