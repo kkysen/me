@@ -179,7 +179,7 @@ June 2017 – Aug 2017
 
 **Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, SQL, Bash
 
-**Software:** rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), DuckDB, SQLite, Claude
+**Software:** rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
 
 # Interests
 Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Exploring Cities
