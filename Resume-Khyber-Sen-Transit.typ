@@ -204,7 +204,7 @@
 
 #regular-entry(
   [
-    #strong[Software Engineer] (previously Junior Software Engineer, Intern), Immunant -- Remote
+    #strong[Software Engineer], Immunant -- Remote
 
   ],
   [

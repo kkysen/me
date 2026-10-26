@@ -64,7 +64,7 @@ Mar 2024 – present
 
 
 
-## **Software Engineer** (previously Junior Software Engineer, Intern), Immunant -- Remote
+## **Software Engineer**, Immunant -- Remote
 
 May 2022 – Apr 2026
 

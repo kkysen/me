@@ -130,7 +130,10 @@ cv:
           - Advocate for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
       - company: Immunant
-        position: '**Software Engineer** (previously Junior Software Engineer, Intern)'
+        position:
+          - text: '**Software Engineer** (previously Junior Software Engineer, Intern)'
+            versions: [cv]
+          - text: '**Software Engineer**'
         date:
         start_date: 2022-05
         end_date: 2026-04
