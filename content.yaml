@@ -403,6 +403,9 @@ design:
   theme: engineeringresumes
   colors:
     links: rgb(0, 79, 144)
+  entries:
+    highlights:
+      nested_bullet: ◦
   templates:
     education_entry:
       main_column: |-

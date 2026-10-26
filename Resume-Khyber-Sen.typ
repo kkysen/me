@@ -73,7 +73,7 @@
   entries-summary-space-left: 0cm,
   entries-summary-space-above: 0.08cm,
   entries-highlights-bullet:  text(13pt, [•], baseline: -0.6pt) ,
-  entries-highlights-nested-bullet:  text(13pt, [•], baseline: -0.6pt) ,
+  entries-highlights-nested-bullet:  "◦" ,
   entries-highlights-space-left: 0cm,
   entries-highlights-space-above: 0.08cm,
   entries-highlights-space-between-items: 0.08cm,
