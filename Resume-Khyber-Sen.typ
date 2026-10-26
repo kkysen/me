@@ -364,7 +364,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #strong[Transit Data:] OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130, transit open datasets, Python\/pandas analysis, GeoJSON, passenger crowding modeling
 
-#strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, Bash
+#strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, SQL, Bash
 
 #strong[Software:] rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Claude
 
