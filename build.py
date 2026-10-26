@@ -6,7 +6,7 @@ written as `{text: ..., versions: [...]}` instead of a plain string.
 Such a highlight may also have its own `highlights:` as sub-bullets.
 RenderCV makes sub-bullets by splitting on " - ",
 so a highlight's own text can't contain one.
-Any other field of an entry may instead be a list of `{text: ..., versions: [...]}`
+Any other field of an entry, or of the header, may instead be a list of `{text: ..., versions: [...]}`
 alternatives, and takes the first one included in the variant.
 Anything without `versions` is included in every variant.
 A `-name` in `versions` excludes that variant instead;
@@ -87,6 +87,12 @@ def is_alternatives(value) -> bool:
     )
 
 
+def pick_alternatives(fields: dict, variant: str):
+    for key, value in fields.items():
+        if key != "highlights" and is_alternatives(value):
+            fields[key] = next((v["text"] for v in value if included(v, variant)), None)
+
+
 def filter_entries(entries, variant: str):
     out = []
     for entry in entries:
@@ -94,11 +100,7 @@ def filter_entries(entries, variant: str):
             continue
         if isinstance(entry, dict):
             entry.pop("versions", None)
-            for key, value in entry.items():
-                if key != "highlights" and is_alternatives(value):
-                    entry[key] = next(
-                        (v["text"] for v in value if included(v, variant)), None
-                    )
+            pick_alternatives(entry, variant)
             if entry.get("highlights"):
                 entry["highlights"] = filter_highlights(entry["highlights"], variant)
         out.append(entry)
@@ -107,6 +109,7 @@ def filter_entries(entries, variant: str):
 
 def build(content, variant: str, stem: str, word: str, private: bool):
     data = copy.deepcopy(content)
+    pick_alternatives(data["cv"], variant)
     for name in ("social_networks", "custom_connections"):
         if data["cv"].get(name):
             data["cv"][name] = filter_entries(data["cv"][name], variant) or None

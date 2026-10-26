@@ -1,7 +1,10 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/rendercv/rendercv/refs/tags/v2.8/schema.json
 cv:
   name: Khyber Sen
-  headline: Software Engineer
+  headline:
+    - text: Software Engineer, Transit Advocate
+      versions: [transit]
+    - text: Software Engineer
   location: NYC
   email: kkysen@gmail.com
   photo:

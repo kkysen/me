@@ -88,7 +88,7 @@
 
 = Khyber Sen
 
-  #headline([Software Engineer])
+  #headline([Software Engineer, Transit Advocate])
 
 #connections(
   [NYC],
