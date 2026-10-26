@@ -380,4 +380,4 @@
 
 == Interests
 
-#strong[Interests:] Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains
+#strong[Interests:] Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization

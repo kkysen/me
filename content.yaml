@@ -392,8 +392,13 @@ cv:
         versions: [cv]
     interests:
       - label: Interests
+        versions: [-transit]
         details: Programming Language Design, Tennis, Baseball, Quantum Mechanics,
           Endocrinology, Optimization, Trains
+      - label: Interests
+        versions: [transit]
+        details: Programming Language Design, Tennis, Baseball, Quantum Mechanics,
+          Endocrinology, Optimization
 design:
   theme: engineeringresumes
   colors:

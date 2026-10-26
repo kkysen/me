@@ -183,4 +183,4 @@ Aug 2026 – present
 **Software:** rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
 
 # Interests
-**Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains
+**Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization

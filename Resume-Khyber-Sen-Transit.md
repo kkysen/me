@@ -161,4 +161,4 @@ Aug 2026 – present
 **Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, x86 asm, Bash
 
 # Interests
-**Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization, Trains
+**Interests:** Programming Language Design, Tennis, Baseball, Quantum Mechanics, Endocrinology, Optimization
