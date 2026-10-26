@@ -75,7 +75,7 @@ Nov 2023 – present
 
   - [Through-Running: First Connections](https://www.etany.org/reports/through-running-first-connections): a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
 
-  - [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc): interviewed for a JTA video on Penn Station through-running.
+  - [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc): interviewed for a JTA video.
 
 - Fares
 

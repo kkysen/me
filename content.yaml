@@ -139,7 +139,7 @@ cv:
                 versions: [cv, transit]
               - text: '[The Century Old Idea that Can Revolutionize NYC Commuter
                   Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc): interviewed for a JTA
-                  video on Penn Station through-running.'
+                  video.'
                 versions: [cv, transit]
           - text: Fares
             versions: [cv]
