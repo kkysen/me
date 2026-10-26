@@ -334,7 +334,7 @@ cv:
           - Analyzed origin-destination (OD) data to quantify one-seat rides
             under different deinterlining scenarios.
           - Used RAPTOR to turn OD data into trip paths to analyze ridership and
-            crowding across lines, train cars, stations, and platforms.
+            crowding across lines, train cars, and platforms.
       - name: '[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust)'
         versions: [cv, transit]
         date:

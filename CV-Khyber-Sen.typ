@@ -452,7 +452,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   main-column-second-row: [
     - Analyzed origin-destination (OD) data to quantify one-seat rides under different deinterlining scenarios.
 
-    - Used RAPTOR to turn OD data into trip paths to analyze ridership and crowding across lines, train cars, stations, and platforms.
+    - Used RAPTOR to turn OD data into trip paths to analyze ridership and crowding across lines, train cars, and platforms.
 
   ],
 )
