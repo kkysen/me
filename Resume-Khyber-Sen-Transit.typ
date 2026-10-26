@@ -217,7 +217,7 @@
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/jta.png", width: size.width * scale)
     })))
-    #strong[Board Member], Joint Transit Association
+    #strong[Board Member], Joint Transit Association -- NYC
 
   ],
   [
