@@ -143,7 +143,7 @@ June 2017 – Aug 2017
 
 - Analyzed the MTA's subway origin-destination dataset to quantify how many one-seat rides are lost under different deinterlining scenarios.
 
-- Used RAPTOR to turn origin-destination data into trip paths to analyze ridership and crowding across lines, stations, and platforms.
+- Used RAPTOR to turn origin-destination data into trip paths to analyze ridership and crowding across lines, train cars, stations, and platforms.
 
 
 
