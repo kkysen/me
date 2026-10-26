@@ -3,6 +3,9 @@
 Any entry (a dict in a section's list) or highlight may be limited to
 certain variants. An entry takes a `versions:` list; a highlight is
 written as `{text: ..., versions: [...]}` instead of a plain string.
+Such a highlight may also have its own `highlights:` as sub-bullets.
+RenderCV makes sub-bullets by splitting on " - ",
+so a highlight's own text can't contain one.
 Anything without `versions` is included in every variant.
 A `-name` in `versions` excludes that variant instead;
 a list of only exclusions includes every other variant.
@@ -61,7 +64,15 @@ def filter_highlights(highlights, variant: str):
     for h in highlights:
         if not included(h, variant):
             continue
-        out.append(h["text"] if isinstance(h, dict) else h)
+        text = h["text"] if isinstance(h, dict) else h
+        if " - " in text:
+            sys.exit(f"' - ' would split this highlight into sub-bullets: {text!r}")
+        if not isinstance(h, dict):
+            out.append(h)
+            continue
+        # RenderCV splits a highlight into sub-bullets on " - ".
+        subs = filter_highlights(h.get("highlights") or [], variant)
+        out.append(" - ".join([text, *subs]))
     return out
 
 
