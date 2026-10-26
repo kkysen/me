@@ -170,7 +170,7 @@ cv:
                   libc functions, and fixed how string literals and casts were analyzed.
                 versions: [cv, general, software]
           - '[rav1d](https://github.com/memorysafety/rav1d):
-            Ported the bulk of the AV1 decoder dav1d from C to Rust, now named rav1d,
+            Ported the bulk of the AV1 decoder dav1d from C to Rust,
             translating complex C idioms while preserving performance, and extensively
             optimizing the result, including instrumenting and modifying rustc where it
             differed from C. The result is just 5% slower than C''s dav1d, 3.8% of which comes
