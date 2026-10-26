@@ -368,6 +368,7 @@ cv:
             beacons, magnetometer, pedometer, microphone) to estimate speed and position
             underground, on trains and in stations.
       - name: '[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst)'
+        logo: eta.svg
         versions: [cv, transit]
         date:
         start_date:
