@@ -82,7 +82,7 @@ Nov 2023 – present
 
 
 
-## **Board Member**, Joint Transit Association -- NYC
+## **Board Member**, Joint Transit Association (JTA) -- NYC
 
 May 2026 – present
 
