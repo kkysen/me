@@ -2,7 +2,7 @@
 cv:
   name: Khyber Sen
   headline: Software Engineer
-  location: New York, NY
+  location: NYC
   email: kkysen@gmail.com
   photo:
   phone: '+1-917-648-8677'
@@ -13,6 +13,10 @@ cv:
     - network: LinkedIn
       username: khyber-sen
   custom_connections:
+    - fontawesome_icon: bluesky
+      placeholder: '@khyber.bsky.social'
+      url: https://bsky.app/profile/khyber.bsky.social
+      versions: [transit]
   sections:
     education:
       - institution: Columbia University

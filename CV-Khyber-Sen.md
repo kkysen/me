@@ -2,7 +2,7 @@
 
 - Phone: +1 917 648 8677
 - Email: [kkysen@gmail.com](mailto:kkysen@gmail.com)
-- Location: New York, NY
+- Location: NYC
 - GitHub: [kkysen](https://github.com/kkysen)
 - LinkedIn: [khyber-sen](https://linkedin.com/in/khyber-sen)
 

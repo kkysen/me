@@ -91,7 +91,7 @@
   #headline([Software Engineer])
 
 #connections(
-  [New York, NY],
+  [NYC],
   [#link("mailto:kkysen@gmail.com", icon: false, if-underline: false, if-color: false)[kkysen\@gmail.com]],
   [#link("tel:+1-917-648-8677", icon: false, if-underline: false, if-color: false)[(917) 648-8677]],
   [#link("https://github.com/kkysen", icon: false, if-underline: false, if-color: false)[github.com\/kkysen]],
