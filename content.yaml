@@ -85,7 +85,7 @@ cv:
                 35% and speed by 31%, and saving a cumulative 3 years of riders'' time per day.'
               - text: '[Automated Light Metro is Right for the
                   IBX](https://www.etany.org/reports/ibx-automation): now that the IBX will be
-                  fully grade-separated, it should be built as an ALM.'
+                  fully grade-separated, it should be an ALM.'
                 versions: [cv, transit]
           - text: 125 St Subway (Project Manager)
             versions: [cv, general, transit]
