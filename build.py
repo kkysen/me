@@ -6,6 +6,8 @@ written as `{text: ..., versions: [...]}` instead of a plain string.
 Such a highlight may also have its own `highlights:` as sub-bullets.
 RenderCV makes sub-bullets by splitting on " - ",
 so a highlight's own text can't contain one.
+Any other field of an entry may instead be a list of `{text: ..., versions: [...]}`
+alternatives, and takes the first one included in the variant.
 Anything without `versions` is included in every variant.
 A `-name` in `versions` excludes that variant instead;
 a list of only exclusions includes every other variant.
@@ -76,6 +78,14 @@ def filter_highlights(highlights, variant: str):
     return out
 
 
+def is_alternatives(value) -> bool:
+    return (
+        isinstance(value, list)
+        and bool(value)
+        and all(isinstance(v, dict) and "text" in v for v in value)
+    )
+
+
 def filter_entries(entries, variant: str):
     out = []
     for entry in entries:
@@ -83,6 +93,11 @@ def filter_entries(entries, variant: str):
             continue
         if isinstance(entry, dict):
             entry.pop("versions", None)
+            for key, value in entry.items():
+                if key != "highlights" and is_alternatives(value):
+                    entry[key] = next(
+                        (v["text"] for v in value if included(v, variant)), None
+                    )
             if entry.get("highlights"):
                 entry["highlights"] = filter_highlights(entry["highlights"], variant)
         out.append(entry)
