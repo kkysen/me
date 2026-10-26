@@ -1,7 +1,7 @@
 """Generate one RenderCV YAML per resume variant from `content.yaml`.
 
-Any entry (a dict in a section's list) or highlight may be limited to
-certain variants. An entry takes a `versions:` list; a highlight is
+Any entry (a dict in a section's list or in the header's connections)
+or highlight may be limited to certain variants. An entry takes a `versions:` list; a highlight is
 written as `{text: ..., versions: [...]}` instead of a plain string.
 Such a highlight may also have its own `highlights:` as sub-bullets.
 RenderCV makes sub-bullets by splitting on " - ",
@@ -91,6 +91,9 @@ def filter_entries(entries, variant: str):
 
 def build(content, variant: str, stem: str, word: str, private: bool):
     data = copy.deepcopy(content)
+    for name in ("social_networks", "custom_connections"):
+        if data["cv"].get(name):
+            data["cv"][name] = filter_entries(data["cv"][name], variant) or None
     sections = data["cv"]["sections"]
     for name in list(sections):
         sections[name] = filter_entries(sections[name], variant)
