@@ -60,9 +60,11 @@ Nov 2023 – present
 
   - [Baffling Battery Blunder: Expensive, Experimental, Slow Battery Locomotives Have No Place on Already Electrified Rails](https://www.etany.org/baffling-battery-blunder)
 
-- OPTO
+- Better Subway Service
 
   - [Impeding Progress, Costing Riders: Bill Banning One-Person Trains Would Lock NY Transit in the Past](https://www.etany.org/statements/impeding-progress-costing-riders-opto): helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
+
+  - [Deinterlining: Simpler Service, Fewer Delays](https://www.etany.org/statements/deinterlining)
 
 - Penn Station Through-Running
 
@@ -71,10 +73,6 @@ Nov 2023 – present
   - [Through-Running: First Connections](https://www.etany.org/reports/through-running-first-connections): a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
 
   - [The Century Old Idea that Can Revolutionize NYC Commuter Rail](https://www.youtube.com/watch?v=l0xR6V-GIzc): a video on Penn Station through-running.
-
-- Deinterlining
-
-  - [Deinterlining: Simpler Service, Fewer Delays](https://www.etany.org/statements/deinterlining)
 
 - Fares
 
