@@ -387,8 +387,8 @@ cv:
         details: Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
       - label: Software
         versions: [cv]
-        details: rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal,
-          Node, Deno, Bun, React, CMake, Webpack
+        details: rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, JVM, Graal,
+          Node, Deno, Bun, React, Webpack
       - label: Transit Data
         versions: [general, transit]
         details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, RAPTOR, SIRI, NFPA 130,
@@ -401,7 +401,7 @@ cv:
           Bash
       - label: Software
         versions: [general, software]
-        details: rustc, LLVM, Clang, gdb, WebAssembly, Linux, CMake, Node, React
+        details: rustc, LLVM, Clang, gdb, WebAssembly, Node, React
     honors:
       - bullet: '1st Place, Two Sigma Data Science Competition'
         versions: [cv]

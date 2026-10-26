@@ -511,7 +511,7 @@
 
 #strong[Languages:] Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86\_64 and AArch64 asm, Bash
 
-#strong[Software:] rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal, Node, Deno, Bun, React, CMake, Webpack
+#strong[Software:] rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, JVM, Graal, Node, Deno, Bun, React, Webpack
 
 == Honors
 

@@ -221,7 +221,7 @@ May 2022 – Aug 2022
 # Skills
 **Languages:** Rust, Kotlin, TypeScript, C++, C, Python, Java, Haskell, OCaml, x86_64 and AArch64 asm, Bash
 
-**Software:** rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Linux, JVM, Graal, Node, Deno, Bun, React, CMake, Webpack
+**Software:** rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, JVM, Graal, Node, Deno, Bun, React, Webpack
 
 # Honors
 - 1st Place, Two Sigma Data Science Competition
