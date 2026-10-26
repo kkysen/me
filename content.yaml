@@ -155,7 +155,7 @@ cv:
       - company: QueensLink
         logo: queenslink.png
         versions: [-mta]
-        position: '**Communications Associate** (previously Volunteer)'
+        position: '**Communications Associate**'
         date:
         start_date: 2024-03
         end_date: present

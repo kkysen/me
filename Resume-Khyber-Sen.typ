@@ -209,7 +209,7 @@
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       image("logos/queenslink.png", width: size.width * scale)
     })))
-    #strong[Communications Associate] (previously Volunteer), QueensLink -- Queens, NY
+    #strong[Communications Associate], QueensLink -- Queens, NY
 
   ],
   [

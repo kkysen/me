@@ -72,7 +72,7 @@ May 2026 – present
 
 
 
-## **Communications Associate** (previously Volunteer), QueensLink -- Queens, NY
+## **Communications Associate**, QueensLink -- Queens, NY
 
 Mar 2024 – present
 
