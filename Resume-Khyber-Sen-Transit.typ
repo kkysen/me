@@ -320,7 +320,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   main-column-second-row: [
-    - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and guiding a neural net-based fuzzer.
+    - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and feeding a neural net that guides fuzzing, taint analysis, and profile-guided optimizations, uncovering hidden data dependencies and elusive bugs.
 
   ],
 )
