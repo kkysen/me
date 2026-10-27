@@ -147,19 +147,11 @@
 
         @media (max-width: 40em) {
             :root {
-                --logo-width: 1.7em;
+                --logo-width: 1.4em;
             }
 
             body {
                 padding: 1.5em 16px;
-            }
-
-            /*
-             * Only entries need room for logos, so the header stays centered.
-             * Logos reach into the side gutter, ending up 6px from the screen edge.
-             */
-            main {
-                padding-left: calc(var(--logo-width) - 10px);
             }
 
             h1 {
@@ -250,12 +242,19 @@
                 grid-column: 2;
             }
 
+            /* No room for a margin, so put logos at the right of the title's first line, above the date. */
             .logo {
-                justify-content: flex-start;
+                left: auto;
+                right: 0;
+                justify-content: flex-end;
             }
 
             .logo img {
-                max-width: 1.4em;
+                max-width: 100%;
+            }
+
+            .logo + .entry-title .what > :first-child {
+                padding-right: calc(var(--logo-width) + 0.5em);
             }
         }
     </style>
