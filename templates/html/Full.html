@@ -163,19 +163,30 @@
                 font-size: 2.2em;
             }
 
-            /* Wrap whole items, without separators left dangling at line ends. */
+            /*
+             * Wrap whole items, centering each separator in the gap before its item
+             * without taking up room, so hiding one at a line start can't reflow the line.
+             */
             .connections {
                 display: flex;
                 flex-wrap: wrap;
                 justify-content: center;
-                gap: 0.1em 1.2em;
+                gap: 0.1em 1.6em;
             }
 
             .connections span {
+                position: relative;
                 white-space: nowrap;
             }
 
             .connections span + span::before {
+                position: absolute;
+                right: calc(100% + 0.8em);
+                transform: translateX(50%);
+                margin: 0;
+            }
+
+            .connections span.line-start::before {
                 content: none;
             }
 
@@ -288,6 +299,21 @@
         </section>
         {% endfor %}
     </main>
+    <script>
+        // Mark the links that start a wrapped line, so they get no dangling separator.
+        function markLineStarts() {
+            for (const line of document.querySelectorAll(".connections")) {
+                let previous = null;
+                for (const span of line.children) {
+                    span.classList.toggle("line-start", previous !== null && span.offsetTop > previous.offsetTop);
+                    previous = span;
+                }
+            }
+        }
+        markLineStarts();
+        addEventListener("resize", markLineStarts);
+        document.fonts.ready.then(markLineStarts);
+    </script>
 </body>
 
 </html>
