@@ -106,4 +106,4 @@ Jun 2017 – Aug 2017
 **Software:** rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
 
 # Interests
-Programming language design, tennis, baseball, quantum mechanics, endocrinology, optimization, trains, exploring cities
+programming language design, tennis, baseball, quantum mechanics, endocrinology, optimization, trains, exploring cities
