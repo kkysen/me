@@ -283,8 +283,13 @@
                 <div class="entry-title">
                     {% if section.entry_type == "ExperienceEntry" %}
                     <span class="what"><span class="position">{{ entry.position|markdown_inline }}</span><span class="sep">, </span><span class="org">{{ entry.company|markdown_inline }}</span>{% if entry.location %}<span class="sep"> – </span><span class="place">{{ entry.location|markdown_inline }}</span>{% endif %}</span>
-                    {% elif section.entry_type == "EducationEntry" and entry.location and lines[0].endswith(entry.location) %}
-                    <span class="what"><span class="main">{{ lines[0][:-(entry.location|length)].rstrip()|markdown_inline }}</span><span class="sep"> </span><span class="place">{{ entry.location|markdown_inline }}</span></span>
+                    {% elif section.entry_type == "EducationEntry" %}
+                    {% set school = "**" ~ entry.institution ~ "**" %}
+                    {% set details = lines[0].removeprefix(school).removeprefix(",").strip() %}
+                    {% if entry.location and details.endswith(entry.location) %}
+                    {% set details = details[:-(entry.location|length)].rstrip() %}
+                    {% endif %}
+                    <span class="what"><span class="org">{{ school|markdown_inline }}</span>{% if details %}<span class="sep">, </span><span class="main">{{ details|markdown_inline }}</span>{% endif %}{% if entry.location %}<span class="sep"> </span><span class="place">{{ entry.location|markdown_inline }}</span>{% endif %}</span>
                     {% else %}
                     <span class="what"><span class="main">{{ lines[0]|markdown_inline }}</span></span>
                     {% endif %}
