@@ -147,16 +147,19 @@
 
         @media (max-width: 40em) {
             :root {
-                --logo-width: 2.1em;
+                --logo-width: 1.7em;
             }
 
             body {
                 padding: 1.5em 16px;
             }
 
-            /* Only entries need room for logos, so the header stays centered. */
+            /*
+             * Only entries need room for logos, so the header stays centered.
+             * Logos reach into the side gutter, ending up 6px from the screen edge.
+             */
             main {
-                padding-left: calc(var(--logo-width) - 8px);
+                padding-left: calc(var(--logo-width) - 10px);
             }
 
             h1 {
@@ -247,8 +250,12 @@
                 grid-column: 2;
             }
 
+            .logo {
+                justify-content: flex-start;
+            }
+
             .logo img {
-                max-width: 1.6em;
+                max-width: 1.4em;
             }
         }
     </style>
