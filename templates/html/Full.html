@@ -194,14 +194,38 @@
                 margin-bottom: 0.5em;
             }
 
+            /* Stack position, employer, and location, with the date at the right of the last line. */
             .entry-title {
-                flex-direction: column;
-                gap: 0;
+                display: grid;
+                grid-template-columns: 1fr auto;
+                gap: 0 1em;
+            }
+
+            .entry-title .what {
+                display: contents;
+            }
+
+            .entry-title .sep {
+                display: none;
+            }
+
+            .entry-title .position,
+            .entry-title .org,
+            .entry-title .main {
+                grid-column: 1 / -1;
+            }
+
+            .entry-title .place {
+                grid-column: 1;
+            }
+
+            .entry-title .place,
+            .entry-title .date {
+                color: var(--top-note);
             }
 
             .entry-title .date {
-                text-align: left;
-                color: var(--top-note);
+                grid-column: 2;
             }
 
             .logo img {
@@ -244,8 +268,15 @@
                 {% if entry.logo is defined and entry.logo %}
                 <span class="logo"><img src="logos/{{ entry.logo }}" alt=""></span>
                 {% endif %}
+                {# Split the title into parts so narrow screens can stack them. #}
                 <div class="entry-title">
-                    <span>{{ lines[0]|markdown_inline }}</span>
+                    {% if section.entry_type == "ExperienceEntry" %}
+                    <span class="what"><span class="position">{{ entry.position|markdown_inline }}</span><span class="sep">, </span><span class="org">{{ entry.company|markdown_inline }}</span>{% if entry.location %}<span class="sep"> – </span><span class="place">{{ entry.location|markdown_inline }}</span>{% endif %}</span>
+                    {% elif section.entry_type == "EducationEntry" and entry.location and lines[0].endswith(entry.location) %}
+                    <span class="what"><span class="main">{{ lines[0][:-(entry.location|length)].rstrip()|markdown_inline }}</span><span class="sep"> </span><span class="place">{{ entry.location|markdown_inline }}</span></span>
+                    {% else %}
+                    <span class="what"><span class="main">{{ lines[0]|markdown_inline }}</span></span>
+                    {% endif %}
                     {% if entry.date_and_location_column %}
                     <span class="date">{{ entry.date_and_location_column.splitlines()|join(", ")|markdown_inline }}</span>
                     {% endif %}
