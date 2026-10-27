@@ -151,7 +151,41 @@
             }
 
             body {
-                padding: 1.5em 16px 1.5em calc(var(--logo-width) + 8px);
+                padding: 1.5em 16px;
+            }
+
+            /* Only entries need room for logos, so the header stays centered. */
+            main {
+                padding-left: calc(var(--logo-width) - 8px);
+            }
+
+            h1 {
+                font-size: 2.2em;
+            }
+
+            /* Wrap whole items, without separators left dangling at line ends. */
+            .connections {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 0.1em 1.2em;
+            }
+
+            .connections span {
+                white-space: nowrap;
+            }
+
+            .connections span + span::before {
+                content: none;
+            }
+
+            /* Narrow screens can't spare the PDF's deep list indents. */
+            ul {
+                padding-left: 1em;
+            }
+
+            ul ul {
+                padding-left: 0.9em;
             }
 
             .top-note {
