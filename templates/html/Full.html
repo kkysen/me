@@ -76,7 +76,7 @@
             text-decoration: none;
         }
 
-        .connections span + span::before {
+        .connections .sep::before {
             content: "|";
             margin: 0 0.75em;
         }
@@ -174,19 +174,27 @@
                 gap: 0.1em 1.6em;
             }
 
-            .connections span {
+            /* Email and phone wrap together, leaving the location alone if needed. */
+            .connections .group {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: inherit;
+            }
+
+            .connections .item {
                 position: relative;
                 white-space: nowrap;
             }
 
-            .connections span + span::before {
+            .connections .sep::before {
                 position: absolute;
                 right: calc(100% + 0.8em);
                 transform: translateX(50%);
                 margin: 0;
             }
 
-            .connections span.line-start::before {
+            .connections .line-start::before {
                 content: none;
             }
 
@@ -253,9 +261,12 @@
         <span class="top-note">{{ cv._top_note|markdown_inline }}</span>
         {% endif %}
         {% for line in [contact, web] if line %}
+        {% set grouped = loop.first and line|length > 2 %}
         <p class="connections">
             {% for connection in line %}
-            <span>{{ connection|markdown_inline }}</span>
+            {% if grouped and loop.index == 2 %}<span class="group">{% endif %}
+            <span class="item{% if not loop.first %} sep{% endif %}">{{ connection|markdown_inline }}</span>
+            {% if grouped and loop.last %}</span>{% endif %}
             {% endfor %}
         </p>
         {% endfor %}
@@ -308,10 +319,11 @@
         // Mark the links that start a wrapped line, so they get no dangling separator.
         function markLineStarts() {
             for (const line of document.querySelectorAll(".connections")) {
-                let previous = null;
-                for (const span of line.children) {
-                    span.classList.toggle("line-start", previous !== null && span.offsetTop > previous.offsetTop);
-                    previous = span;
+                let previousTop = null;
+                for (const item of line.querySelectorAll(".item")) {
+                    const top = item.getBoundingClientRect().top;
+                    item.classList.toggle("line-start", previousTop !== null && top > previousTop + 1);
+                    previousTop = top;
                 }
             }
         }
