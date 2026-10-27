@@ -146,8 +146,12 @@
         }
 
         @media (max-width: 40em) {
+            :root {
+                --logo-width: 2.1em;
+            }
+
             body {
-                padding: 1.5em 16px;
+                padding: 1.5em 16px 1.5em calc(var(--logo-width) + 8px);
             }
 
             .top-note {
@@ -166,8 +170,8 @@
                 color: var(--top-note);
             }
 
-            .logo {
-                display: none;
+            .logo img {
+                max-width: 1.6em;
             }
         }
     </style>
