@@ -433,12 +433,6 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #strong[Software:] rustc, Polonius, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
 
-== Honors
-
-- 1st Place, Two Sigma Data Science Competition
-
-- 1st Place, PClassic Programming Competition at UPenn
-
 == Interests
 
 programming language design, tennis, baseball, quantum mechanics, endocrinology, optimization, exploring cities
