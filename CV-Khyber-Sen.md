@@ -82,7 +82,7 @@ May 2026 – present
 
 
 
-## **Communications Associate**, [QueensLink](https://thequeenslink.org/) -- NYC
+## **Communications Associate** (previously Volunteer), [QueensLink](https://thequeenslink.org/) -- NYC
 
 Mar 2024 – present
 

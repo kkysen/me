@@ -166,7 +166,10 @@ cv:
       - company: '[QueensLink](https://thequeenslink.org/)'
         logo: queenslink.png
         versions: [cv, general, transit, -mta]
-        position: '**Communications Associate**'
+        position:
+          - text: '**Communications Associate** (previously Volunteer)'
+            versions: [cv]
+          - text: '**Communications Associate**'
         date:
         start_date: 2024-03
         end_date: present

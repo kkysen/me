@@ -248,7 +248,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
       let line-height = measure(text("H")).height
       move(dy: (line-height - size.height * scale) / 2, image("logos/queenslink.png", width: size.width * scale))
     })))
-    #strong[Communications Associate], #link("https://thequeenslink.org/")[QueensLink] -- NYC
+    #strong[Communications Associate] (previously Volunteer), #link("https://thequeenslink.org/")[QueensLink] -- NYC
 
   ],
   [
