@@ -209,7 +209,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX]: found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
 
-    - Helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation.
+    - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation.
 
   ],
 )
