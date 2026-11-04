@@ -6,7 +6,7 @@
   name: "Khyber Sen",
   title: "Khyber Sen - Resume",
   footer: context { [#emph[Khyber Sen -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Oct 2026] ],
+  top-note: [ #emph[Last updated in Nov 2026] ],
   locale-catalog-language: "en",
   text-direction: ltr,
   page-size: "us-letter",
@@ -80,8 +80,8 @@
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2026,
-    month: 10,
-    day: 26,
+    month: 11,
+    day: 4,
   ),
 )
 
@@ -90,7 +90,7 @@
   let note = text.with(font: "XCharter", size: 0.9 * 10pt)
   // The name's line starts at its cap height, so drop the note by the difference in cap heights.
   let drop = measure(text("H")).height - measure(note("H")).height
-  move(dy: drop, note(fill: rgb(128, 128, 128), [#emph[Last updated in Oct 2026]]))
+  move(dy: drop, note(fill: rgb(128, 128, 128), [#emph[Last updated in Nov 2026]]))
 })
 
 #connections(
@@ -431,7 +431,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, SQL, Bash
 
-#strong[Software:] rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
+#strong[Software:] rustc, Polonius, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
 
 == Honors
 
