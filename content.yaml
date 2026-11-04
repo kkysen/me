@@ -471,7 +471,7 @@ cv:
           SQL, Bash
       - label: Software
         versions: [general, software]
-        details: rustc, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB,
+        details: rustc, Polonius, LLVM, Clang, gdb (Python API), WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB,
           SQLite, Claude
     honors:
       - bullet: '1st Place, Two Sigma Data Science Competition'
