@@ -365,7 +365,7 @@ cv:
             of high school.
           - Team captain senior year.
           - Stuyvesant representative to the PSAL Baseball Showcase junior and senior years.
-    recent_transit_projects:
+    recent_projects:
       - name: '[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)'
         versions: [cv, software, transit]
         date:

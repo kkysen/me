@@ -172,7 +172,7 @@ Sep 2014 – Jan 2018
 
 
 
-# Recent Transit Projects
+# Recent Projects
 ## **[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)**
 
 - Analyzed origin-destination (OD) data to quantify one-seat rides under different deinterlining scenarios.

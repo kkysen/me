@@ -440,7 +440,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   ],
 )
 
-== Recent Transit Projects
+== Recent Projects
 
   #regular-entry(
   [
