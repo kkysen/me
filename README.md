@@ -48,6 +48,11 @@ To limit a single highlight, write it as a `text`/`versions` mapping instead of 
             versions: [cv, general]
 ```
 
+Experience entries are kept whole on one page.
+To let a long one split across pages instead,
+where moving it whole would leave too much of a page blank,
+give it `split: 'true'` (a string, since RenderCV only takes strings in extra fields).
+
 Render all versions with:
 
 ```sh

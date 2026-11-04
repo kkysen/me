@@ -4,7 +4,8 @@
 {% else %}
 {% set first_row_lines = entry.main_column.splitlines()|length %}
 {% endif %}
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: {{ (entry.split is defined and entry.split == "true")|lower }}, regular-entry(
   [
 {% if entry.logo is defined and entry.logo %}
     #place(left + top, dx: -({{ design.page.left_margin }} + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
@@ -35,4 +36,4 @@
 {% endfor %}
   ],
 {% endif %}
-)
+))

@@ -149,7 +149,8 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 == Experience
 
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: true, regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
@@ -202,9 +203,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
       - #link("https://www.youtube.com/watch?v=l0xR6V-GIzc")[The Century Old Idea that Can Revolutionize NYC Commuter Rail]: interviewed for a JTA video.
 
   ],
-)
+))
 
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
@@ -223,9 +225,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   ],
   main-column-second-row: [
   ],
-)
+))
 
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
@@ -246,9 +249,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
     - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
   ],
-)
+))
 
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
@@ -279,9 +283,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
     - #link("https://github.com/immunant/IA2-Phase2")[IA2]: Helped develop IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86\_64's Memory Protection Keys and Arm's Memory Tagging Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a program as complex as dav1d, and added callgate data verification so data crossing the boundary between isolated compartments could be further verified.
 
   ],
-)
+))
 
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
@@ -306,9 +311,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
     - Louper: Helped optimize MediaTek's LLVM-based digital signal processing compiler by using deep learning to predict difficult optimization decisions. Developed the hyperheuristic framework Louper, which created a register pressure estimator 3x as accurate as the current human heuristic.
 
   ],
-)
+))
 
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
@@ -329,9 +335,10 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
     - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and feeding a neural net that guides fuzzing, taint analysis, and profile-guided optimizations, uncovering hidden data dependencies and elusive bugs.
 
   ],
-)
+))
 
-#regular-entry(
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
@@ -352,7 +359,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
     - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 
   ],
-)
+))
 
 == Recent Projects
 

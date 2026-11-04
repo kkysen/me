@@ -60,6 +60,7 @@ cv:
       - company: '[Effective Transit Alliance](https://www.etany.org/) (ETA)'
         logo: eta.svg
         versions: [cv, general, transit]
+        split: 'true'
         position: '**Director of Transit Operations and Planning**'
         date:
         start_date: 2023-11
