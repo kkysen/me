@@ -475,9 +475,9 @@ cv:
           SQLite, Claude
     honors:
       - bullet: '1st Place, Two Sigma Data Science Competition'
-        versions: [cv]
+        versions: [cv, software]
       - bullet: '1st Place, PClassic Programming Competition at UPenn'
-        versions: [cv]
+        versions: [cv, software]
     interests:
       - text: programming language design, tennis, baseball, quantum mechanics, endocrinology,
           optimization, trains, exploring cities
