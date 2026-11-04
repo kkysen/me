@@ -34,6 +34,10 @@
     {{ line|indent(4) }}
 
 {% endfor %}
+{% if entry.logo is defined and entry.logo and not entry.main_column.splitlines()[first_row_lines:]|select|list %}
+    // The logo is taller than the title line, so without highlights below it, it would touch the next entry's logo.
+    #v(0.1in)
+{% endif %}
   ],
 {% endif %}
 ))

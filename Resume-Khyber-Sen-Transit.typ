@@ -224,6 +224,8 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   main-column-second-row: [
+    // The logo is taller than the title line, so without highlights below it, it would touch the next entry's logo.
+    #v(0.1in)
   ],
 ))
 
