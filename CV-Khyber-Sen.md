@@ -189,9 +189,9 @@ Sep 2014 – Jan 2018
 
 
 
-## **[Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5)**
+## **[Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, Rust)**
 
-- Mapped NYC subway isochrones, with and without QueensLink, routed with R5 over the real street network.
+- Mapped NYC subway isochrones, with and without QueensLink, routed with my own RAPTOR implementation in Rust from MTA OD Data, optimized for speed and accuracy.
 
 
 

@@ -235,7 +235,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   main-column-second-row: [
     - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
-    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds]: mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
+    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds]: mapped NYC subway isochrones, with and without QueensLink, routed with my own RAPTOR implementation in Rust, optimized for speed and accuracy.
 
   ],
 ))

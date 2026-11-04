@@ -62,7 +62,7 @@ Mar 2024 – present
 
 - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
-- [Subway Sheds](https://kkysen.github.io/subway-sheds/): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
+- [Subway Sheds](https://kkysen.github.io/subway-sheds/): mapped NYC subway isochrones, with and without QueensLink, routed with my own RAPTOR implementation in Rust, optimized for speed and accuracy.
 
 
 

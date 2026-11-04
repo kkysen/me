@@ -397,13 +397,13 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   #regular-entry(
   [
-    #strong[#link("https://kkysen.github.io/subway-sheds/")[Subway Sheds] (Python, TypeScript, R5)]
+    #strong[#link("https://kkysen.github.io/subway-sheds/")[Subway Sheds] (Python, TypeScript, Rust)]
 
   ],
   [
   ],
   main-column-second-row: [
-    - Mapped NYC subway isochrones, with and without QueensLink, routed with R5 over the real street network.
+    - Mapped NYC subway isochrones, with and without QueensLink, routed with my own RAPTOR implementation in Rust from MTA OD Data, optimized for speed and accuracy.
 
   ],
 )

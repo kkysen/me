@@ -268,7 +268,8 @@ cv:
           - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
           - '[Subway Sheds](https://kkysen.github.io/subway-sheds/): mapped
-            NYC subway isochrones, with and without QueensLink, routed over the real street network.'
+            NYC subway isochrones, with and without QueensLink, routed with my own RAPTOR
+            implementation in Rust, optimized for speed and accuracy.'
       - company: MediaTek
         logo: mediatek.png
         position: '**Compiler Intern**'
@@ -391,7 +392,7 @@ cv:
             power limitations, and compared them with scheduled runtimes.
           - Identified schedule padding hotspots and bottlenecks in signaling, junctions, and
             traction power.
-      - name: '[Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5)'
+      - name: '[Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, Rust)'
         versions: [cv, transit]
         date:
         start_date:
@@ -399,7 +400,8 @@ cv:
         location:
         summary:
         highlights:
-          - Mapped NYC subway isochrones, with and without QueensLink, routed with R5 over the real street network.
+          - Mapped NYC subway isochrones, with and without QueensLink, routed with my own RAPTOR
+            implementation in Rust from MTA OD Data, optimized for speed and accuracy.
       - name: '[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Python, Android)'
         versions: [cv, transit]
         date:
