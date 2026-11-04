@@ -50,6 +50,8 @@ Nov 2023 – present
 
 - [Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust): computed minimum train runtimes from track geometry, train performance, and traction power, finding schedule padding and bottlenecks.
 
+- [Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
+
 - [ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
 
 - [IBX](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35% and speed 31%.

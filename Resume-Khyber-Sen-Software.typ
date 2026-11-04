@@ -205,6 +205,8 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - #link("https://github.com/kkysen/rail-runtime")[Rail Runtime] (Python, Rust): computed minimum train runtimes from track geometry, train performance, and traction power, finding schedule padding and bottlenecks.
 
+    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds] (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
+
     - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
 
     - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX]: found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
