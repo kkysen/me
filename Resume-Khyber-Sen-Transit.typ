@@ -369,7 +369,11 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   [
   ],
   main-column-second-row: [
-    - Mapped NYC subway isochrones, with and without QueensLink, routed with my own RAPTOR implementation in Rust from MTA OD Data, optimized for speed and accuracy.
+    - Mapped how far riders can get on the NYC subway in a given time, with and without QueensLink, counting waits by taking the median trip over every minute's departure in an hour.
+
+    - Routed trains with my own RAPTOR implementation in Rust from MTA OD Data, optimized for speed and accuracy, and walks over the OSM street network, in and out through each station's entrances.
+
+    - Fit QueensLink's service into MTA's schedule with CP-SAT, keeping trains on shared track a real headway apart, with the new track timed from its curves.
 
   ],
 )
