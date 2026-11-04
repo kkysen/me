@@ -203,7 +203,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   main-column-second-row: [
     - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the passenger crowding model to show Penn Station can support 48 tph.
 
-    - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
+    - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish]: built ETA's automated tool to publish reports from Google Docs.
 
     - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX]: found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
 
@@ -235,7 +235,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   main-column-second-row: [
     - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
-    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds] (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
+    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds]: mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
 
   ],
 ))

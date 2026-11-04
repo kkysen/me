@@ -46,7 +46,7 @@ Nov 2023 – present
 
 - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can support 48 tph.
 
-- [ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
+- [ETA Publish](https://github.com/effective-transit-alliance/eta-publish): built ETA's automated tool to publish reports from Google Docs.
 
 - [IBX](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35% and speed 31%.
 
@@ -62,7 +62,7 @@ Mar 2024 – present
 
 - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
-- [Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
+- [Subway Sheds](https://kkysen.github.io/subway-sheds/): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
 
 
 
