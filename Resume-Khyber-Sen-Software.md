@@ -22,38 +22,6 @@ Sep 2014 – Jun 2018
 
 
 # Experience
-## **Director of Transit Operations and Planning**, [Effective Transit Alliance](https://www.etany.org/) (ETA) -- NYC
-
-Nov 2023 – present
-
-- Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials. Researching and developing expertise in the latest advances in rolling stock, electrification, tunneling and station construction, service optimization, signaling, and automation.
-
-- Attended transit conferences across the world to learn best practices from peer cities:
-
-  - InnoTrans 2026 in Berlin
-
-  - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
-
-- Penn Station Through-Running
-
-  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can support 48 tph.
-
-
-
-## **Board Member**, [Joint Transit Association](https://jointtransit.org/) (JTA) -- NYC
-
-May 2026 – present
-
-
-
-## **Communications Associate**, [QueensLink](https://thequeenslink.org/) -- NYC
-
-Mar 2024 – present
-
-- Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
-
-
-
 ## **Software Engineer**, [Immunant](https://immunant.com/) -- Remote
 
 May 2022 – Apr 2026
@@ -69,6 +37,24 @@ May 2022 – Apr 2026
 - [rav1d](https://github.com/memorysafety/rav1d): Ported the bulk of the AV1 decoder dav1d from C to Rust, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5% slower than C's dav1d, with the initial unsafe transpile alone accounting for 3.8%.
 
 - [IA2](https://github.com/immunant/IA2-Phase2): Helped develop IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86_64's Memory Protection Keys and Arm's Memory Tagging Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a program as complex as dav1d, and added callgate data verification so data crossing the boundary between isolated compartments could be further verified.
+
+
+
+## **Director of Transit Operations and Planning**, [Effective Transit Alliance](https://www.etany.org/) (ETA) -- NYC
+
+Nov 2023 – present
+
+- [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can support 48 tph.
+
+- [MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust): used RAPTOR to turn origin-destination data into trip paths, analyzing ridership, crowding, and one-seat rides under deinterlining.
+
+- [Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust): computed minimum train runtimes from track geometry, train performance, and traction power, finding schedule padding and bottlenecks.
+
+- [ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
+
+- [IBX](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35% and speed 31%.
+
+- Helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation.
 
 
 

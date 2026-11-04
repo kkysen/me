@@ -152,83 +152,6 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   [
     #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
       // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
-      let size = measure(image("logos/eta.svg"))
-      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      // The title line runs from its cap height down to its baseline.
-      let line-height = measure(text("H")).height
-      move(dy: (line-height - size.height * scale) / 2, image("logos/eta.svg", width: size.width * scale))
-    })))
-    #strong[Director of Transit Operations and Planning], #link("https://www.etany.org/")[Effective Transit Alliance] (ETA) -- NYC
-
-  ],
-  [
-    Nov 2023 – present
-
-  ],
-  main-column-second-row: [
-    - Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials. Researching and developing expertise in the latest advances in rolling stock, electrification, tunneling and station construction, service optimization, signaling, and automation.
-
-    - Attended transit conferences across the world to learn best practices from peer cities:
-
-      - InnoTrans 2026 in Berlin
-
-      - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
-
-    - Penn Station Through-Running
-
-      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the passenger crowding model to show Penn Station can support 48 tph.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
-      let size = measure(image("logos/jta.png"))
-      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      // The title line runs from its cap height down to its baseline.
-      let line-height = measure(text("H")).height
-      move(dy: (line-height - size.height * scale) / 2, image("logos/jta.png", width: size.width * scale))
-    })))
-    #strong[Board Member], #link("https://jointtransit.org/")[Joint Transit Association] (JTA) -- NYC
-
-  ],
-  [
-    May 2026 – present
-
-  ],
-  main-column-second-row: [
-  ],
-)
-
-#regular-entry(
-  [
-    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
-      let size = measure(image("logos/queenslink.png"))
-      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
-      // The title line runs from its cap height down to its baseline.
-      let line-height = measure(text("H")).height
-      move(dy: (line-height - size.height * scale) / 2, image("logos/queenslink.png", width: size.width * scale))
-    })))
-    #strong[Communications Associate], #link("https://thequeenslink.org/")[QueensLink] -- NYC
-
-  ],
-  [
-    Mar 2024 – present
-
-  ],
-  main-column-second-row: [
-    - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
-
-  ],
-)
-
-#regular-entry(
-  [
-    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
-      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
       let size = measure(image("logos/immunant.png"))
       let scale = calc.min(0.39in / size.width, 0.24in / size.height)
       // The title line runs from its cap height down to its baseline.
@@ -254,6 +177,39 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
     - #link("https://github.com/memorysafety/rav1d")[rav1d]: Ported the bulk of the AV1 decoder dav1d from C to Rust, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5\% slower than C's dav1d, with the initial unsafe transpile alone accounting for 3.8\%.
 
     - #link("https://github.com/immunant/IA2-Phase2")[IA2]: Helped develop IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86\_64's Memory Protection Keys and Arm's Memory Tagging Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a program as complex as dav1d, and added callgate data verification so data crossing the boundary between isolated compartments could be further verified.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
+      let size = measure(image("logos/eta.svg"))
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/eta.svg", width: size.width * scale))
+    })))
+    #strong[Director of Transit Operations and Planning], #link("https://www.etany.org/")[Effective Transit Alliance] (ETA) -- NYC
+
+  ],
+  [
+    Nov 2023 – present
+
+  ],
+  main-column-second-row: [
+    - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the passenger crowding model to show Penn Station can support 48 tph.
+
+    - #link("https://github.com/kkysen/mta-od-data")[MTA OD Data] (Python, Rust): used RAPTOR to turn origin-destination data into trip paths, analyzing ridership, crowding, and one-seat rides under deinterlining.
+
+    - #link("https://github.com/kkysen/rail-runtime")[Rail Runtime] (Python, Rust): computed minimum train runtimes from track geometry, train performance, and traction power, finding schedule padding and bottlenecks.
+
+    - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
+
+    - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX]: found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
+
+    - Helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation.
 
   ],
 )

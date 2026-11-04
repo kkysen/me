@@ -59,6 +59,7 @@ cv:
     experience:
       - company: '[Effective Transit Alliance](https://www.etany.org/) (ETA)'
         logo: eta.svg
+        versions: [cv, general, transit]
         position: '**Director of Transit Operations and Planning**'
         date:
         start_date: 2023-11
@@ -154,6 +155,7 @@ cv:
                 collection.'
       - company: '[Joint Transit Association](https://jointtransit.org/) (JTA)'
         logo: jta.png
+        versions: [cv, general, transit]
         position: '**Board Member**'
         date:
         start_date: 2026-05
@@ -163,7 +165,7 @@ cv:
         highlights:
       - company: '[QueensLink](https://thequeenslink.org/)'
         logo: queenslink.png
-        versions: [-mta]
+        versions: [cv, general, transit, -mta]
         position: '**Communications Associate**'
         date:
         start_date: 2024-03
@@ -225,6 +227,31 @@ cv:
               program as complex as dav1d, and added callgate data verification so data crossing
               the boundary between isolated compartments could be further verified.'
             versions: [cv, general, software]
+      - company: '[Effective Transit Alliance](https://www.etany.org/) (ETA)'
+        logo: eta.svg
+        versions: [software, -transit]
+        position: '**Director of Transit Operations and Planning**'
+        date:
+        start_date: 2023-11
+        end_date: present
+        location: NYC
+        summary:
+        highlights:
+          - '[Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load):
+            rebuilt the passenger crowding model to show Penn Station can support 48 tph.'
+          - '[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust): used RAPTOR to turn
+            origin-destination data into trip paths, analyzing ridership, crowding, and one-seat rides
+            under deinterlining.'
+          - '[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust): computed minimum
+            train runtimes from track geometry, train performance, and traction power, finding schedule
+            padding and bottlenecks.'
+          - '[ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst):
+            built ETA''s automated tool to publish reports from Google Docs.'
+          - '[IBX](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in
+            the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35% and
+            speed 31%.'
+          - Helped convince Governor Hochul to veto a 2025 bill that would have banned one-person
+            train operation.
       - company: MediaTek
         logo: mediatek.png
         position: '**Compiler Intern**'
