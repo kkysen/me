@@ -201,12 +201,6 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   main-column-second-row: [
     - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the passenger crowding model to show Penn Station can support 48 tph.
 
-    - #link("https://github.com/kkysen/mta-od-data")[MTA OD Data] (Python, Rust): used RAPTOR to turn origin-destination data into trip paths, analyzing ridership, crowding, and one-seat rides under deinterlining.
-
-    - #link("https://github.com/kkysen/rail-runtime")[Rail Runtime] (Python, Rust): computed minimum train runtimes from track geometry, train performance, and traction power, finding schedule padding and bottlenecks.
-
-    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds] (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
-
     - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish] (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
 
     - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX]: found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
@@ -214,6 +208,31 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
     - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole]: showed how shallower 125th St stations could save riders up to 10 min per trip and the MTA billions; the MTA's planners told us they read it and are considering it.
 
     - #link("https://www.etany.org/statements/impeding-progress-costing-riders-opto")[Impeding Progress, Costing Riders]: helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation.
+
+  ],
+)
+
+#regular-entry(
+  [
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
+      let size = measure(image("logos/queenslink.png"))
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/queenslink.png", width: size.width * scale))
+    })))
+    #strong[Communications Associate], #link("https://thequeenslink.org/")[QueensLink] -- NYC
+
+  ],
+  [
+    Mar 2024 – present
+
+  ],
+  main-column-second-row: [
+    - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
+
+    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds] (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
 
   ],
 )
@@ -287,6 +306,38 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   ],
   main-column-second-row: [
     - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
+
+  ],
+)
+
+== Recent Transit Projects
+
+  #regular-entry(
+  [
+    #strong[#link("https://github.com/kkysen/mta-od-data")[MTA OD Data] (Python, Rust)]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Analyzed origin-destination (OD) data to quantify one-seat rides under different deinterlining scenarios.
+
+    - Used RAPTOR to turn OD data into trip paths to analyze ridership and crowding across lines, train cars, and platforms.
+
+  ],
+)
+
+  #regular-entry(
+  [
+    #strong[#link("https://github.com/kkysen/rail-runtime")[Rail Runtime] (Python, Rust)]
+
+  ],
+  [
+  ],
+  main-column-second-row: [
+    - Computed minimum train runtimes from track geometry, train performance, and traction power limitations, and compared them with scheduled runtimes.
+
+    - Identified schedule padding hotspots and bottlenecks in signaling, junctions, and traction power.
 
   ],
 )

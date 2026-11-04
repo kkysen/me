@@ -46,12 +46,6 @@ Nov 2023 – present
 
 - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can support 48 tph.
 
-- [MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust): used RAPTOR to turn origin-destination data into trip paths, analyzing ridership, crowding, and one-seat rides under deinterlining.
-
-- [Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust): computed minimum train runtimes from track geometry, train performance, and traction power, finding schedule padding and bottlenecks.
-
-- [Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
-
 - [ETA Publish](https://github.com/effective-transit-alliance/eta-publish) (Python, Typst): built ETA's automated tool to publish reports from Google Docs.
 
 - [IBX](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35% and speed 31%.
@@ -59,6 +53,16 @@ Nov 2023 – present
 - [Digging Out of a Very Deep Hole](https://www.etany.org/reports/digging-out-deep-hole-sas-west): showed how shallower 125th St stations could save riders up to 10 min per trip and the MTA billions; the MTA's planners told us they read it and are considering it.
 
 - [Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto): helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation.
+
+
+
+## **Communications Associate**, [QueensLink](https://thequeenslink.org/) -- NYC
+
+Mar 2024 – present
+
+- Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
+
+- [Subway Sheds](https://kkysen.github.io/subway-sheds/) (Python, TypeScript, R5): mapped NYC subway isochrones, with and without QueensLink, routed over the real street network.
 
 
 
@@ -87,6 +91,23 @@ Jan 2019 – Aug 2019
 Jun 2017 – Aug 2017
 
 - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
+
+
+
+# Recent Transit Projects
+## **[MTA OD Data](https://github.com/kkysen/mta-od-data) (Python, Rust)**
+
+- Analyzed origin-destination (OD) data to quantify one-seat rides under different deinterlining scenarios.
+
+- Used RAPTOR to turn OD data into trip paths to analyze ridership and crowding across lines, train cars, and platforms.
+
+
+
+## **[Rail Runtime](https://github.com/kkysen/rail-runtime) (Python, Rust)**
+
+- Computed minimum train runtimes from track geometry, train performance, and traction power limitations, and compared them with scheduled runtimes.
+
+- Identified schedule padding hotspots and bottlenecks in signaling, junctions, and traction power.
 
 
 
