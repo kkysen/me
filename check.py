@@ -10,6 +10,7 @@ ROOT = Path(__file__).parent
 # PDF -> most pages it may have
 LIMITS = {
     "private/Resume-Khyber-Sen-MTA-Software.pdf": 2,
+    "rendercv_output/Resume-Khyber-Sen-Software.pdf": 2,
 }
 
 
