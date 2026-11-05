@@ -42,6 +42,9 @@ VARIANTS = {
     "mta-software": ("Resume-Khyber-Sen-MTA-Software", "Resume", ("mta", "software"), True),
 }
 
+# Variants too tight on space to move an entry whole to the next page, so every entry may split.
+TIGHT = {"mta-software"}
+
 
 def ancestors(variant: str) -> set[str]:
     out = {variant}
@@ -123,6 +126,10 @@ def build(content, variant: str, stem: str, word: str, private: bool):
     sections = data["cv"]["sections"]
     for name in list(sections):
         sections[name] = filter_entries(sections[name], variant)
+        if variant in TIGHT:
+            for entry in sections[name]:
+                if isinstance(entry, dict) and "highlights" in entry:
+                    entry["split"] = "true"
         if not sections[name]:
             del sections[name]
     # Title the summary with the headline instead of showing the headline under the name.
