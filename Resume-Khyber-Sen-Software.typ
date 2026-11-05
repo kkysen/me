@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 4,
+    day: 5,
   ),
 )
 
@@ -235,7 +235,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
   main-column-second-row: [
     - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
-    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds]: mapped how far riders can get on the subway, with and without QueensLink, routing trains with my own Rust RAPTOR and walks over OSM streets through station entrances, and fitting QueensLink's trains into MTA's schedule with CP-SAT.
+    - #link("https://kkysen.github.io/subway-sheds/")[Subway Sheds]: mapped NYC subway isochrones with and without QueensLink, routing trains with RAPTOR, timing transfers and walks with OSM data, and scheduling QueensLink trains into MTA schedules with CP-SAT.
 
   ],
 ))

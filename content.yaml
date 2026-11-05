@@ -267,10 +267,9 @@ cv:
         highlights:
           - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
-          - '[Subway Sheds](https://kkysen.github.io/subway-sheds/): mapped how far riders can get on
-            the subway, with and without QueensLink, routing trains with my own Rust RAPTOR and walks
-            over OSM streets through station entrances, and fitting QueensLink''s trains into MTA''s
-            schedule with CP-SAT.'
+          - '[Subway Sheds](https://kkysen.github.io/subway-sheds/): mapped NYC subway isochrones
+            with and without QueensLink, routing trains with RAPTOR, timing transfers and walks with
+            OSM data, and scheduling QueensLink trains into MTA schedules with CP-SAT.'
       - company: MediaTek
         logo: mediatek.png
         position: '**Compiler Intern**'
@@ -401,13 +400,9 @@ cv:
         location:
         summary:
         highlights:
-          - Mapped how far riders can get on the NYC subway in a given time, with and without
-            QueensLink, counting waits by taking the median trip over every minute's departure in an hour.
-          - Routed trains with my own RAPTOR implementation in Rust from MTA OD Data, optimized for
-            speed and accuracy, and walks over the OSM street network, in and out through each
-            station's entrances.
-          - Fit QueensLink's service into MTA's schedule with CP-SAT, keeping trains on shared track
-            a real headway apart, with the new track timed from its curves.
+          - Mapped NYC subway isochrones with and without QueensLink, routing trains with RAPTOR,
+            timing transfers and walks with OSM data, and scheduling QueensLink trains into MTA
+            schedules with CP-SAT.
       - name: '[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Python, Android)'
         versions: [cv, transit]
         date:
