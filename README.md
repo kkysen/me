@@ -59,6 +59,8 @@ Render all versions with:
 just render
 ```
 
+It ends with `just check`, which fails if a resume with a page limit is over it.
+
 This generates multiple rendered formats per version.
 Textual outputs committed in the repo:
 - `.md` Markdown

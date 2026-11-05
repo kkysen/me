@@ -7,6 +7,11 @@ render:
     for v in {{private_variants}}; do uv run python render.py render build/$v.yaml; done
     sed -i "s/'s CV/'s Resume/" Resume-Khyber-Sen*.md private/*.md
     cp index.html rendercv_output/index.html
+    just check
+
+# Fail if a resume that must fit a page limit has grown past it.
+check:
+    uv run python check.py
 
 # Re-render one variant on every change to its generated YAML.
 watch variant="Resume-Khyber-Sen":

@@ -3,6 +3,7 @@ name = "resume"
 version = "2026.9.17"
 requires-python = ">=3.14"
 dependencies = [
+    "pypdf>=6.21.4",
     "rendercv[full]",
     "ruamel-yaml>=0.19.1",
 ]
