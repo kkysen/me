@@ -407,7 +407,7 @@ cv:
             timing transfers and walks with OSM data, and scheduling QueensLink trains into MTA
             schedules with CP-SAT.
       - name: '[Ride Logger](https://github.com/kkysen/ride-measurement-app) (Rust, Kotlin, Python, Android)'
-        versions: [cv, transit]
+        versions: [cv, transit, software]
         date:
         start_date:
         end_date:
