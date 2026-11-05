@@ -44,6 +44,8 @@ May 2022 – Apr 2026
 
 Nov 2023 – present
 
+- Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials.
+
 - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can support 48 tph.
 
 - [ETA Publish](https://github.com/effective-transit-alliance/eta-publish): built ETA's automated tool to publish reports from Google Docs.
