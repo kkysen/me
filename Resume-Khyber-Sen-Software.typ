@@ -201,7 +201,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   main-column-second-row: [
-    - Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials.
+    - Advocating for better transit in the NY metro area through technical analysis and software development drawing from international best practices. Meeting with journalists, MTA staff, and elected officials. Researching and developing expertise in the latest advances in rolling stock, electrification, tunneling and station construction, service optimization, signaling, and automation.
 
     - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the #link("https://github.com/effective-transit-alliance/platform-crowd-model")[passenger crowding model] to show Penn Station's existing platforms can support 48 trains per hour with through-running.
 

@@ -44,7 +44,7 @@ May 2022 – Apr 2026
 
 Nov 2023 – present
 
-- Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials.
+- Advocating for better transit in the NY metro area through technical analysis and software development drawing from international best practices. Meeting with journalists, MTA staff, and elected officials. Researching and developing expertise in the latest advances in rolling stock, electrification, tunneling and station construction, service optimization, signaling, and automation.
 
 - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the [passenger crowding model](https://github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station's existing platforms can support 48 trains per hour with through-running.
 
