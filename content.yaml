@@ -81,10 +81,17 @@ cv:
           - text: IBX (Project Manager)
             versions: [cv, general, transit]
             highlights:
-              - '[IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel):
-                found street-running capacity errors in the PEL and advocated for an All Faiths Tunnel;
-                the MTA then committed to a tunnel, raising ridership 35% and speed 31%, saving riders
-                a combined 3 years per day.'
+              - text: '[IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel):
+                  found street-running capacity errors in the PEL and advocated for an All Faiths Tunnel;
+                  the MTA then committed to a tunnel, raising ridership 35% and speed 31%, saving riders
+                  a combined 3 years per day.'
+                versions: [-general]
+              - text: '[IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel):
+                  found street-running capacity errors in the study for the upcoming Interborough
+                  Express light rail line and advocated for an All Faiths Tunnel; the MTA then
+                  committed to a tunnel, raising ridership 35% and speed 31%, saving riders a combined
+                  3 years per day.'
+                versions: [general]
               - text: '[Automated Light Metro is Right for the
                   IBX](https://www.etany.org/reports/ibx-automation): now that the IBX will be
                   fully grade-separated, it should be an ALM.'

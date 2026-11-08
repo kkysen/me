@@ -36,7 +36,7 @@ Nov 2023 – present
 
 - IBX (Project Manager)
 
-  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the PEL and advocated for an All Faiths Tunnel; the MTA then committed to a tunnel, raising ridership 35% and speed 31%, saving riders a combined 3 years per day.
+  - [IBX: 515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the study for the upcoming Interborough Express light rail line and advocated for an All Faiths Tunnel; the MTA then committed to a tunnel, raising ridership 35% and speed 31%, saving riders a combined 3 years per day.
 
 - 125 St Subway (Project Manager)
 

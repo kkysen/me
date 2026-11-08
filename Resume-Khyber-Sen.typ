@@ -177,7 +177,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - IBX (Project Manager)
 
-      - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX: 515 Feet from Greatness]: found street-running capacity errors in the PEL and advocated for an All Faiths Tunnel; the MTA then committed to a tunnel, raising ridership 35\% and speed 31\%, saving riders a combined 3 years per day.
+      - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX: 515 Feet from Greatness]: found street-running capacity errors in the study for the upcoming Interborough Express light rail line and advocated for an All Faiths Tunnel; the MTA then committed to a tunnel, raising ridership 35\% and speed 31\%, saving riders a combined 3 years per day.
 
     - 125 St Subway (Project Manager)
 
