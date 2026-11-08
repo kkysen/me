@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 7,
+    day: 8,
   ),
 )
 
@@ -207,7 +207,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish]: built ETA's automated tool to publish reports from Google Docs.
 
-    - #link("https://www.etany.org/ibx-all-faiths-tunnel")[IBX]: found street-running capacity errors in the PEL; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
+    - #link("https://www.etany.org/ibx-all-faiths-tunnel")[515 Feet from Greatness]: found street-running capacity errors in the study for the upcoming Interborough Express light rail line; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
 
     - #link("https://www.etany.org/reports/digging-out-deep-hole-sas-west")[Digging Out of a Very Deep Hole]: showed how shallower 125th St stations could save riders up to 10 min per trip and the MTA billions; under review by MTA planners.
 
