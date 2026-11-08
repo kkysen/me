@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 5,
+    day: 7,
   ),
 )
 
@@ -368,12 +368,6 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 #strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, SQL, Bash
 
 #strong[Software:] rustc, Polonius, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
-
-== Honors
-
-- 1st Place, Two Sigma Data Science Competition
-
-- 1st Place, PClassic Programming Competition at UPenn
 
 == Interests
 
