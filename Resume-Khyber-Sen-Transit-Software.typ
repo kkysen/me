@@ -436,7 +436,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 #strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, SQL, Bash
 
-#strong[Software:] rustc, Polonius, LLVM, Clang, gdb, WebAssembly, Node, React, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
+#strong[Software:] rustc, Polonius, LLVM, Clang, gdb, WebAssembly, Node, React, Linux, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
 
 == Interests
 
