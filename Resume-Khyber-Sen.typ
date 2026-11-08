@@ -189,7 +189,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - Penn Station Through-Running
 
-      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the passenger crowding model to show Penn Station can support 48 trains per hour.
+      - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the #link("https://github.com/effective-transit-alliance/platform-crowd-model")[passenger crowding model] to show Penn Station can support 48 trains per hour.
 
   ],
 ))

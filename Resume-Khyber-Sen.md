@@ -48,7 +48,7 @@ Nov 2023 – present
 
 - Penn Station Through-Running
 
-  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model to show Penn Station can support 48 trains per hour.
+  - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the [passenger crowding model](https://github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station can support 48 trains per hour.
 
 
 

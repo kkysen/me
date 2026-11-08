@@ -139,15 +139,15 @@ cv:
             highlights:
               - text: '[Penn Station Can Handle the
                   Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the
-                  passenger crowding model to show Penn Station can safely support 48 tph.'
+                  [passenger crowding model](https://github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station can safely support 48 tph.'
                 versions: [cv]
               - text: '[Penn Station Can Handle the
                   Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the
-                  passenger crowding model to show Penn Station can support 48 tph.'
+                  [passenger crowding model](https://github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station can support 48 tph.'
                 versions: [-cv, -general]
               - text: '[Penn Station Can Handle the
                   Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the
-                  passenger crowding model to show Penn Station can support 48 trains per hour.'
+                  [passenger crowding model](https://github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station can support 48 trains per hour.'
                 versions: [general]
               - text: '[Through-Running: First
                   Connections](https://www.etany.org/reports/through-running-first-connections):
@@ -256,7 +256,7 @@ cv:
             from international best practices. Meeting with journalists, MTA staff, and
             elected officials.
           - '[Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load):
-            rebuilt the passenger crowding model
+            rebuilt the [passenger crowding model](https://github.com/effective-transit-alliance/platform-crowd-model)
             to show Penn Station can support 48 trains per hour with through-running.'
           - '[ETA Publish](https://github.com/effective-transit-alliance/eta-publish):
             built ETA''s automated tool to publish reports from Google Docs.'
