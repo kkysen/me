@@ -73,11 +73,9 @@ cv:
             elected officials. Researching and developing expertise in the latest advances in
             rolling stock, electrification, tunneling and station construction, service
             optimization, signaling, and automation.
-          - text: 'Attended transit conferences across the world to learn best practices from peer
-              cities:'
-            highlights:
-              - InnoTrans 2026 in Berlin
-              - 10 TransportationCamps in NYC, Philadelphia, Boston, and DC
+          - 'Attended transit conferences across the world to learn best practices from peer
+            cities: InnoTrans 2026 in Berlin; 10 TransportationCamps in NYC, Philadelphia, Boston,
+            and DC.'
           - text: IBX (Project Manager)
             versions: [cv, general, transit]
             highlights:
