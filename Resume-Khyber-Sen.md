@@ -40,7 +40,7 @@ Nov 2023 – present
 
 - Better Subway Service
 
-  - [Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto): helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation, preventing New York's transit system from being locked out of future modernization.
+  - [Impeding Progress, Costing Riders](https://www.etany.org/statements/impeding-progress-costing-riders-opto): helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation (OPTO), preventing New York's transit system from being locked out of future modernization.
 
 - Penn Station Through-Running
 
