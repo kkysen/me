@@ -48,7 +48,7 @@ Nov 2023 – present
 
 - [Penn Station Can Handle the Load](https://www.etany.org/penn-station-can-handle-the-load): rebuilt the [passenger crowding model](https://github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station's existing platforms can support 48 trains per hour with through-running.
 
-- [ETA Publish](https://github.com/effective-transit-alliance/eta-publish): built ETA's automated tool to publish reports from Google Docs.
+- [ETA Publish](https://github.com/effective-transit-alliance/eta-publish): built ETA's automated tool to publish reports from Google Docs, replacing a manual, error-prone upload to Squarespace.
 
 - [515 Feet from Greatness](https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the study for the upcoming Interborough Express light rail line; the MTA then committed to the tunnel we advocated for, raising ridership 35% and speed 31%.
 

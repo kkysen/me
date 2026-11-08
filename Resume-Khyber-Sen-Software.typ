@@ -205,7 +205,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
     - #link("https://www.etany.org/penn-station-can-handle-the-load")[Penn Station Can Handle the Load]: rebuilt the #link("https://github.com/effective-transit-alliance/platform-crowd-model")[passenger crowding model] to show Penn Station's existing platforms can support 48 trains per hour with through-running.
 
-    - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish]: built ETA's automated tool to publish reports from Google Docs.
+    - #link("https://github.com/effective-transit-alliance/eta-publish")[ETA Publish]: built ETA's automated tool to publish reports from Google Docs, replacing a manual, error-prone upload to Squarespace.
 
     - #link("https://www.etany.org/ibx-all-faiths-tunnel")[515 Feet from Greatness]: found street-running capacity errors in the study for the upcoming Interborough Express light rail line; the MTA then committed to the tunnel we advocated for, raising ridership 35\% and speed 31\%.
 
