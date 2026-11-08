@@ -62,7 +62,7 @@ Nov 2023 – present
 
 Mar 2024 – present
 
-- Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
+- Advocating for QueensLink, a proposal to convert an abandoned LIRR line, connecting North and South Queens with a dual-use subway extension and linear park.
 
 - [Subway Sheds](https://kkysen.github.io/subway-sheds/): mapped NYC subway isochrones with and without QueensLink, routing trains with RAPTOR, timing transfers and walks with OSM data, and scheduling QueensLink trains into MTA schedules with CP-SAT.
 
