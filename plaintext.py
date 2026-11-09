@@ -44,11 +44,12 @@ def split_link(text) -> tuple[str, str]:
 
 def format_date(value) -> str:
     if isinstance(value, date):
-        return f"{value:%b} {value.day}, {value.year}"
+        return f"{value:%m/%d/%Y}"
     value = str(value or "")
     if value in ("", "present"):
         return value
-    return date.fromisoformat(f"{value}-01").strftime("%b %Y")
+    # Only the month is known.
+    return date.fromisoformat(f"{value}-01").strftime("%m/%Y")
 
 
 def highlights(entry) -> list[str]:
