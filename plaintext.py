@@ -22,6 +22,10 @@ NETWORK_URLS = {
     "GitHub": "https://github.com/{}",
     "LinkedIn": "https://linkedin.com/in/{}",
 }
+# Labels for `custom_connections`, by their icon.
+CONNECTION_LABELS = {
+    "bluesky": "Bluesky",
+}
 SECTION_TITLES = {
     "recent_projects": "Recent Projects",
 }
@@ -205,6 +209,9 @@ def convert(cv) -> str:
     for social in cv.get("social_networks") or []:
         url = NETWORK_URLS[social["network"]].format(social["username"])
         header.append(f"{social['network']}: {url}")
+    for connection in cv.get("custom_connections") or []:
+        label = CONNECTION_LABELS[connection["fontawesome_icon"]]
+        header.append(f"{label}: {connection['url']}")
     blocks = ["\n".join(header)]
     for name, entries in cv["sections"].items():
         known = name.islower()
