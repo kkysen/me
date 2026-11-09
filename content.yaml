@@ -344,8 +344,8 @@ cv:
         logo: columbia.png
         position: '**Rabi Scholar Researcher**'
         date:
-        start_date: 2019-01
-        end_date: 2019-08
+        start_date: 2019-01-31
+        end_date: 2019-08-15
         location:
         summary:
         highlights:
@@ -365,7 +365,7 @@ cv:
         versions: [cv, general, software]
         position: '**Intern**'
         date:
-        start_date: 2017-06
+        start_date: 2017-06-29
         end_date: 2017-08
         location:
         summary:

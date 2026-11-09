@@ -114,15 +114,15 @@ Summary:
 Company: Columbia University (SmartNeuralFuzzer)
 Company Website: https://github.com/kkysen/SmartNeuralFuzzer
 Title: Rabi Scholar Researcher
-Start Date: 01/2019
-End Date: 08/2019
+Start Date: 01/31/2019
+End Date: 08/15/2019
 Summary:
 - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and feeding a neural net, built with Ph.D. student Kexin Pei and Prof. Junfeng Yang, that guides fuzzing, taint analysis, and profile-guided optimizations, uncovering hidden data dependencies and elusive bugs.
 
 Company: Bionet Group, Columbia University (fruitflybrain.org)
 Company Website: https://fruitflybrain.org
 Title: Intern
-Start Date: 06/2017
+Start Date: 06/29/2017
 End Date: 08/2017
 Summary:
 - Worked on the Fruit Fly Brain Observatory, an international research initiative to understand the fruit fly brain and model it using GPU-based programming, under the direction of Aurel Lazar.
