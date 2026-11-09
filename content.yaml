@@ -181,7 +181,7 @@ cv:
             versions: [cv]
           - text: '**Communications Associate**'
         date:
-        start_date: 2024-03
+        start_date: 2024-03-14
         end_date: present
         location: NYC
         summary:
@@ -278,7 +278,7 @@ cv:
         versions: [software, -transit]
         position: '**Communications Associate**'
         date:
-        start_date: 2024-03
+        start_date: 2024-03-14
         end_date: present
         location: NYC
         summary:
