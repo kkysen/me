@@ -113,7 +113,8 @@ Summary:
 
 Project: Ride Logger
 URL: https://github.com/kkysen/ride-measurement-app
-Languages: Rust, Kotlin, Python, Android
+Languages: Rust, Kotlin, Python
+Technologies: Android
 Summary:
 - Built an app to record rides and use sensor fusion (GNSS, IMU, cell, Wi-Fi, Bluetooth beacons, magnetometer, pedometer, microphone) to estimate speed and position underground, on trains and in stations.
 

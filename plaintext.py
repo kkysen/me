@@ -139,11 +139,39 @@ def split_languages(name: str) -> tuple[str, str]:
     return name, ""
 
 
+# Anything else in a project's parentheses is a technology, like Android or d3.
+LANGUAGES = {"C", "C++", "C++17", "Java", "JS", "Kotlin", "Python", "Rust", "TypeScript", "Typst"}
+
+
+def split_technologies(languages: str) -> tuple[list[str], list[str]]:
+    """Split a project's parenthesized list into languages and other technologies."""
+    langs = []
+    techs = []
+    # Split on commas outside parentheses, so `WebAssembly (C++17)` stays whole.
+    for item in re.split(r",\s*(?![^()]*\))", languages) if languages else []:
+        if m := re.fullmatch(r"(.*?) \((.*)\)", item):
+            # Like `WebAssembly (C++17)`: a technology used through a language.
+            techs.append(m[1])
+            langs.append(m[2])
+        elif item in LANGUAGES:
+            langs.append(item)
+        else:
+            techs.append(item)
+    return langs, techs
+
+
 def project(entry) -> list[str]:
     name, url = split_link(entry["name"])
-    name, languages = split_languages(name)
+    name, parenthesized = split_languages(name)
+    langs, techs = split_technologies(parenthesized)
     out = fields(
-        [("Project", name), ("URL", url or None), ("Languages", languages or None), *dates(entry)]
+        [
+            ("Project", name),
+            ("URL", url or None),
+            ("Languages", ", ".join(langs) or None),
+            ("Technologies", ", ".join(techs) or None),
+            *dates(entry),
+        ]
     )
     return out + summary_block(entry)
 
