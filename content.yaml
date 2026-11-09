@@ -45,7 +45,7 @@ cv:
         area: ''
         degree: ''
         # Plain text output only; resumes show the GPA in the summary.
-        gpa: 97.5 (unweighted, out of 100)
+        gpa: 97.5 (unweighted)
         # Plain text output only; resumes leave it out for space.
         full_degree: Advanced Regents Diploma
         date:
@@ -59,7 +59,7 @@ cv:
         area: ''
         degree: ''
         # Plain text output only; resumes show the GPA in the summary.
-        gpa: 97.5 (unweighted, out of 100)
+        gpa: 97.5 (unweighted)
         # Plain text output only; resumes leave it out for space.
         full_degree: Advanced Regents Diploma
         date:

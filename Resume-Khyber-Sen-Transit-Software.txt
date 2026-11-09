@@ -26,7 +26,7 @@ Degree: Advanced Regents Diploma
 Field of Study:
 Start Date: 09/04/2014
 End Date: 06/26/2018
-GPA: 97.5 (unweighted, out of 100)
+GPA: 97.5 (unweighted)
 Summary: Scholar Athlete award
 
 EXPERIENCE
