@@ -11,15 +11,15 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 EDUCATION
 Columbia University, BA in CS: 3.79 GPA, 3.98 GPA in major, Rabi Scholar (gap year 2020–21)
-Sep 2018 – Feb 2023
+Sep 4, 2018 – Feb 8, 2023
 
 Stuyvesant High School, 97.5 GPA unweighted, Scholar Athlete award
-Sep 2014 – Jun 2018
+Sep 4, 2014 – Jun 26, 2018
 
 EXPERIENCE
 Software Engineer, Immunant (https://immunant.com/) -- Remote
 
-May 2022 – Apr 2026
+May 23, 2022 – Apr 30, 2026
 
 - c2rust (https://github.com/immunant/c2rust): Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
 
@@ -35,7 +35,7 @@ May 2022 – Apr 2026
 
 Director of Transit Operations and Planning, Effective Transit Alliance (https://www.etany.org/) (ETA) -- NYC
 
-Nov 2023 – present
+Nov 1, 2023 – present
 
 - Advocating for better transit in the NY metro area through technical analysis and software development drawing from international best practices. Meeting with journalists, MTA staff, and elected officials. Researching and developing expertise in the latest advances in rolling stock, electrification, tunneling and station construction, service optimization, signaling, and automation.
 
@@ -59,7 +59,7 @@ Mar 2024 – present
 
 Compiler Intern, MediaTek -- Woburn, MA
 
-May 2020 – Dec 2021
+May 26, 2020 – Dec 3, 2021
 
 - If Conversion: Replaced monomorphic branch unswitching with polymorphic if conversion for significant code size savings with minimal performance impact.
 
