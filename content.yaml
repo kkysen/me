@@ -366,7 +366,7 @@ cv:
         position: '**Intern**'
         date:
         start_date: 2017-06-29
-        end_date: 2017-08
+        end_date: 2017-08-11  # Tentative: the Friday before leaving for France on 2017-08-16.
         location:
         summary:
         highlights:

@@ -99,7 +99,7 @@ Company: Bionet Group, Columbia University (fruitflybrain.org)
 Company Website: https://fruitflybrain.org
 Title: Intern
 Start Date: 06/29/2017
-End Date: 08/2017
+End Date: 08/11/2017
 Summary:
 - Programmed the vision system of a fruit fly robot to mimic the fruit fly's compound vision and motion detection, so that the robot could track, follow, and evade objects like a real fruit fly.
 
