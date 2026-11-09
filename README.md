@@ -64,6 +64,7 @@ It ends with `just check`, which fails if a resume with a page limit is over it.
 This generates multiple rendered formats per version.
 Textual outputs committed in the repo:
 - `.md` Markdown
+- `.txt` plain text, made from the Markdown by `plaintext.py`, for pasting into job application forms
 - `.typ` Typst
 Binary outputs in `rendercv_output/`, `.gitignore`d, and hosted via GitHub Pages:
 - `.html` HTML

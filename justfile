@@ -6,6 +6,7 @@ render:
     for v in {{variants}}; do uv run python render.py render build/$v.yaml; done
     for v in {{private_variants}}; do uv run python render.py render build/$v.yaml; done
     sed -i "s/'s CV/'s Resume/" Resume-Khyber-Sen*.md private/*.md
+    uv run python plaintext.py CV-Khyber-Sen.md Resume-Khyber-Sen*.md private/*.md
     cp index.html rendercv_output/index.html
     just check
 
