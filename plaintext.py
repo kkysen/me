@@ -1,11 +1,12 @@
-"""Convert RenderCV's Markdown output to plain text, for pasting into job application forms.
+"""Write a plain text version of each resume variant, for pasting into job application forms.
 
-Headings lose their `#`s (sections are uppercased to stand out), bold is dropped,
-and links become `text (url)`, or just the text for `mailto:` links.
+Application forms often parse the PDF badly, so fields have to be filled in by hand.
+This reads each variant's generated YAML in `build/`
+and writes it as labeled fields like `Company:` and `Start Date:`, one entry per block.
+Bold is dropped, and links become `text (url)`,
+except a company, school, or project link, which gets its own field.
 Dates show the exact day where `content.yaml` has one,
-since applications sometimes ask for it,
-by replacing RenderCV's month-only dates in order
-with the dates of the entries in the variant's generated YAML in `build/`.
+since applications sometimes ask for it.
 """
 
 import re
@@ -17,62 +18,161 @@ from ruamel.yaml import YAML
 
 ROOT = Path(__file__).parent
 LINK = re.compile(r"\[([^\]]*)\]\(([^)]*)\)")
-MONTH = r"[A-Z][a-z]{2} \d{4}"
-DATES = re.compile(rf"^{MONTH}( – ({MONTH}|present))?$")
+NETWORK_URLS = {
+    "GitHub": "https://github.com/{}",
+    "LinkedIn": "https://linkedin.com/in/{}",
+}
+SECTION_TITLES = {
+    "recent_projects": "Recent Projects",
+}
+
+
+def inline(text) -> str:
+    """Strip Markdown from inline text."""
+    text = LINK.sub(lambda m: f"{m[1]} ({m[2]})", str(text or ""))
+    return text.replace("**", "").replace(" -- ", " – ")
+
+
+def split_link(text) -> tuple[str, str]:
+    """Split a name like `[Name](url) (extra)` into `Name (extra)` and the URL."""
+    text = str(text or "")
+    m = LINK.search(text)
+    if not m:
+        return inline(text), ""
+    return inline(text[: m.start()] + m[1] + text[m.end() :]), m[2]
 
 
 def format_date(value) -> str:
     if isinstance(value, date):
         return f"{value:%b} {value.day}, {value.year}"
-    value = str(value)
-    if value == "present":
+    value = str(value or "")
+    if value in ("", "present"):
         return value
     return date.fromisoformat(f"{value}-01").strftime("%b %Y")
 
 
-def entry_dates(stem: str) -> list[str]:
-    cv = YAML(typ="safe").load(ROOT / "build" / f"{stem}.yaml")["cv"]
-    out = []
-    for entries in cv["sections"].values():
-        for entry in entries:
-            if not isinstance(entry, dict):
-                continue
-            if entry.get("start_date"):
-                start = format_date(entry["start_date"])
-                end = format_date(entry.get("end_date") or "present")
-                out.append(f"{start} – {end}")
-            elif entry.get("date"):
-                out.append(format_date(entry["date"]))
-    return out
-
-
-def link(m: re.Match) -> str:
-    text, url = m.groups()
-    return text if url.startswith("mailto:") else f"{text} ({url})"
-
-
-def convert(md: str, dates: list[str]) -> str:
+def highlights(entry) -> list[str]:
     lines = []
-    dates = iter(dates)
-    for line in md.splitlines():
-        if DATES.match(line):
-            line = next(dates)
-        line = LINK.sub(link, line)
-        line = line.replace("**", "")
-        if line.startswith("## "):
-            line = line[3:]
-        elif line.startswith("# "):
-            line = line[2:].upper()
-        lines.append(line.rstrip())
-    if next(dates, None) is not None:
-        sys.exit("more dated entries than dates in the Markdown")
-    text = "\n".join(lines)
-    return re.sub(r"\n{3,}", "\n\n", text).strip() + "\n"
+    if entry.get("summary"):
+        lines.append(inline(entry["summary"]))
+    for h in entry.get("highlights") or []:
+        # `build.py` joins sub-bullets with " - " for RenderCV.
+        first, *subs = h.split(" - ")
+        lines.append(f"- {inline(first)}")
+        lines.extend(f"  - {inline(sub)}" for sub in subs)
+    return lines
+
+
+def fields(pairs) -> list[str]:
+    return [f"{label}: {value}".rstrip() for label, value in pairs if value is not None]
+
+
+def dates(entry) -> list[tuple[str, str]]:
+    if entry.get("date"):
+        return [("Date", format_date(entry["date"]))]
+    if not entry.get("start_date"):
+        return []
+    return [
+        ("Start Date", format_date(entry["start_date"])),
+        ("End Date", format_date(entry.get("end_date") or "present")),
+    ]
+
+
+def summary_block(entry) -> list[str]:
+    lines = highlights(entry)
+    if not lines:
+        return []
+    if len(lines) == 1 and not lines[0].startswith("- "):
+        return [f"Summary: {lines[0]}"]
+    return ["Summary:", *lines]
+
+
+def education(entry) -> list[str]:
+    school, url = split_link(entry["institution"])
+    out = fields(
+        [
+            ("School", school),
+            ("School Website", url or None),
+            ("Degree", inline(entry.get("degree"))),
+            ("Field of Study", inline(entry.get("area"))),
+            *dates(entry),
+            ("Location", inline(entry["location"]) if entry.get("location") else None),
+        ]
+    )
+    return out + summary_block(entry)
+
+
+def experience(entry) -> list[str]:
+    company, url = split_link(entry["company"])
+    out = fields(
+        [
+            ("Company", company),
+            ("Company Website", url or None),
+            ("Title", inline(entry.get("position"))),
+            ("Location", inline(entry["location"]) if entry.get("location") else None),
+            *dates(entry),
+        ]
+    )
+    return out + summary_block(entry)
+
+
+def project(entry) -> list[str]:
+    name, url = split_link(entry["name"])
+    out = fields([("Project", name), ("URL", url or None), *dates(entry)])
+    return out + summary_block(entry)
+
+
+def entry_block(entry) -> list[str]:
+    if isinstance(entry, str):
+        return [inline(entry)]
+    if "institution" in entry:
+        return education(entry)
+    if "company" in entry:
+        return experience(entry)
+    if "name" in entry:
+        return project(entry)
+    if "label" in entry:
+        return [f"{inline(entry['label'])}: {inline(entry['details'])}"]
+    if "bullet" in entry:
+        return [f"- {inline(entry['bullet'])}"]
+    sys.exit(f"unknown entry type: {entry!r}")
+
+
+def convert(cv) -> str:
+    header = fields(
+        [
+            ("Name", cv.get("name")),
+            ("Email", cv.get("email")),
+            ("Phone Number", str(cv["phone"]).replace("-", " ") if cv.get("phone") else None),
+            ("Location", cv.get("location")),
+            ("Website", cv.get("website")),
+        ]
+    )
+    for social in cv.get("social_networks") or []:
+        url = NETWORK_URLS[social["network"]].format(social["username"])
+        header.append(f"{social['network']}: {url}")
+    blocks = ["\n".join(header)]
+    for name, entries in cv["sections"].items():
+        known = name.islower()
+        title = SECTION_TITLES.get(name, name.replace("_", " ").title()) if known else "Summary"
+        blocks.append(title.upper())
+        if not known:
+            # `build.py` titles the summary with the headline.
+            blocks.append("\n".join([f"Headline: {name}", *(f"Summary: {inline(e)}" for e in entries)]))
+            continue
+        if all(isinstance(e, str) for e in entries) or all("label" in e or "bullet" in e for e in entries):
+            # Short entries read better as one block than spaced out.
+            blocks.append("\n".join(line for e in entries for line in entry_block(e)))
+            continue
+        blocks.extend("\n".join(entry_block(e)) for e in entries)
+    return "\n\n".join(blocks) + "\n"
 
 
 def main():
+    yaml = YAML(typ="safe")
     for path in map(Path, sys.argv[1:]):
-        path.with_suffix(".txt").write_text(convert(path.read_text(), entry_dates(path.stem)))
+        cv = yaml.load(ROOT / "build" / f"{path.stem}.yaml")["cv"]
+        path.with_suffix(".txt").write_text(convert(cv))
 
 
 if __name__ == "__main__":
