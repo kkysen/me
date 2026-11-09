@@ -46,6 +46,8 @@ cv:
         degree: ''
         # Plain text output only; resumes show the GPA in the summary.
         gpa: 97.5 (unweighted, out of 100)
+        # Plain text output only; resumes leave it out for space.
+        full_degree: Advanced Regents Diploma
         date:
         start_date: 2014-09-04
         end_date: 2018-06-26
@@ -58,6 +60,8 @@ cv:
         degree: ''
         # Plain text output only; resumes show the GPA in the summary.
         gpa: 97.5 (unweighted, out of 100)
+        # Plain text output only; resumes leave it out for space.
+        full_degree: Advanced Regents Diploma
         date:
         start_date: 2014-09-04
         end_date: 2018-06-26
