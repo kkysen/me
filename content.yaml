@@ -188,6 +188,7 @@ cv:
         highlights:
       - company: '[QueensLink](https://thequeenslink.org/)'
         logo: queenslink.png
+        # Volunteer from 2024-03-14, Communications Associate from 2026-03-19.
         versions: [cv, general, transit, -mta]
         position:
           - text: '**Communications Associate** (previously Volunteer)'
@@ -202,6 +203,8 @@ cv:
           - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
       - company: '[Immunant](https://immunant.com/)'
+        # Intern 2022-05-23 to 2022-08-26 (offer letter), Junior Software Engineer part-time from 2022-09-01
+        # and full-time from 2023-04-01, Software Engineer from July 2024 (offer letter of 2024-07-08).
         logo: immunant.png
         position:
           - text: '**Software Engineer** (previously Junior Software Engineer, Intern)'
@@ -288,6 +291,7 @@ cv:
             modernization.'
       - company: '[QueensLink](https://thequeenslink.org/)'
         logo: queenslink.png
+        # Volunteer from 2024-03-14, Communications Associate from 2026-03-19.
         versions: [software, -transit]
         position: '**Communications Associate**'
         date:
