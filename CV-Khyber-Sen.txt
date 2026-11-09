@@ -104,8 +104,8 @@ Summary:
 
 Company: Columbia University
 Title: Teaching Assistant, Analysis of Algorithms (Prof. Clifford Stein)
-Start Date: 09/2019
-End Date: 01/2020
+Start Date: 09/04/2019
+End Date: 01/05/2020
 Summary:
 - Acted as liaison between professor and students.
 - Graded exams and problem sets for a class of 140 students.

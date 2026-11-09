@@ -329,8 +329,8 @@ cv:
         versions: [cv]
         position: '**Teaching Assistant**, Analysis of Algorithms (Prof. Clifford Stein)'
         date:
-        start_date: 2019-09
-        end_date: 2020-01
+        start_date: 2019-09-04
+        end_date: 2020-01-05
         location:
         summary:
         highlights:
