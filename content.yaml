@@ -31,8 +31,8 @@ cv:
         area: CS
         degree: BA
         date:
-        start_date: 2018-09
-        end_date: 2023-02
+        start_date: 2018-09-04
+        end_date: 2023-02-08
         location: (gap year 2020–21)
         summary: 3.79 GPA, 3.98 GPA in major, Rabi Scholar
         highlights:
@@ -40,8 +40,8 @@ cv:
         area: ''
         degree: ''
         date:
-        start_date: 2014-09
-        end_date: 2018-06
+        start_date: 2014-09-04
+        end_date: 2018-06-26
         location:
         summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete award
         highlights:
@@ -50,8 +50,8 @@ cv:
         area: ''
         degree: ''
         date:
-        start_date: 2014-09
-        end_date: 2018-06
+        start_date: 2014-09-04
+        end_date: 2018-06-26
         location:
         summary: 97.5 GPA unweighted, Scholar Athlete award
         highlights:
@@ -168,7 +168,7 @@ cv:
         versions: [cv, general, transit]
         position: '**Board Member**'
         date:
-        start_date: 2026-05
+        start_date: 2026-05-22
         end_date: present
         location: NYC
         summary:
@@ -293,7 +293,7 @@ cv:
         position: '**Compiler Intern**'
         date:
         start_date: 2020-05-26
-        end_date: 2021-12
+        end_date: 2021-12-03
         location: Woburn, MA
         summary:
         highlights:
