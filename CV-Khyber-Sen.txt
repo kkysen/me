@@ -18,14 +18,17 @@ Field of Study: Computer Science
 Start Date: Sep 4, 2018
 End Date: Feb 8, 2023
 Location: (gap year 2020–21)
-Summary: 3.79 GPA, 3.98 GPA in major, Rabi Scholar
+GPA: 3.79
+Major GPA: 3.98
+Summary: Rabi Scholar
 
 School: Stuyvesant High School
 Degree:
 Field of Study:
 Start Date: Sep 4, 2014
 End Date: Jun 26, 2018
-Summary: 97.5 GPA unweighted, Captain of Varsity Baseball Team, Scholar Athlete award
+GPA: 97.5 (unweighted, out of 100)
+Summary: Captain of Varsity Baseball Team, Scholar Athlete award
 
 EXPERIENCE
 
