@@ -203,13 +203,81 @@ cv:
           - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch
             rail line through central Queens into a dual-use subway extension and linear park.
       - company: '[Immunant](https://immunant.com/)'
+        # Software Engineer from July 2024 (offer letter of 2024-07-08, signed 2024-07-30).
+        logo: immunant.png
+        versions: [cv]
+        position: '**Software Engineer**'
+        date:
+        start_date: 2024-07-30
+        end_date: 2026-04-30
+        location: Remote
+        summary:
+        highlights:
+          - text: '[c2rust](https://github.com/immunant/c2rust):
+              Core developer of c2rust, a C to Rust transpiler, as part of the DARPA TRACTOR
+              program, extending it to translate more real-world C.'
+            highlights:
+              - Integrated c2rust into [Hayroll](https://github.com/UW-HARVEST/Hayroll), a wrapper handling single-platform conditional
+                compilation, then extended both to handle cross-platform compilation, in part by
+                building off of zig cc.
+              - Added transpiler support for C constant macros, translating them as Rust constants,
+                and wrote c2rust-postprocess, using LLMs to reinsert comments the transpiler
+                drops. Added support for emitting edition 2024 code.
+              - Greatly strengthened testing, adding snapshot tests for the transpiler, reviving
+                c2rust-refactor and dynamic analysis, and extending the integration test suite of
+                various codebases.
+          - '[rav1d](https://github.com/memorysafety/rav1d):
+            Ported the bulk of the AV1 decoder dav1d from C to Rust,
+            translating complex C idioms while preserving performance, and extensively
+            optimizing the result, including instrumenting and modifying rustc where it
+            differed from C. The result is just 5% slower than C''s dav1d, with the initial
+            unsafe transpile alone accounting for 3.8%.'
+          - '[IA2](https://github.com/immunant/IA2-Phase2):
+            Helped develop IA2, a tool for sandboxing intraprocess compartments from each
+            other''s memory using x86_64''s Memory Protection Keys and Arm''s Memory Tagging
+            Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a
+            program as complex as dav1d, and added callgate data verification so data crossing
+            the boundary between isolated compartments could be further verified.'
+      - company: '[Immunant](https://immunant.com/)'
+        # Part-time from 2022-09-01 (offer letter), full-time hourly from about 2023-02-06 (calendar),
+        # salaried from 2023-04-01; one entry, since the title didn't change.
+        logo: immunant.png
+        versions: [cv]
+        position: '**Junior Software Engineer**'
+        date:
+        start_date: 2022-09-01
+        end_date: 2024-07-29
+        location: Remote
+        summary:
+        highlights:
+          - text: '[c2rust](https://github.com/immunant/c2rust):
+              Core developer of c2rust as part of the DARPA ALLSTAR program, helping to lift its
+              unsafe Rust output to safe Rust through a combination of static and dynamic
+              analysis.'
+            highlights:
+              - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and
+                provenance throughout program runs, building a pointer derivation graph to
+                complement a static analysis modeling pointer permissions. Integrated the dynamic
+                analysis outputs into the static analysis, modeled pointer permissions for known
+                libc functions, and fixed how string literals and casts were analyzed.
+      - company: '[Immunant](https://immunant.com/)'
+        # Offer letter end date; LinkedIn says September 2022.
+        logo: immunant.png
+        versions: [cv]
+        position: '**Software Engineering Intern**'
+        date:
+        start_date: 2022-05-23
+        end_date: 2022-08-26
+        location: Remote
+        summary:
+        highlights:
+          - Worked on c2rust, a C to Rust transpiler.
+      - company: '[Immunant](https://immunant.com/)'
         # Intern 2022-05-23 to 2022-08-26 (offer letter), Junior Software Engineer part-time from 2022-09-01
         # and full-time from 2023-04-01, Software Engineer from July 2024 (offer letter of 2024-07-08).
         logo: immunant.png
-        position:
-          - text: '**Software Engineer** (previously Junior Software Engineer, Intern)'
-            versions: [cv]
-          - text: '**Software Engineer**'
+        versions: [-cv]
+        position: '**Software Engineer**'
         date:
         start_date: 2022-05-23
         end_date: 2026-04-30
@@ -224,21 +292,11 @@ cv:
               - text: Integrated c2rust into [Hayroll](https://github.com/UW-HARVEST/Hayroll), a wrapper handling single-platform conditional
                   compilation, then extended both to handle cross-platform compilation, in part by
                   building off of zig cc.
-                versions: [cv, software]
+                versions: [software]
               - text: Added transpiler support for C constant macros, translating them as Rust constants,
                   and wrote c2rust-postprocess, using LLMs to reinsert comments the transpiler
                   drops. Added support for emitting edition 2024 code.
-                versions: [cv, software]
-              - text: Greatly strengthened testing, adding snapshot tests for the transpiler, reviving
-                  c2rust-refactor and dynamic analysis, and extending the integration test suite of
-                  various codebases.
-                versions: [cv]
-              - text: Wrote a rustc instrumentation plugin to dynamically trace pointer usage and
-                  provenance throughout program runs, building a pointer derivation graph to
-                  complement a static analysis modeling pointer permissions. Integrated the dynamic
-                  analysis outputs into the static analysis, modeled pointer permissions for known
-                  libc functions, and fixed how string literals and casts were analyzed.
-                versions: [cv]
+                versions: [software]
               - text: Wrote a rustc instrumentation plugin to dynamically trace pointer usage and
                   provenance throughout program runs, building a pointer derivation graph to
                   complement a static analysis modeling pointer permissions.
@@ -255,7 +313,7 @@ cv:
               Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a
               program as complex as dav1d, and added callgate data verification so data crossing
               the boundary between isolated compartments could be further verified.'
-            versions: [cv, general, software]
+            versions: [general, software]
       - company: '[Effective Transit Alliance](https://www.etany.org/) (ETA)'
         logo: eta.svg
         versions: [software, -transit]

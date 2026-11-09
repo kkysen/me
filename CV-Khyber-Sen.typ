@@ -273,15 +273,15 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
       let line-height = measure(text("H")).height
       move(dy: (line-height - size.height * scale) / 2, image("logos/immunant.png", width: size.width * scale))
     })))
-    #strong[Software Engineer] (previously Junior Software Engineer, Intern), #link("https://immunant.com/")[Immunant] -- Remote
+    #strong[Software Engineer], #link("https://immunant.com/")[Immunant] -- Remote
 
   ],
   [
-    May 2022 – Apr 2026
+    Jul 2024 – Apr 2026
 
   ],
   main-column-second-row: [
-    - #link("https://github.com/immunant/c2rust")[c2rust]: Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+    - #link("https://github.com/immunant/c2rust")[c2rust]: Core developer of c2rust, a C to Rust transpiler, as part of the DARPA TRACTOR program, extending it to translate more real-world C.
 
       - Integrated c2rust into #link("https://github.com/UW-HARVEST/Hayroll")[Hayroll], a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
 
@@ -289,11 +289,59 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
       - Greatly strengthened testing, adding snapshot tests for the transpiler, reviving c2rust-refactor and dynamic analysis, and extending the integration test suite of various codebases.
 
-      - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modeling pointer permissions. Integrated the dynamic analysis outputs into the static analysis, modeled pointer permissions for known libc functions, and fixed how string literals and casts were analyzed.
-
     - #link("https://github.com/memorysafety/rav1d")[rav1d]: Ported the bulk of the AV1 decoder dav1d from C to Rust, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5\% slower than C's dav1d, with the initial unsafe transpile alone accounting for 3.8\%.
 
     - #link("https://github.com/immunant/IA2-Phase2")[IA2]: Helped develop IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86\_64's Memory Protection Keys and Arm's Memory Tagging Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a program as complex as dav1d, and added callgate data verification so data crossing the boundary between isolated compartments could be further verified.
+
+  ],
+))
+
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
+  [
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
+      let size = measure(image("logos/immunant.png"))
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/immunant.png", width: size.width * scale))
+    })))
+    #strong[Junior Software Engineer], #link("https://immunant.com/")[Immunant] -- Remote
+
+  ],
+  [
+    Sep 2022 – Jul 2024
+
+  ],
+  main-column-second-row: [
+    - #link("https://github.com/immunant/c2rust")[c2rust]: Core developer of c2rust as part of the DARPA ALLSTAR program, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+
+      - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modeling pointer permissions. Integrated the dynamic analysis outputs into the static analysis, modeled pointer permissions for known libc functions, and fixed how string literals and casts were analyzed.
+
+  ],
+))
+
+// Keep each entry on one page, unless it's marked `split` because moving it whole would waste too much space.
+#block(breakable: false, regular-entry(
+  [
+    #place(left + top, dx: -(0.5in + 0.39in) / 2, box(width: 0.39in, align(center + top, context {
+      // Fit within 0.39in by 0.24in, centered vertically on the title line, unlike `fit: "contain"`.
+      let size = measure(image("logos/immunant.png"))
+      let scale = calc.min(0.39in / size.width, 0.24in / size.height)
+      // The title line runs from its cap height down to its baseline.
+      let line-height = measure(text("H")).height
+      move(dy: (line-height - size.height * scale) / 2, image("logos/immunant.png", width: size.width * scale))
+    })))
+    #strong[Software Engineering Intern], #link("https://immunant.com/")[Immunant] -- Remote
+
+  ],
+  [
+    May 2022 – Aug 2022
+
+  ],
+  main-column-second-row: [
+    - Worked on c2rust, a C to Rust transpiler.
 
   ],
 ))

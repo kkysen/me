@@ -86,11 +86,11 @@ Mar 2024 – present
 
 
 
-## **Software Engineer** (previously Junior Software Engineer, Intern), [Immunant](https://immunant.com/) -- Remote
+## **Software Engineer**, [Immunant](https://immunant.com/) -- Remote
 
-May 2022 – Apr 2026
+Jul 2024 – Apr 2026
 
-- [c2rust](https://github.com/immunant/c2rust): Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+- [c2rust](https://github.com/immunant/c2rust): Core developer of c2rust, a C to Rust transpiler, as part of the DARPA TRACTOR program, extending it to translate more real-world C.
 
   - Integrated c2rust into [Hayroll](https://github.com/UW-HARVEST/Hayroll), a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
 
@@ -98,11 +98,27 @@ May 2022 – Apr 2026
 
   - Greatly strengthened testing, adding snapshot tests for the transpiler, reviving c2rust-refactor and dynamic analysis, and extending the integration test suite of various codebases.
 
-  - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modeling pointer permissions. Integrated the dynamic analysis outputs into the static analysis, modeled pointer permissions for known libc functions, and fixed how string literals and casts were analyzed.
-
 - [rav1d](https://github.com/memorysafety/rav1d): Ported the bulk of the AV1 decoder dav1d from C to Rust, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5% slower than C's dav1d, with the initial unsafe transpile alone accounting for 3.8%.
 
 - [IA2](https://github.com/immunant/IA2-Phase2): Helped develop IA2, a tool for sandboxing intraprocess compartments from each other's memory using x86_64's Memory Protection Keys and Arm's Memory Tagging Extension. Tested IA2 on dav1d, fixing bugs and adding features to handle a program as complex as dav1d, and added callgate data verification so data crossing the boundary between isolated compartments could be further verified.
+
+
+
+## **Junior Software Engineer**, [Immunant](https://immunant.com/) -- Remote
+
+Sep 2022 – Jul 2024
+
+- [c2rust](https://github.com/immunant/c2rust): Core developer of c2rust as part of the DARPA ALLSTAR program, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+
+  - Wrote a rustc instrumentation plugin to dynamically trace pointer usage and provenance throughout program runs, building a pointer derivation graph to complement a static analysis modeling pointer permissions. Integrated the dynamic analysis outputs into the static analysis, modeled pointer permissions for known libc functions, and fixed how string literals and casts were analyzed.
+
+
+
+## **Software Engineering Intern**, [Immunant](https://immunant.com/) -- Remote
+
+May 2022 – Aug 2022
+
+- Worked on c2rust, a C to Rust transpiler.
 
 
 
