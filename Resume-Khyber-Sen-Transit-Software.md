@@ -76,7 +76,7 @@ Mar 2024 – present
 
 May 2022 – Apr 2026
 
-- [c2rust](https://github.com/immunant/c2rust): Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+- [c2rust](https://github.com/immunant/c2rust): Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
 
   - Integrated c2rust into [Hayroll](https://github.com/UW-HARVEST/Hayroll), a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
 

@@ -81,7 +81,7 @@
   date: datetime(
     year: 2026,
     month: 11,
-    day: 8,
+    day: 9,
   ),
 )
 
@@ -281,7 +281,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
   ],
   main-column-second-row: [
-    - #link("https://github.com/immunant/c2rust")[c2rust]: Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift the unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+    - #link("https://github.com/immunant/c2rust")[c2rust]: Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
 
       - Integrated c2rust into #link("https://github.com/UW-HARVEST/Hayroll")[Hayroll], a wrapper handling single-platform conditional compilation, then extended both to handle cross-platform compilation, in part by building off of zig cc.
 
