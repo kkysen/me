@@ -29,6 +29,8 @@ cv:
     education:
       - institution: Columbia University
         area: CS
+        # The full name, for the plain text output; resumes abbreviate it for space.
+        field_of_study: Computer Science
         degree: BA
         date:
         start_date: 2018-09-04

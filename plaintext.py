@@ -94,7 +94,7 @@ def education(entry) -> list[str]:
             ("School", school),
             ("School Website", url or None),
             ("Degree", inline(entry.get("degree"))),
-            ("Field of Study", inline(entry.get("area"))),
+            ("Field of Study", inline(entry.get("field_of_study") or entry.get("area"))),
             *dates(entry),
             ("Location", inline(entry["location"]) if entry.get("location") else None),
         ]
