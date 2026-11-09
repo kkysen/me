@@ -63,7 +63,7 @@ cv:
         split: 'true'
         position: '**Director of Transit Operations and Planning**'
         date:
-        start_date: 2023-11
+        start_date: 2023-11-01
         end_date: present
         location: NYC
         summary:
@@ -195,8 +195,8 @@ cv:
             versions: [cv]
           - text: '**Software Engineer**'
         date:
-        start_date: 2022-05
-        end_date: 2026-04
+        start_date: 2022-05-23
+        end_date: 2026-04-30
         location: Remote
         summary:
         highlights:
@@ -245,7 +245,7 @@ cv:
         versions: [software, -transit]
         position: '**Director of Transit Operations and Planning**'
         date:
-        start_date: 2023-11
+        start_date: 2023-11-01
         end_date: present
         location: NYC
         summary:
@@ -292,7 +292,7 @@ cv:
         logo: mediatek.png
         position: '**Compiler Intern**'
         date:
-        start_date: 2020-05
+        start_date: 2020-05-26
         end_date: 2021-12
         location: Woburn, MA
         summary:
