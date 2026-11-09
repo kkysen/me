@@ -147,54 +147,63 @@ Summary:
 
 RECENT PROJECTS
 
-Project: MTA OD Data (Python, Rust)
+Project: MTA OD Data
 URL: https://github.com/kkysen/mta-od-data
+Languages: Python, Rust
 Summary:
 - Analyzed origin-destination (OD) data to quantify one-seat rides under different deinterlining scenarios.
 - Used RAPTOR to turn OD data into trip paths to analyze ridership and crowding across lines, train cars, and platforms.
 
-Project: Rail Runtime (Python, Rust)
+Project: Rail Runtime
 URL: https://github.com/kkysen/rail-runtime
+Languages: Python, Rust
 Summary:
 - Computed minimum train runtimes from track geometry, train performance, and traction power limitations, and compared them with scheduled runtimes.
 - Identified schedule padding hotspots and bottlenecks in signaling, junctions, and traction power.
 
-Project: Subway Sheds (Python, TypeScript, Rust)
+Project: Subway Sheds
 URL: https://kkysen.github.io/subway-sheds/
+Languages: Python, TypeScript, Rust
 Summary:
 - Mapped NYC subway isochrones with and without QueensLink, routing trains with RAPTOR, timing transfers and walks with OSM data, and scheduling QueensLink trains into MTA schedules with CP-SAT.
 
-Project: Ride Logger (Rust, Kotlin, Python, Android)
+Project: Ride Logger
 URL: https://github.com/kkysen/ride-measurement-app
+Languages: Rust, Kotlin, Python, Android
 Summary:
 - Built an app to record rides and use sensor fusion (GNSS, IMU, cell, Wi-Fi, Bluetooth beacons, magnetometer, pedometer, microphone) to estimate speed and position underground, on trains and in stations.
 
-Project: ETA Publish (Python, Typst)
+Project: ETA Publish
 URL: https://github.com/effective-transit-alliance/eta-publish
+Languages: Python, Typst
 Summary:
 - Built ETA's automated tool to publish report Google Docs, replacing a manual, error-prone upload to Squarespace.
 
 PROJECTS
 
-Project: Change Journal at Codeprentice (Rust)
+Project: Change Journal at Codeprentice
 URL: https://github.com/codeprentice-org/fanotify
+Languages: Rust
 Start Date: 05/2022
 End Date: 08/2022
 Summary:
 - Leading a 5-person team at Codeprentice on the Change Journal project. We are developing a cross-platform change journal library in Rust, using the fanotify backend on Linux and the USN journal backend on Windows we're writing. Ultimately we plan to use the change journal to create an instantaneous and cross-platform file searcher application. I have also helped teach my teammates Rust.
 
-Project: N Queens (Java)
+Project: N Queens
 URL: https://github.com/kkysen/MKS22X/blob/master/02NQueens/NQueens.java
+Languages: Java
 Summary:
 - Developed a novel, extremely efficient bitwise solution to the classic N Queens problem faster than any other known software solution.
 
-Project: Flight Delay Visualizer (TypeScript, WebAssembly (C++17), d3)
+Project: Flight Delay Visualizer
 URL: https://github.com/kkysen/r3d3
+Languages: TypeScript, WebAssembly (C++17), d3
 Summary:
 - Designed an interactive website to visualize all 6 million flights over the US in the past year, watching how certain airlines and airports are chronically delayed, and applying complex filters to the flights. Used C++ compiled to WebAssembly to make it feasible performance- and memory-wise.
 
-Project: Weather or Not at Stuy Hacks (JS)
+Project: Weather or Not at Stuy Hacks
 URL: https://github.com/wertylop5/WeatherOrNot
+Languages: JS
 Summary:
 - Led a 4-person team in 24 hours, ~200-person Major League Hackathon. My team created a website that overlays maps, traffic, weather, and more to better plan your trip.
 

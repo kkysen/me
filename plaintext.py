@@ -126,9 +126,25 @@ def experience(entry) -> list[str]:
     return out + summary_block(entry)
 
 
+def split_languages(name: str) -> tuple[str, str]:
+    """Split a project name like `Name (Python, Rust)` into the name and its languages."""
+    if not name.endswith(")"):
+        return name, ""
+    # Find the "(" matching the last ")", since languages may nest, like `WebAssembly (C++17)`.
+    depth = 0
+    for i in range(len(name) - 1, -1, -1):
+        depth += {")": 1, "(": -1}.get(name[i], 0)
+        if depth == 0:
+            return name[:i].rstrip(), name[i + 1 : -1]
+    return name, ""
+
+
 def project(entry) -> list[str]:
     name, url = split_link(entry["name"])
-    out = fields([("Project", name), ("URL", url or None), *dates(entry)])
+    name, languages = split_languages(name)
+    out = fields(
+        [("Project", name), ("URL", url or None), ("Languages", languages or None), *dates(entry)]
+    )
     return out + summary_block(entry)
 
 

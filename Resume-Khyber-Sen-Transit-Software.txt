@@ -112,30 +112,35 @@ Summary:
 
 RECENT PROJECTS
 
-Project: MTA OD Data (Python, Rust)
+Project: MTA OD Data
 URL: https://github.com/kkysen/mta-od-data
+Languages: Python, Rust
 Summary:
 - Analyzed origin-destination (OD) data to quantify one-seat rides under different deinterlining scenarios.
 - Used RAPTOR to turn OD data into trip paths to analyze ridership and crowding across lines, train cars, and platforms.
 
-Project: Rail Runtime (Python, Rust)
+Project: Rail Runtime
 URL: https://github.com/kkysen/rail-runtime
+Languages: Python, Rust
 Summary:
 - Computed minimum train runtimes from track geometry, train performance, and traction power limitations, and compared them with scheduled runtimes.
 - Identified schedule padding hotspots and bottlenecks in signaling, junctions, and traction power.
 
-Project: Subway Sheds (Python, TypeScript, Rust)
+Project: Subway Sheds
 URL: https://kkysen.github.io/subway-sheds/
+Languages: Python, TypeScript, Rust
 Summary:
 - Mapped NYC subway isochrones with and without QueensLink, routing trains with RAPTOR, timing transfers and walks with OSM data, and scheduling QueensLink trains into MTA schedules with CP-SAT.
 
-Project: Ride Logger (Rust, Kotlin, Python, Android)
+Project: Ride Logger
 URL: https://github.com/kkysen/ride-measurement-app
+Languages: Rust, Kotlin, Python, Android
 Summary:
 - Built an app to record rides and use sensor fusion (GNSS, IMU, cell, Wi-Fi, Bluetooth beacons, magnetometer, pedometer, microphone) to estimate speed and position underground, on trains and in stations.
 
-Project: ETA Publish (Python, Typst)
+Project: ETA Publish
 URL: https://github.com/effective-transit-alliance/eta-publish
+Languages: Python, Typst
 Summary:
 - Built ETA's automated tool to publish report Google Docs, replacing a manual, error-prone upload to Squarespace.
 
