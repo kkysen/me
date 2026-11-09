@@ -97,7 +97,6 @@ def education(entry) -> list[str]:
             ("Degree", inline(entry.get("full_degree") or entry.get("degree"))),
             ("Field of Study", inline(entry.get("field_of_study") or entry.get("area"))),
             *dates(entry),
-            ("Location", inline(entry["location"]) if entry.get("location") else None),
             ("GPA", entry.get("gpa")),
             ("Major GPA", entry.get("major_gpa")),
         ]
@@ -106,6 +105,10 @@ def education(entry) -> list[str]:
         # The summary repeats the GPAs for the resumes, where they have no field of their own.
         parts = [p for p in entry["summary"].split(", ") if "GPA" not in p]
         entry = {**entry, "summary": ", ".join(parts)}
+    if entry.get("location"):
+        # A school's location column holds a note like a gap year, not a place.
+        note = inline(entry["location"]).strip("()")
+        entry = {**entry, "summary": ", ".join(filter(None, [entry.get("summary"), note]))}
     return out + summary_block(entry)
 
 

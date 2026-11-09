@@ -17,10 +17,9 @@ Degree: BA
 Field of Study: Computer Science
 Start Date: 09/04/2018
 End Date: 02/08/2023
-Location: (gap year 2020–21)
 GPA: 3.79
 Major GPA: 3.98
-Summary: Rabi Scholar
+Summary: Rabi Scholar, gap year 2020–21
 
 School: Stuyvesant High School
 Degree: Advanced Regents Diploma
