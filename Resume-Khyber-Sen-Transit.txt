@@ -2,9 +2,9 @@ Name: Khyber Sen
 Email: kkysen@gmail.com
 Phone Number: +1 917 648 8677
 Location: NYC
-GitHub: https://github.com/kkysen
-LinkedIn: https://linkedin.com/in/khyber-sen
-Bluesky: https://bsky.app/profile/khyber.bsky.social
+GitHub: github.com/kkysen
+LinkedIn: linkedin.com/in/khyber-sen
+Bluesky: bsky.app/profile/khyber.bsky.social
 
 SUMMARY
 
@@ -33,7 +33,7 @@ Summary: Scholar Athlete award
 EXPERIENCE
 
 Company: Effective Transit Alliance (ETA)
-Company Website: https://www.etany.org/
+Company Website: etany.org
 Title: Director of Transit Operations and Planning
 Location: NYC
 Start Date: 11/01/2023
@@ -42,28 +42,28 @@ Summary:
 - Advocating for better transit in the NY metro area through technical analysis drawing from international best practices. Meeting with journalists, MTA staff, and elected officials. Researching and developing expertise in the latest advances in rolling stock, electrification, tunneling and station construction, service optimization, signaling, and automation.
 - Attended transit conferences across the world to learn best practices from peer cities: InnoTrans 2026 in Berlin; 10 TransportationCamps in NYC, Philadelphia, Boston, and DC.
 - IBX (Project Manager)
-  - IBX: 515 Feet from Greatness (https://www.etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the PEL and advocated for an All Faiths Tunnel; the MTA then committed to a tunnel, raising ridership 35% and speed 31%, saving riders a combined 3 years per day.
-  - Automated Light Metro is Right for the IBX (https://www.etany.org/reports/ibx-automation): now that the IBX will be fully grade-separated, it should be an ALM.
+  - IBX: 515 Feet from Greatness (etany.org/ibx-all-faiths-tunnel): found street-running capacity errors in the PEL and advocated for an All Faiths Tunnel; the MTA then committed to a tunnel, raising ridership 35% and speed 31%, saving riders a combined 3 years per day.
+  - Automated Light Metro is Right for the IBX (etany.org/reports/ibx-automation): now that the IBX will be fully grade-separated, it should be an ALM.
 - 125 St Subway (Project Manager)
-  - Digging Out of a Very Deep Hole: Saving Billions on 125th Street (https://www.etany.org/reports/digging-out-deep-hole-sas-west): how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
-  - Did NYC's Newest Subway Just Get Better? (https://www.youtube.com/watch?v=5FgyHCl6E3A): interviewed for a JTA video.
+  - Digging Out of a Very Deep Hole: Saving Billions on 125th Street (etany.org/reports/digging-out-deep-hole-sas-west): how to build shallower stations that save riders up to 10 min per trip and the MTA billions by using the latest in subway construction techniques.
+  - Did NYC's Newest Subway Just Get Better? (youtube.com/watch?v=5FgyHCl6E3A): interviewed for a JTA video.
 - Better Subway Service
-  - Impeding Progress, Costing Riders (https://www.etany.org/statements/impeding-progress-costing-riders-opto): helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation (OPTO), preventing New York's transit system from being locked out of future modernization.
-  - Deinterlining: Simpler Service, Fewer Delays (https://www.etany.org/statements/deinterlining)
+  - Impeding Progress, Costing Riders (etany.org/statements/impeding-progress-costing-riders-opto): helped convince Governor Hochul to veto a 2025 bill that would have banned one-person train operation (OPTO), preventing New York's transit system from being locked out of future modernization.
+  - Deinterlining: Simpler Service, Fewer Delays (etany.org/statements/deinterlining)
 - Penn Station Through-Running
-  - Penn Station Can Handle the Load (https://www.etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model (https://github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station's existing platforms can support 48 tph.
-  - Through-Running: First Connections (https://www.etany.org/reports/through-running-first-connections): a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
-  - The Century Old Idea that Can Revolutionize NYC Commuter Rail (https://www.youtube.com/watch?v=l0xR6V-GIzc): interviewed for a JTA video.
+  - Penn Station Can Handle the Load (etany.org/penn-station-can-handle-the-load): rebuilt the passenger crowding model (github.com/effective-transit-alliance/platform-crowd-model) to show Penn Station's existing platforms can support 48 tph.
+  - Through-Running: First Connections (etany.org/reports/through-running-first-connections): a phased plan for through-running at Penn Station, using Metro-North's Penn Station Access as a launching pad.
+  - The Century Old Idea that Can Revolutionize NYC Commuter Rail (youtube.com/watch?v=l0xR6V-GIzc): interviewed for a JTA video.
 
 Company: Joint Transit Association (JTA)
-Company Website: https://jointtransit.org/
+Company Website: jointtransit.org
 Title: Board Member
 Location: NYC
 Start Date: 05/22/2026
 End Date: present
 
 Company: QueensLink
-Company Website: https://thequeenslink.org/
+Company Website: thequeenslink.org
 Title: Communications Associate
 Location: NYC
 Start Date: 03/14/2024
@@ -72,14 +72,14 @@ Summary:
 - Advocating for QueensLink, a proposal to convert the abandoned Rockaway Beach Branch rail line through central Queens into a dual-use subway extension and linear park.
 
 Company: Immunant
-Company Website: https://immunant.com/
+Company Website: immunant.com
 Title: Software Engineer
 Location: Remote
 Start Date: 05/23/2022
 End Date: 04/30/2026
 Summary:
-- c2rust (https://github.com/immunant/c2rust): Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
-- rav1d (https://github.com/memorysafety/rav1d): Ported the bulk of the AV1 decoder dav1d from C to Rust, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5% slower than C's dav1d, with the initial unsafe transpile alone accounting for 3.8%.
+- c2rust (github.com/immunant/c2rust): Core developer of c2rust, a C to Rust transpiler, as part of the DARPA ALLSTAR and TRACTOR programs, helping to lift its unsafe Rust output to safe Rust through a combination of static and dynamic analysis.
+- rav1d (github.com/memorysafety/rav1d): Ported the bulk of the AV1 decoder dav1d from C to Rust, translating complex C idioms while preserving performance, and extensively optimizing the result, including instrumenting and modifying rustc where it differed from C. The result is just 5% slower than C's dav1d, with the initial unsafe transpile alone accounting for 3.8%.
 
 Company: MediaTek
 Title: Compiler Intern
@@ -91,7 +91,7 @@ Summary:
 - Louper: Helped optimize MediaTek's LLVM-based digital signal processing compiler by using deep learning to predict difficult optimization decisions. Developed the hyperheuristic framework Louper, which created a register pressure estimator 3x as accurate as the current human heuristic.
 
 Company: Columbia University (SmartNeuralFuzzer)
-Company Website: https://github.com/kkysen/SmartNeuralFuzzer
+Company Website: github.com/kkysen/SmartNeuralFuzzer
 Title: Rabi Scholar Researcher
 Start Date: 01/31/2019
 End Date: 08/15/2019
@@ -101,34 +101,34 @@ Summary:
 RECENT PROJECTS
 
 Project: MTA OD Data
-URL: https://github.com/kkysen/mta-od-data
+URL: github.com/kkysen/mta-od-data
 Languages: Python, Rust
 Summary:
 - Analyzed origin-destination (OD) data to quantify one-seat rides under different deinterlining scenarios.
 - Used RAPTOR to turn OD data into trip paths to analyze ridership and crowding across lines, train cars, and platforms.
 
 Project: Rail Runtime
-URL: https://github.com/kkysen/rail-runtime
+URL: github.com/kkysen/rail-runtime
 Languages: Python, Rust
 Summary:
 - Computed minimum train runtimes from track geometry, train performance, and traction power limitations, and compared them with scheduled runtimes.
 - Identified schedule padding hotspots and bottlenecks in signaling, junctions, and traction power.
 
 Project: Subway Sheds
-URL: https://kkysen.github.io/subway-sheds/
+URL: kkysen.github.io/subway-sheds
 Languages: Python, TypeScript, Rust
 Summary:
 - Mapped NYC subway isochrones with and without QueensLink, routing trains with RAPTOR, timing transfers and walks with OSM data, and scheduling QueensLink trains into MTA schedules with CP-SAT.
 
 Project: Ride Logger
-URL: https://github.com/kkysen/ride-measurement-app
+URL: github.com/kkysen/ride-measurement-app
 Languages: Rust, Kotlin, Python
 Technologies: Android
 Summary:
 - Built an app to record rides and use sensor fusion (GNSS, IMU, cell, Wi-Fi, Bluetooth beacons, magnetometer, pedometer, microphone) to estimate speed and position underground, on trains and in stations.
 
 Project: ETA Publish
-URL: https://github.com/effective-transit-alliance/eta-publish
+URL: github.com/effective-transit-alliance/eta-publish
 Languages: Python, Typst
 Summary:
 - Built ETA's automated tool to publish report Google Docs, replacing a manual, error-prone upload to Squarespace.

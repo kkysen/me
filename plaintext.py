@@ -5,6 +5,7 @@ This reads each variant's generated YAML in `build/`
 and writes it as labeled fields like `Company:` and `Start Date:`, one entry per block.
 Bold is dropped, and links become `text (url)`,
 except a company, school, or project link, which gets its own field.
+URLs are shortened to drop `https://`, `www.`, and any trailing `/`.
 Dates show the exact day where `content.yaml` has one,
 since applications sometimes ask for it.
 """
@@ -19,8 +20,8 @@ from ruamel.yaml import YAML
 ROOT = Path(__file__).parent
 LINK = re.compile(r"\[([^\]]*)\]\(([^)]*)\)")
 NETWORK_URLS = {
-    "GitHub": "https://github.com/{}",
-    "LinkedIn": "https://linkedin.com/in/{}",
+    "GitHub": "github.com/{}",
+    "LinkedIn": "linkedin.com/in/{}",
 }
 # Labels for `custom_connections`, by their icon.
 CONNECTION_LABELS = {
@@ -31,9 +32,14 @@ SECTION_TITLES = {
 }
 
 
+def short_url(url) -> str:
+    """Drop the parts of a URL that aren't needed to find it."""
+    return re.sub(r"^https?://(www\.)?", "", str(url or "")).removesuffix("/")
+
+
 def inline(text) -> str:
     """Strip Markdown from inline text."""
-    text = LINK.sub(lambda m: f"{m[1]} ({m[2]})", str(text or ""))
+    text = LINK.sub(lambda m: f"{m[1]} ({short_url(m[2])})", str(text or ""))
     return text.replace("**", "").replace(" -- ", " – ")
 
 
@@ -43,7 +49,7 @@ def split_link(text) -> tuple[str, str]:
     m = LINK.search(text)
     if not m:
         return inline(text), ""
-    return inline(text[: m.start()] + m[1] + text[m.end() :]), m[2]
+    return inline(text[: m.start()] + m[1] + text[m.end() :]), short_url(m[2])
 
 
 def format_date(value) -> str:
@@ -203,7 +209,7 @@ def convert(cv) -> str:
             ("Email", cv.get("email")),
             ("Phone Number", str(cv["phone"]).replace("-", " ") if cv.get("phone") else None),
             ("Location", cv.get("location")),
-            ("Website", cv.get("website")),
+            ("Website", short_url(cv["website"]) if cv.get("website") else None),
         ]
     )
     for social in cv.get("social_networks") or []:
@@ -211,7 +217,7 @@ def convert(cv) -> str:
         header.append(f"{social['network']}: {url}")
     for connection in cv.get("custom_connections") or []:
         label = CONNECTION_LABELS[connection["fontawesome_icon"]]
-        header.append(f"{label}: {connection['url']}")
+        header.append(f"{label}: {short_url(connection['url'])}")
     blocks = ["\n".join(header)]
     for name, entries in cv["sections"].items():
         known = name.islower()
