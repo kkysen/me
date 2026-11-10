@@ -5,6 +5,8 @@ or highlight may be limited to certain variants. An entry takes a `versions:` li
 written as `{text: ..., versions: [...]}` instead of a plain string.
 So is a text entry, such as a line in the interests section.
 Such a highlight may also have its own `highlights:` as sub-bullets.
+With `inline: true`, they share one sub-bullet line instead,
+separated by `INLINE_BULLET`.
 RenderCV makes sub-bullets by splitting on " - ",
 so a highlight's own text can't contain one.
 Any other field of an entry, or of the header, may instead be a list of `{text: ..., versions: [...]}`
@@ -30,6 +32,11 @@ from ruamel.yaml import YAML
 
 ROOT = Path(__file__).parent
 BUILD = ROOT / "build"
+# Starts each sub-bullet after the first of an `inline: true` highlight,
+# matching the theme's `nested_bullet`.
+# The em space sets it apart from the previous one,
+# and the no-break space keeps a bullet from ending a line.
+INLINE_BULLET = "\u2003◦\u00a0"
 
 # name -> (file stem, document word, base variants, private)
 VARIANTS = {
@@ -82,6 +89,8 @@ def filter_highlights(highlights, variant: str):
             continue
         # RenderCV splits a highlight into sub-bullets on " - ".
         subs = filter_highlights(h.get("highlights") or [], variant)
+        if h.get("inline"):
+            subs = [INLINE_BULLET.join(subs)]
         out.append(" - ".join([text, *subs]))
     return out
 

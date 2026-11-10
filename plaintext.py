@@ -17,6 +17,8 @@ from pathlib import Path
 
 from ruamel.yaml import YAML
 
+from build import INLINE_BULLET
+
 ROOT = Path(__file__).parent
 LINK = re.compile(r"\[([^\]]*)\]\(([^)]*)\)")
 NETWORK_URLS = {
@@ -67,8 +69,9 @@ def highlights(entry) -> list[str]:
     if entry.get("summary"):
         lines.append(inline(entry["summary"]))
     for h in entry.get("highlights") or []:
-        # `build.py` joins sub-bullets with " - " for RenderCV.
-        first, *subs = h.split(" - ")
+        # `build.py` joins sub-bullets with " - " for RenderCV,
+        # or with `INLINE_BULLET` to keep them on their parent's line.
+        first, *subs = re.split(f" - |{re.escape(INLINE_BULLET)}", h)
         lines.append(f"- {inline(first)}")
         lines.extend(f"  - {inline(sub)}" for sub in subs)
     return lines
