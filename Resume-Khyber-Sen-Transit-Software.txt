@@ -97,15 +97,14 @@ Summary:
 - Little Doctor: Built a framework for testing the compiler's debug info quality using gdb's Python API, which discovered hundreds of bugs in just 2 months.
 - Louper: Helped optimize MediaTek's LLVM-based digital signal processing compiler by using deep learning to predict difficult optimization decisions. Developed the hyperheuristic framework Louper, which created a register pressure estimator 3x as accurate as the current human heuristic.
 
-Company: Columbia University (SmartNeuralFuzzer)
-Company Website: github.com/kkysen/SmartNeuralFuzzer
+Company: Columbia University
 Title: Rabi Scholar Researcher
 Start Date: 01/31/2019
 End Date: 08/15/2019
 Summary:
 - Built an LLVM pass recording every branch decision of multi-threaded, multi-process programs, enabling record-replay debugging of control flow and feeding a neural net that guides fuzzing, taint analysis, and profile-guided optimizations, uncovering hidden data dependencies and elusive bugs.
 
-Company: Bionet Group, Columbia University (fruitflybrain.org)
+Company: Bionet Group, Columbia University
 Company Website: fruitflybrain.org
 Title: Intern
 Start Date: 06/29/2017

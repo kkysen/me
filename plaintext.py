@@ -127,6 +127,12 @@ def education(entry) -> list[str]:
 
 def experience(entry) -> list[str]:
     company, url = split_link(entry["company"])
+    if m := re.fullmatch(r"(.*) \(\[[^\]]*\]\([^)]*\)\)", entry["company"]):
+        # A link in parentheses after the company, like a project, isn't part of its name.
+        company = inline(m[1])
+    if url.startswith("github.com/"):
+        # A repo is a project, not the company's website.
+        url = ""
     out = fields(
         [
             ("Company", company),
