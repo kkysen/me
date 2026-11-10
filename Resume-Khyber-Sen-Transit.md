@@ -136,7 +136,7 @@ Jan 2019 – Aug 2019
 
 
 # Skills
-**Transit Data:** OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130, GeoJSON
+**Transit Data:** OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, ITxPT, RAPTOR, NFPA 130, GeoJSON
 
 **Languages:** Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, SQL, Bash
 

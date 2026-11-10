@@ -576,7 +576,7 @@ cv:
           Node, Deno, Bun, React, Webpack, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
       - label: Transit Data
         versions: [general, transit]
-        details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130,
+        details: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, ITxPT, RAPTOR, NFPA 130,
           GeoJSON
       - label: Languages
         versions: [general, software, transit]

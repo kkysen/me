@@ -432,7 +432,7 @@ Civic-minded systems engineer drawn to complex systems at every scale and across
 
 == Skills
 
-#strong[Transit Data:] OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130, GeoJSON
+#strong[Transit Data:] OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, ITxPT, RAPTOR, NFPA 130, GeoJSON
 
 #strong[Languages:] Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86\_64 and AArch64 asm, SQL, Bash
 
