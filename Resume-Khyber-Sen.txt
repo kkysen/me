@@ -112,7 +112,7 @@ Summary:
 
 SKILLS
 
-Transit Data: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130, GeoJSON, crowd modeling
+Transit Data: OpenStreetMap, GTFS, GTFS-RT, GTFS Pathways, SIRI, RAPTOR, NFPA 130, GeoJSON
 Languages: Rust, C, C++, Python, TypeScript, Kotlin, Java, Haskell, OCaml, x86_64 and AArch64 asm, SQL, Bash
 Software: rustc, Polonius, LLVM, Clang, gdb, WebAssembly, Node, React, Linux, Android (AOSP), Trusty TEE, DuckDB, SQLite, Claude
 
